@@ -1,6 +1,6 @@
-# SNPI School Management System (SNP-SMS) — Architecture & Documentation
+# Enterprise Full-Stack Architecture & Documentation
 
-Enterprise system architecture and technical specifications hub for the **SNPI School Management System (SNP-SMS)**, prepared by the final-year research dissertation team **Group Capstone (ក្រុមសារណាបញ្ចប់ការសិក្សា)**.
+Enterprise system architecture and technical specifications hub prepared by the final-year research dissertation team **Group Capstone**.
 
 This repository serves as the public architectural showcase and technical specifications documentation hub.
 
@@ -8,7 +8,7 @@ This repository serves as the public architectural showcase and technical specif
 
 ## Project Overview
 
-- **Organization**: [Group Capstone](https://github.com/GroupCapstone) (`ក្រុមសារណាបញ្ចប់ការសិក្សា`)
+- **Organization**: [Group Capstone](https://github.com/GroupCapstone)
 - **Testing Domain**: [https://snpis.kesararamwithdigital.tech](https://snpis.kesararamwithdigital.tech)
 - **Design & Document Portal**: [https://snpis.kesararamwithdigital.tech/document/design](https://snpis.kesararamwithdigital.tech/document/design)
 - **Technology Stack**: Next.js 16 (App Router), React 19, TypeScript, Express 5, MongoDB Replica Set (`rs0`)
