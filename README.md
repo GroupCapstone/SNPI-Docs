@@ -1,24 +1,24 @@
-# ឯកសារស្ថាបត្យកម្មប្រព័ន្ធ — SNPI School Management System (SNP-SMS)
+# SNPI School Management System (SNP-SMS) — Architecture & Documentation
 
-កម្រងឯកសារបច្ចេកទេស និងស្ថាបត្យកម្មប្រព័ន្ធកម្រិតសហគ្រាសសម្រាប់ **SNPI School Management System (SNP-SMS)** ដែលរៀបចំឡើងដោយក្រុមស្រាវជ្រាវសារណាបញ្ចប់ការសិក្សា **Group Capstone**។
+Enterprise system architecture and technical specifications hub for the **SNPI School Management System (SNP-SMS)**, prepared by the final-year research dissertation team **Group Capstone (ក្រុមសារណាបញ្ចប់ការសិក្សា)**.
 
-This repository serves as the public architectural showcase and technical specifications hub for the SNPI Enterprise School Management System.
-
----
-
-## ព័ត៌មានទូទៅអំពីគម្រោង (Project Overview)
-
-- **អង្គការ (Organization)**: [Group Capstone](https://github.com/GroupCapstone)
-- **គេហទំព័រតេស្តប្រព័ន្ធ (Testing Domain)**: [https://snpis.kesararamwithdigital.tech](https://snpis.kesararamwithdigital.tech)
-- **ផតថលរចនាបថ និងឯកសារ (Design Portal)**: [https://snpis.kesararamwithdigital.tech/document/design](https://snpis.kesararamwithdigital.tech/document/design)
-- **ស្ថាបត្យកម្មបច្ចេកវិទ្យា (Stack)**: Next.js 16 App Router, Express 5, TypeScript, MongoDB Replica Set (`rs0`)
-- **សាខាការពារ (Protected Branch)**: `main` (Branch Protection & Ruleset Enforced)
+This repository serves as the public architectural showcase and technical specifications documentation hub.
 
 ---
 
-## សន្តិសុខ និងការការពារកូដ (Branch Protection & Quality Gates)
+## Project Overview
 
-ឃ្លាំងកូដនេះត្រូវបានអនុវត្តគោលការណ៍ការពារសាខា (Branch Protection Rule) និង Ruleset លើ `main` branch៖
-1. **Pull Request Requirement**: ការកែប្រែកូដទាំងអស់តម្រូវឱ្យឆ្លងកាត់ការត្រួតពិនិត្យ និងយល់ព្រមតាមរយៈ Pull Request។
-2. **Review Dismissal**: ការ push កូដថ្មីនឹង dismiss ការ approve ចាស់ដោយស្វ័យប្រវត្តិ។
-3. **Deletion Protection**: ការពារមិនឱ្យមានការលុបសាខាគោល `main` ដោយចៃដន្យ។
+- **Organization**: [Group Capstone](https://github.com/GroupCapstone) (`ក្រុមសារណាបញ្ចប់ការសិក្សា`)
+- **Testing Domain**: [https://snpis.kesararamwithdigital.tech](https://snpis.kesararamwithdigital.tech)
+- **Design & Document Portal**: [https://snpis.kesararamwithdigital.tech/document/design](https://snpis.kesararamwithdigital.tech/document/design)
+- **Technology Stack**: Next.js 16 (App Router), React 19, TypeScript, Express 5, MongoDB Replica Set (`rs0`)
+- **Protected Branch**: `main` (Branch Protection & Active Ruleset Enforced)
+
+---
+
+## Security & Branch Protection Standards
+
+The `main` branch of this repository is protected under active branch protection rules and rulesets:
+1. **Pull Request Requirement**: All proposed modifications must be submitted via pull request.
+2. **Review Dismissal**: Pushing new commits automatically dismisses stale pull request approvals.
+3. **Deletion Protection**: Prevents accidental deletion of the primary `main` branch.
