@@ -133,8 +133,8 @@ Muse, Claude, and Gemini represent three different directions in artificial inte
 
 This project is built with the most advanced AI — coded with Meta AI, Gemini, and Claude.
 
-| <img src="https://cdn.simpleicons.org/meta" width="48" alt="Meta AI"> | <img src="https://cdn.simpleicons.org/googlegemini" width="48" alt="Google Gemini"> | <img src="https://cdn.simpleicons.org/claude" width="48" alt="Claude"> | <img src="https://cdn.simpleicons.org/openai" width="48" alt="ChatGPT"> | <img src="https://cdn.simpleicons.org/githubcopilot" width="48" alt="Muse"> |
-| Meta AI | Google Gemini | Claude | ChatGPT | Muse |
+| <img src="https://cdn.simpleicons.org/meta" width="48" alt="Meta AI"> | <img src="https://cdn.simpleicons.org/googlegemini" width="48" alt="Google Gemini"> | <img src="https://cdn.simpleicons.org/claude" width="48" alt="Claude"> | <img src="https://cdn.simpleicons.org/openai" width="48" alt="ChatGPT"> | <img src="https://cdn.simpleicons.org/githubcopilot" width="48" alt="Muse">  <img src="https://cdn.simpleicons.org/oracle" width="48" alt="Oracle"> |
+| Meta AI | Google Gemini | Claude | ChatGPT | Muse | Oracle |
 
 The SNPI project uses artificial intelligence as a normal part of its daily engineering workflow. AI automation means using AI tools to do repeated work quickly and consistently, so the human team can spend more time on design, decisions, and quality. The team works with several AI assistants, including Meta AI, Gemini, Claude, ChatGPT, and Muse, and uses each one where it is strongest.
 
@@ -143,6 +143,8 @@ AI helps at every step of the workflow. During planning, AI helps draft specific
 Documentation is also part of the automation. AI helps write and update documents like this one, keeps records consistent, and summarizes changes for the team. For operations, automation watches builds and deployments, collects errors, and alerts the team early when something looks wrong.
 
 AI does not replace the engineers. Every AI result is checked by a person, and final decisions stay with the team. Used this way, AI automation makes the SNPI workflow faster, safer, and easier to repeat, while keeping quality high.
+
+## AI workflow by MUSE
 
 ## Hello
 
