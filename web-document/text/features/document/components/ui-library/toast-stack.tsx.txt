@@ -1,0 +1,74 @@
+use client
+react
+motion/react
+@/lib/utils
+@/components/icons
+success
+error
+warning
+info
+SUCCESS
+border-emerald-200
+ERROR
+border-rose-200
+WARNING
+border-amber-200
+INFO
+border-[#CAD3F5]
+easeOut
+spring
+relative
+absolute
+status
+polite
+stroke-[2.4]
+Notification
+button
+Dismiss notification
+size-3.5
+size-3
+fixed
+inline
+t get clipped
+<div
+aria-label="Notification Stack"
+<button
+type="button"
+Collapse
+isExpanded ?
+<AnimatePresence mode="popLayout">
+<ToastCard
+// ============================================================================
+// INTERACTIVE DOCUMENTATION DEMO: ToastStackDemo
+>(
+// Fire "Conversation Archived" with active Undo pill
+toast.info(
+title:
+duration: 5500,
+label:
+toast.success(
+duration: 3500,
+duration: 5000,
+toast.error(
+toast.warning(
+duration: 4500,
+// Rapid Burst: Generates 5 stacked notifications immediately
+duration: 7000,
+// Automatically initialize with 2 active stacked toasts on mount for instant visual feedback
+duration: 6500,
+title="Fire Success Toast"
+title="Fire Error Toast"
+title="Fire Warning Toast"
+title="Fire Info Toast"
+containerMode ===
+Stage
+Clear all toasts
+) : (
+PAUSED
+1 && (
+Burst Stack (5)
+Archive
+Viewport
+0 && (
+STACKED DECK · HOVER TO EXPAND
+COUNTDOWN TIMERS ACTIVE

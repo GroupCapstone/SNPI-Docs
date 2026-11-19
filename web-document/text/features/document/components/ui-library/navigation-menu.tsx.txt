@@ -1,0 +1,39 @@
+use client
+react
+motion/react
+@/lib/utils
+@/lib/motion
+@/components/icons
+NavigationMenu components must be used within a NavigationMenu provider
+mousedown
+relative
+button
+ml-1 size-3 transition-transform duration-200
+rotate-180
+components
+gap-1.5
+#home
+home
+#cat-navigation
+size-3
+#cat-forms
+#cat-feedback
+#interactive-feed
+/document
+docs
+tabular-nums
+SNPI UI
+Home
+Components
+Featured
+Cyber Armor Nav
+Aerospace mecha HUD console with chamfered armor plates and Royal Blue glow.
+Explore Docks
+Rich Text Editor
+v2
+WYSIWYG editor with allowlist sanitizer and URL scheme guard.
+Toast Stack & Alerts
+Dynamic viewport notification toasts with live progress bars.
+73 Design Primitives
+Complete single-folder component library and tokens.
+Open API

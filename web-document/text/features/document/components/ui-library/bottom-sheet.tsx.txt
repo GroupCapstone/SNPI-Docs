@@ -1,0 +1,15 @@
+use client
+react
+motion/react
+@/components/icons
+@/lib/utils
+@/lib/motion
+Escape
+hidden
+keydown
+true
+dialog
+100%
+button
+Close sheet
+size-4

@@ -1,0 +1,124 @@
+use client
+react
+next/link
+@/lib/utils
+@/components/icons
+sm
+md
+lg
+M 18,10
+L 100,10
+L 120,0
+L 220,0
+L 240,10
+L 430,10
+L 450,0
+L 550,0
+L 570,10
+L 760,10
+L 780,0
+L 880,0
+L 900,10
+L 982,10
+L 1000,28
+L 1000,40
+L 982,58
+L 880,58
+L 860,68
+L 140,68
+L 120,58
+L 18,58
+L 0,40
+L 0,28
+L 220,10
+L 240,0
+L 360,0
+L 380,10
+L 620,10
+L 640,0
+L 760,0
+L 780,10
+L 760,58
+L 740,68
+L 260,68
+L 240,58
+M 19,11
+L 100,11
+L 120,1.5
+L 220,1.5
+L 240,11
+L 430,11
+L 450,1.5
+L 550,1.5
+L 570,11
+L 760,11
+L 780,1.5
+L 880,1.5
+L 900,11
+L 981,11
+L 220,11
+L 240,1.5
+L 360,1.5
+L 380,11
+L 620,11
+L 640,1.5
+L 760,1.5
+L 780,11
+L 860,58
+L 840,68
+L 160,68
+L 140,58
+0 0 1000 68
+none
+royalGlow
+-20%
+140%
+#0056FF
+0.3
+#FFFFFF
+#CAD3F5
+1.75
+non-scaling-stroke
+1.5
+round
+0.95
+264
+3.5
+72
+270
+22
+url(#royalGlow)
+664
+708
+135
+70
+140
+465
+490
+795
+840
+24
+0.6
+285
+160
+64
+715
+30
+38
+2.5
+0.8
+26
+42
+997
+993
+Modular Mecha Cyber Navigation
+p-[6px_10px] sm:p-[8px_16px]
+justify-center
+size-3.5 shrink-0 transition-transform duration-150 sm:size-4
+shrink-0 font-sans tracking-wider whitespace-nowrap uppercase transition-colors duration-150
+shrink-0
+button
+mx-0.5 sm:mx-1
+mx-1 sm:mx-1.5
+) : is3Tabs ? (
+) : (

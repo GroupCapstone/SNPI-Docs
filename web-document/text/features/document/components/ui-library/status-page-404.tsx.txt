@@ -1,0 +1,107 @@
+use client
+react
+next/link
+motion/react
+@/lib/utils
+@/components/icons
+radar
+barcode
+noise
+gravity
+Page Coordinates Not Found
+Resource not located in SNPI-SMS routing directory
+The requested URL does not match any route in the distributed SNPI-SMS campus directory.
+Verify the route URL or navigate back to the developer document portal.
+HTTP 404 · NOT FOUND
+Cryptographic Access Forbidden
+Missing required RBAC permission tokens
+Your authenticated security context lacks the implied RBAC scopes required to read this resource.
+Contact your campus branch administrator to escalate institutional role scopes.
+HTTP 403 · FORBIDDEN
+Cluster Exception Fault
+Internal server deadlock or transaction abort
+The backend service encountered an unhandled exception or MongoDB replica set session timeout.
+Our cluster monitor has logged this incident. Please retry in a few moments.
+HTTP 500 · SERVER ERROR
+Node Maintenance In Progress
+Service temporarily suspended for cluster upgrade
+Scheduled completion in < 5 minutes. Check system health at /apis.
+HTTP 503 · UNAVAILABLE
+Authentication Challenge Required
+Invalid session signature or token expired
+This API gateway endpoint requires a valid constant-time HMAC bearer authorization header.
+Sign in through the SNPI-SMS identity gateway to refresh your session keys.
+HTTP 401 · UNAUTHORIZED
+/document/design-system
+Return to Dashboard
+Try Again
+button
+status-page-404
+01 Radar Explorer
+02 Barcode Ledger
+03 CRT Phosphor
+04 Gravity Blocks
+size-3.5
+size-3.5 stroke-[2.5]
+absolute inset-0 size-full
+0 0 280 280
+140
+130
+none
+#E3E7FC
+1.5
+95
+4 4
+60
+#0056FF
+10
+270
+2 4
+origin-center animate-[spin_4s_linear_infinite]
+radarSweep
+0%
+100%
+0.32
+M 140 140 L 270 140 A 130 130 0 0 1 140 270 Z
+url(#radarSweep)
+0 0 240 70
+true
+mt-8 space-y-2
+pointer-events-none absolute inset-0 opacity-40
+linear-gradient(to right, #CAD3F5 1px, transparent 1px), linear-gradient(to bottom, #CAD3F5 1px, transparent 1px)
+24px 24px
+relative z-10 space-y-3
+space-y-3
+Align Modules
+Tumble Modules
+spring
+0 0 100 80
+M 10 70 C 20 20, 80 20, 90 70
+round
+20
+80
+0 0 24 24
+size-10 self-center
+currentColor
+11
+14
+12
+16
+white
+M8 11V7a4 4 0 0 1 8 0v4
+0 0 40 40
+size-12 self-center stroke-[#0056FF]
+#2277FF
+30
+Design Archetype:
+Code:
+BÉZIER
+S-CURVE
+TYPOGRAPHY
+SNPI SYSTEM
+COORDINATE FAULT
+QUOTE SPEC
+SECURITY
+RBAC SCOPES
+CLUSTER
+MESH RS0

@@ -1,0 +1,180 @@
+use client
+react
+@/components/icons
+@/lib/utils
+brand
+guidelines
+foundations
+undefined
+space-y-12
+size-3.5
+100%
+0%
+brand-group
+scroll-mt-24 space-y-6
+space-y-1
+size-4 stroke-[3]
+brand-vision
+brand-principles
+brand-tone-of-voice
+brand-terminology
+brand-assets
+guidelines-group
+size-4
+guidelines-accessibility
+guidelines-writing
+guidelines-microcopy
+guidelines-terminology
+guidelines-i18n
+foundations-group
+foundations-color
+foundations-layout
+foundations-typography
+foundations-elevation
+foundations-motion
+foundations-iconography
+Design Language (5/10 Checks)
+Brand Invariants
+5/5 Completed
+Vision, Principles, Tone of Voice, Terminology, Assets
+Design Guidelines
+0/5 Queued
+Accessibility, Writing, Microcopy, Lexicon, i18n
+Brand
+Completed
+B1 · Vision
+Active
+Institutional Vision
+B2 · Principles
+5 Tenets
+Design Principles
+The considerations that guide the basis of your practice. They outline how you
+              approach design philosophically and help with everyday decisions.
+B3 · Voice
+3 Pillars
+Tone of Voice
+A clear tone of voice defines how you speak to your audience at every moment of their
+              journey, helping them get wherever they want to go.
+1. Authoritative yet Empathetic
+B4 · Terms
+Standard
+System Terminology
+Create the standard terms and phrases that need to be kept the same throughout the
+              user experience, speeding up the design process and unifying your voice.
+B5 · Assets
+Unified
+Brand Assets
+Using a consistent set of brand assets aligns the user experience across your product
+              and marketing campaigns. These assets include your logo, fonts, icons, illustrations,
+              etc.
+Kantumruy Pro
+Google Sans
+Outlined 24dp Vectors
+Primary Blue #0056FF
+Guidelines
+0/5 Guidelines
+Understanding how to approach common UX patterns will allow your organization to
+              establish a consistent approach and user experience on any platform.
+G1 · Accessibility
+0/1
+Accessibility
+Guidelines for how you approach accessibility and how you leverage color, hierarchy,
+              and assistive technologies to help your users.
+G2 · Writing
+Writing Guidelines
+Every consistent experience needs watertight writing. Laying down the foundations for
+              your house style early keeps everything in line with consistent grammar, style
+              choices, and action-oriented language to help your design.
+G3 · Microcopy
+Microcopy Guidelines
+The standard way to write for the components in your design system. These take
+              platform conventions and best practices for writing all into consideration.
+G4 · Lexicon
+Terminology
+G5 · i18n
+Define standards for handling content translated into various languages supported by
+              the product. It includes handling translation edge cases and content
+              bi-directionality.
+Foundations
+F1 · Color
+0/4
+Color Tokens
+Not only an efficient way to showcase your brand but also an efficient way to
+              communicate with your users. Color palettes created with purpose over aesthetics in
+              mind add meaning to your interface.
+Accessibility:
+Semantic colors:
+Disabled,
+                backgrounds, actions
+Dark mode:
+Tone 98 light / Tone 6
+                dark
+Guidelines:
+Purpose over
+                aesthetics
+F2 · Layout
+Units:
+4, 8, 12, 16 4-point
+                increments
+Grid:
+Mobile, tablet, desktop
+                columns
+Breakpoints:
+Compact, Medium,
+                Expanded, Large
+Spacing:
+Independent rhythm
+                methods
+F3 · Typography
+0/5
+Typography Scale
+Typography is one of the main ways you surface content in products. A clear hierarchy
+              and contrasting styles in your typography scale make things easier to read.
+Responsiveness:
+Adapts to
+                viewport size
+Grid relation:
+Readability:
+Tracking, leading,
+                measure
+Performance:
+Pairings and scale
+                rules
+F4 · Elevation
+0/3
+Elevation controls the relative distance between two surfaces along the z-axis. In
+              light mode via shadow, in dark mode via surface container background color.
+Shadows:
+3 to 4 elevation levels
+Background colors:
+Linked surface
+                tones
+Z-index:
+Priority rendering scale
+F5 · Motion
+Shared motion values provide a more coherent user experience and better alignment with
+              the brand.
+Easing:
+Standard, accelerated,
+                decelerated
+Duration:
+Micro (150ms),
+                Component (250ms)
+Honors
+                prefers-reduced-motion
+F6 · Iconography
+0/7
+Iconography System
+Icons are symbols that represent functionality or content, understood at a glance when
+              used meaningfully and consistently.
+Default aria-label
+                / hidden
+Style:
+Consistent 24dp outlined
+                stroke
+Naming:
+Keywords:
+Discoverability tagging
+Reserved icons:
+Common system
+                actions

@@ -1,0 +1,65 @@
+use client
+react
+@/lib/utils
+./geometric-tag-primitives
+rain
+cloud
+#FFFFFF
+#0F172A
+size-7
+0 0 24 24
+none
+round
+M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242
+M16 14v6
+M8 14v6
+M12 16v6
+M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z
+#94A3B8
+#64748B
+size-4
+M16 15v3
+M8 15v3
+M12 17v3
+4 PM
+side-by-side
+light
+dark
+23°
+5 PM
+22°
+6 PM
+21°
+7 PM
+8 PM
+9 PM
+event-1
+Meeting with Jen
+Work
+9:00 AM
+10:30 AM
+event-2
+Dental appointment
+Personal
+2:00 PM
+2:30 PM
+space-y-6
+sm
+blue
+outline
+button
+mt-4 space-y-3
+SPECIFICATION BLUEPRINT
+Dual Mode System UI (Light & Dark)
+Side by Side
+Light Only
+Dark Only
+Light Mode System UI
+Surface: #FFFFFF / Border: #E2E8F0
+Rain
+Singapore
+Today
+4 events
+Year
+Dark Mode System UI
+Surface: #0B0E14 / Border: #1E232F

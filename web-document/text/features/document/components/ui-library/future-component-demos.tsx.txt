@@ -1,0 +1,553 @@
+use client
+react
+@/components/icons
+@/lib/utils
+./bottom-nav
+./bottom-sheet
+./card
+./dialog
+./fab
+./geometric-tag-primitives
+./snackbar
+./tooltip
+button
+Top App Bars
+Small + Medium
+space-y-4
+Open navigation menu
+size-5
+Search modules
+Save view
+Go back
+Saved to your views
+Not saved yet
+home
+Home
+schedule
+Schedule
+grades
+Grades
+alerts
+Alerts
+profile
+Profile
+Bottom Navigation Bar
+3 to 5 Destinations
+Students
+Dashboard
+Academics
+Finance
+Settings
+Navigation Drawer
+Modal Drawer
+Drawer demo
+size-4.5 shrink-0
+border-t border-[#CAD3F5]/60 p-2
+size-4.5
+Close drawer
+Open drawer
+Search
+Library
+Navigation Rail
+Tablet + Desktop
+Create new record
+overview
+Overview
+Enrollment summary, attendance rate and open tasks for this term.
+Five teaching days, two laboratory blocks and one sports session per week.
+fees
+Fees
+Term invoice issued, one installment paid, next due date on the fifteenth.
+Tabs
+Primary Tabs
+tablist
+Student record tabs
+tab
+Bold
+Italic
+Underline
+Align left
+Filter
+Download
+Print
+Refresh
+Toolbars
+Editor Actions
+None
+Open record
+Copy student code
+Share by Telegram
+Download PDF
+Archive record
+Menus
+Dropdown Menu
+relative
+mt-64 sm:mt-60
+Buttons
+Primary + Tonal + Outline + Text
+Small
+Medium
+Large
+All Buttons
+States + Sizes
+List
+Button Groups
+Connected Controls
+Grid
+Board
+border-l border-[#CAD3F5]
+Previous page
+Next page
+Day
+Week
+Month
+Year
+Segmented Buttons
+Multi Select
+group
+Report range selector
+size-4
+Save record
+Split Button
+Primary + Menu
+More save options
+Save and add another
+Save as draft
+Save and print receipt
+Save and
+Save +
+Save as
+mt-40
+Floating Action Buttons
+Primary Action
+small
+surface
+secondary
+Extended FABs
+Icon + Label
+New class draft created.
+Extended FAB pairs the icon with a clear label.
+absolute right-4 bottom-4
+New class
+New student
+New invoice
+FAB Menu
+Speed Dial
+Toggle create menu
+Search records
+Notifications
+Open settings
+More actions
+Icon Buttons
+Standard + Tonal + Toggle
+Add to favorites
+fill-[#0056FF]
+Mark as appreciated
+fill-rose-600
+On
+Off
+Yes
+No
+sms
+SMS attendance alerts
+Sent to parent phone numbers
+telegram
+Telegram grade reports
+End of term PDF summary
+receipt
+Printed fee receipts
+Two copies per payment
+Checkbox
+space-y-2.5
+checkbox
+khmer
+Khmer report
+Official ministry format
+english
+English report
+International program format
+bilingual
+Bilingual report
+Khmer first, English second
+Radio Button
+Single Select
+radiogroup
+Report language
+radio
+border-[#0056FF]
+border-[#CAD3F5]
+Sun
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Date Pickers
+Calendar Grid
+Previous month
+Next month
+AM
+PM
+Time Pickers
+Dial + Input
+Hour
+Minute
+Sliders
+Continuous + Stepped
+space-y-5
+range
+Classroom speaker volume
+Sibling discount
+Student registry
+Teacher assignments
+Tuition invoices
+Attendance leaves
+Exam scores
+Timetable builder
+Certificate printing
+Telegram broadcasts
+Live Filter
+Clear search
+mt-3 space-y-1.5
+Waiting for decision
+Dialogs
+Modal Confirmation
+Commit term ledger
+This writes the verified fee ledger for Term 1. The action is recorded in the audit log.
+Commit ledger
+Keep editing
+Ledger committed and audit entry written
+Bottom Sheets
+Modal Sheet
+Export class list
+space-y-2
+PDF document
+Excel workbook
+CSV data file
+Side Sheets
+Inspector Panel
+Hide inspector
+Show inspector
+Loading Indicator
+Indeterminate
+size-12 animate-spin rounded-full border-4 border-[#E3E7FC] border-t-[#0056FF]
+Finish sync
+Run sync again
+Progress Indicators
+Linear + Circular
+relative size-24
+0 0 84 84
+size-24 -rotate-90
+42
+34
+none
+#E3E7FC
+#0056FF
+round
+transition-all duration-500
+Tooltips
+Hover + Focus
+Copy the student code to the clipboard
+Ctrl+C
+Print the official term certificate
+bottom
+Print certificate
+Records are locked after the term closes
+top
+Term lock information
+Snackbar
+Action Feedback
+Student record archived.
+The snackbar appears at the bottom with an undo action.
+Undo
+Archive undone, record restored.
+success
+Badges
+Status Pills
+size-3.5
+summary
+detail
+Cards
+Container Variants
+border border-[#CAD3F5]
+Tap to open detail
+Detail is open
+The whole card is one 44px plus touch target.
+Top scorer: Sok Dara, average 94.5 across six subjects.
+Open
+Back
+Science Fair Winners
+Grade 11 team takes the national robotics title.
+New Library Wing
+Two thousand new titles arrive for Term 2 reading.
+Sports Day
+Inter campus athletics meet opens on Saturday morning.
+Carousel
+Content Rotator
+Previous slide
+Carousel slides
+Next slide
+Divider
+Horizontal + Vertical + Label
+Sok Dara
+Grade 11 B, code STU-000207
+[ACTIVE]
+Parent meeting invite
+Sent to 38 guardians
+[SENT]
+Field trip permit
+National Museum, 14 November
+[PENDING]
+Telegram broadcast
+Exam timetable reminder
+[QUEUED]
+Lists
+One + Two Line Rows
+border-t border-[#CAD3F5]/60
+Chan Sreyleak
+Text Fields
+Filled + Outlined + Area
+demo-student-name
+Student full name
+demo-guardian-email
+Email address
+demo-note
+Short note
+Empty
+Valid
+Invalid
+Royal Blue
+Azure Blue
+#2277FF
+Soft Lavender
+Ice Tint
+#EFF5FF
+Deep Navy
+#020617
+Pure White
+#FFFFFF
+size-7
+size-11 cursor-pointer rounded-full border-2 transition-all active:scale-[0.97]
+Copy hex
+Copied #0056FF
+Tap copy to copy the hex
+size-4 rounded-[4px] border border-[#CAD3F5]
+0 0 80 80
+40
+30
+transition-all duration-200
+Minus 10 percent
+Plus 10 percent
+img
+Meter level
+Dismiss banner
+Full name
+All caught up
+No new messages
+API server
+Active
+Telegram bot
+Backup job
+Paused
+Tap here to open the student list.
+Now pick a class to continue.
+Done
+Next
+Nothing picked
+size-4 transition-transform duration-200
+rotate-180
+View profile
+Edit student
+Send message
+Member 1
+shiliaiwei
+Member 3
+rounded-full border border-[#CAD3F5]
+size-16
+size-11
+size-11 rounded-full border-2 border-white
+Campus
+Lab
+Hall
+color-area
+color-handle-loupe
+progress-circle
+alert-banner
+help-text
+illustrated-message
+status-light
+app-bars
+navigation-bar
+navigation-drawer
+navigation-rail
+all-buttons
+button-groups
+segmented-buttons
+split-button
+extended-fabs
+fab-menu
+icon-buttons
+radio-button
+date-pickers
+time-pickers
+bottom-sheets
+side-sheets
+loading-indicator
+progress-indicators
+Term 1, Foundation
+Orientation week, core subjects and the first parent meeting.
+Term 2, Development
+Laboratory blocks begin, plus the national science fair selection.
+Term 3, Mastery
+Mock examinations, certificate review and graduation rehearsal.
+Accordion
+Expandable Sections
+Grade 10
+Student Records
+Breadcrumbs
+Path Trail
+Breadcrumb demo
+page
+Link
+Inline + Standalone
+link
+Enrollment policy
+Term calendar
+Student directory
+Demo links are inert by design, taps stay in this section.
+academics
+Grade 10 A
+Grade 10 B
+Grade 11 A
+finance
+Invoices
+Receipts
+people
+People
+Teachers
+Guardians
+Tree View
+Hierarchy
+rotate-90
+Curriculum
+Timetable
+Reports
+Side Navigation
+Persistent Panel
+Side navigation demo
+Welcome banner
+Holiday notice
+Exam reminder
+Close Button
+Dismissible Surfaces
+mt-3
+Phnom Penh Innovation Hub
+Siem Reap Main Campus
+Battambang Regional Center
+Kampong Cham Learning Center
+Kandal Technology Campus
+Combo Box
+Input + Listbox
+Pick campus
+Campus combo box
+mt-60
+Number Field
+Stepper Input
+Remove one seat
+numeric
+Classroom seats
+Add one seat
+tree-view
+side-navigation
+action-button
+action-group
+action-bar
+close-button
+buttons-item
+checkbox-group
+combo-box
+number-field
+Small app bar, 56px height, maximum three trailing actions.
+STUDENT RECORD
+Grade 10, Phnom Penh Innovation Hub
+Active destination:
+Thumb zone navigation for mobile portal top level routes.
+SNPI Portal
+Registrar Office
+Sign out
+Drawer carries the deep hierarchy so the canvas stays clean.
+Rail keeps 3 to 7 destinations visible on medium and expanded windows.
+0 &&
+Record actions
+Add student
+Import list
+Export
+View all
+Disabled
+Pill action
+Azure
+Confirm paid
+Delete
+Every variant keeps 4px radius and a minimum 44px touch height.
+Main action stays one tap, variants live in the attached menu.
+Records created from this FAB:
+One primary FAB per screen, anchored bottom right.
+Use the extended form when the action needs a text label.
+Last created:
+November 2026
+25%
+50%
+No module matches this search.
+Review ledger commit
+Grade 10 A, Class List
+Select the inspector to review one student without leaving the list.
+STUDENT INSPECTOR
+Code
+STU-000142
+Attendance
+96%
+Fee status
+[PAID]
+Open full record
+Syncing attendance records
+) : (
+Sync complete, 1,240 records
+Term enrollment completion
+10
+Hover or focus any icon to read its definition.
+[OVERDUE]
+NEW
+3 unread
+Top class
+Status is always text first, color second, never a bare dot.
+GRADE 10 A
+Homeroom overview
+38 students, attendance 96 percent this week.
+38 STUDENTS
+96% PRESENT
+INTERACTIVE CARD
+Invoice 2026-0114
+Tuition Term 1, Phnom Penh
+OR PAY WITH
+Bank transfer
+Bakong KHQR
+Card online
+Guardian email
+Enter a valid email address.
+Counselor note
+Term 2 enrollment is open
+Show banner again
+Student name
+Use the name on the national ID card.
+Mark all read
+(
+            /* eslint-disable-next-line @next/next/no-img-element */
+enrollment policy
+term calendar
+Open the full student directory
+Persistent side navigation for one stable product section.
+All notices dismissed.
+Restore notices
+No campus matches.
+Classroom seats, maximum 60

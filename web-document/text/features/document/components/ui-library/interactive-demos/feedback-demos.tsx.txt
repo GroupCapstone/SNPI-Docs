@@ -1,0 +1,118 @@
+use client
+react
+@/lib/utils
+@/components/icons
+../status-page-404
+success
+info
+warning
+Term 1 Exam grades synchronized successfully
+Backup replica completed in 42ms
+button
+Student STU-890 verified
+Session expires in 5m
+space-y-2
+font-semibold
+size-3.5
+all
+academic
+security
+finance
+system
+Biometric Attendance Roster Finalized
+Section CS-2026-A submitted morning biometric roster for review (48/50 present).
+10m ago
+PP-02
+Cryptographic Signature Key Rotated
+Automatic HMAC rotation completed successfully for campus gateway cluster.
+1h ago
+SR-01
+Tuition Fee Invoice Dispatched
+Consolidated batch invoices issued via Telegram SMS gateway for 312 students.
+3h ago
+BT-03
+Replica Database Health Probe Normal
+Primary-to-secondary database replication latency is 12ms across all nodes.
+5h ago
+PP-01
+Escape
+mousedown
+keydown
+Final Examination Schedule Published
+Academic Directorate published the Term 1 examination timetable for IT Year 3.
+New Session Device Authorized
+Security policy granted administrator session access from verified MAC terminal.
+Bakong KHQR Payment Received
+Cashier confirmed tuition transaction $450.00 USD via National Bank of Cambodia gateway.
+Just now
+SECURITY
+ACADEMIC
+FINANCE
+SYSTEM
+Reset Sample Data
+Dropped Down · Tap to close
+Collapsed · Tap bell to drop
+relative
+true
+Toggle notifications dropdown list
+Close Notification List
+Tap to drop down notifications
+scale-105 ring-4 ring-[#0056FF]/30
+size-5 stroke-[2.2]
+9+
+dialog
+Campus Notifications List
+size-3.5 stroke-[2.5]
+All
+Academic
+Security
+Finance
+System
+border-l-3 border-l-[#0056FF]
+size-4 stroke-[2]
+Unread Notification
+Tap to mark unread
+Tap to mark read
+Dismiss notification
+size-3
+radar
+01 Radar Explorer
+Concentric spatial rings, rotating radar beam, floating 3D numbers, and coordinate tracking.
+AEROSPACE
+barcode
+02 Barcode Ledger
+EDITORIAL
+noise
+03 CRT Phosphor
+COORDINATE
+gravity
+04 Gravity Blocks
+Kinetic architectural brand cards with spring physics tumbling and interactive re-alignment.
+KINETIC MOTION
+404 Not Found
+403 Forbidden
+500 Server Error
+503 Unavailable
+401 Unauthorized
+Return to Dashboard
++ Success
++ Warning
+No active toasts. Tap above to trigger.
+Simulate Alerts:
++ Academic
++ Security
++ Finance
+Panel State:
+SNPI Campus Alert Hub
+Live Notification Stream
+0 && (
+Notifications
+Mark all read
+No notifications in this category
+Try simulating a new alert above.
+NEW
+LIVE
+WebSocket Connected
+Clear All
+Interactive Popover: Tap the Notification Bell icon button above to toggle the
+            dropped-down list.

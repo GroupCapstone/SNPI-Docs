@@ -1,0 +1,7 @@
+./navigation-demos
+./inputs-demos
+./feedback-demos
+./display-demos
+./ai-kit-demos
+./template-demos
+./motion-laws-demo

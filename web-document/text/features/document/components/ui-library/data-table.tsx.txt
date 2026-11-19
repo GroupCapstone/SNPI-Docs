@@ -1,0 +1,171 @@
+use client
+react
+@/lib/utils
+@/components/icons
+asc
+desc
+none
+string
+number
+date
+left
+center
+right
+light
+dark
+pending
+review
+in review
+probation
+partial
+suspended
+failed
+dropped
+overdue
+rejected
+inactive
+archived
+draft
+withdrawn
+Search records across all columns...
+...
+text
+Filter records
+button
+Clear search filter
+size-3.5
+polite
+Rows per page
+border-b border-[#CAD3F5]
+ascending
+descending
+Enter
+justify-center
+justify-end
+justify-start
+inline-block transition-transform duration-200
+rotate-180
+rotate-0
+font-mono tabular-nums
+First page
+Previous page
+page
+Next page
+Last page
+Active
+Pending
+Probation
+Suspended
+Archived
+rec-01
+STU-2026-001
+Sokha Chan
+Computer Science
+2026-01-15
+rec-02
+STU-2026-002
+Bopha Pich
+Business Administration
+2026-01-18
+rec-03
+STU-2026-003
+Dara Heng
+Data Engineering
+2026-02-01
+rec-04
+STU-2026-004
+Kalyan Vong
+Digital Design
+2026-01-20
+rec-05
+STU-2026-005
+Rithy Meas
+Information Technology
+2026-02-10
+rec-06
+STU-2026-006
+Sreymom Keo
+Software Architecture
+2026-01-12
+rec-07
+STU-2026-007
+Visal Chea
+Network Engineering
+2026-02-14
+rec-08
+STU-2026-008
+Panha Sem
+2026-01-25
+rec-09
+STU-2026-009
+Leakhena Ros
+2026-01-22
+rec-10
+STU-2026-010
+Chamroeun Yim
+Cybersecurity
+2026-01-16
+rec-11
+STU-2026-011
+Theara Long
+2026-02-05
+rec-12
+STU-2026-012
+Monyrith Mao
+2026-01-14
+rec-13
+STU-2026-013
+Sophea Noun
+2026-02-18
+rec-14
+STU-2026-014
+Vicheka Son
+2026-01-30
+rec-15
+STU-2026-015
+Kunthea Phann
+2026-01-19
+rec-16
+STU-2026-016
+Serey Khun
+2026-02-02
+rec-17
+STU-2026-017
+Phalla Chum
+2026-02-22
+rec-18
+STU-2026-018
+Ratanak Tea
+2026-01-10
+rec-19
+STU-2026-019
+Chanthy Bun
+2026-02-08
+rec-20
+STU-2026-020
+Sovann Men
+2026-01-11
+code
+Student ID
+130px
+name
+Student Name
+program
+Program / Major
+gpa
+GPA
+90px
+enrollmentDate
+Enrolled
+110px
+status
+Status
+tuitionFee
+Tuition Fee
+Student Academic Roster
+Active term records and GPA standings
+= currentPage - delta && i
+Rows:
+No records found
+.
+              Try searching by student code, full name, or status.

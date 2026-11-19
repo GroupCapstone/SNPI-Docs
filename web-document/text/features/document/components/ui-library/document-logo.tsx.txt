@@ -1,0 +1,27 @@
+use client
+react
+next/link
+@/lib/utils
+./asterisk-logo
+header
+hero
+inline
+footer
+light
+dark
+SNPI-SMS
+API Documentation
+only logo
+gap-3
+gap-6 sm:gap-8
+gap-2
+gap-4
+md
+xs
+lg
+solid
+standard
+truncate tracking-tight transition-colors
+truncate tracking-wide uppercase transition-colors
+mt-2
+items-center

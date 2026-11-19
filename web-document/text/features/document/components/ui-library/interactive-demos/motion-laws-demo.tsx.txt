@@ -1,0 +1,108 @@
+use client
+react
+motion/react
+@/lib/utils
+@/components/icons
+@/lib/motion
+timing
+tactile
+spatial
+space-y-1
+button
+size-3.5
+1–6: Timings & Staggers
+7–13: Tactility & Physics
+14–20: Spatial, Masks & Layout
+spring
+pt-2
+hidden
+visible
+Campus Roster
+Tuition Ledger
+Grade Matrix
+ON
+OFF
+size-3 transition-transform
+rotate-180
+exit
+mt-2 space-y-1
+Item 1 (40ms)
+Item 2 (80ms)
+Item 3 (120ms)
+success
+idle
+Close Popover
+Open Popover
+Direct touch and drag gestures follow pointer 1:1 without tween latency.
+<motion.div
+drag="x"
+Drag Me 1:1
+wait
+check
+size-4 stroke-[2.5]
+copy
+size-4 stroke-[2]
+20 Motion Laws
+Standard Verified
+Universal Laws of Interface Motion & Micro-Interaction Engineering
+Interactive kinetic test workbench strictly verifying all 20 rules without skipping any.
+Replay Animations
+01. Ease-Out Entrances
+[0.16, 1, 0.3, 1]
+Ease-Out Arrival
+02. Dropdowns at 150–250ms
+200ms Dropdown Reveal
+03. Stagger Rows by 30ms
+Cascading rows create fluid kinetic rhythm without delayed blocking.
+04. Scale 0.97 on Press
+scale: 0.97
+Click or tap the button to test instant 0.97 physical tactile compression.
+Press Me (0.97 Scale)
+05. Stretch Moving Knobs 12%
+scaleX: 1.12
+Knobs stretch 12% during travel and snap back to 1.0 when settled.
+06. Details Settle Stagger
+40ms delay
+Sub-details settle into place after container expands.
+Toggle Details
+07. Arcs for Object Movement
+Parabolic Curve
+Objects move across 2D surfaces following natural arcs rather than straight lines.
+08. Success Confirmation Pulse
+1.06x Scale
+Affirm successful operations with a subtle 1.06 scale pulse within 280ms.
+Trigger Success
+09. Ease-In-Out for Moves
+[0.65, 0, 0.35, 1]
+Repositioning visible items uses smooth symmetric acceleration and deceleration.
+Repositioning
+10–12. Popover Trigger Origin
+Scale 0.95
+Mounts at 0.95 from trigger anchor and collapses back on exit.
+Origin Anchored at Top Center
+13. Zero Bounce Everyday UI
+Critically damped physics guarantees zero cartoonish overshoot or oscillations.
+Damped (0 Overshoot)
+duration: 0
+15. Exits 20% Shorter
+Enter: 200ms
+Exit: 160ms (0.80)
+16. Overlap Crossfade
+mode: sync
+State transitions overlap crossfading without empty white flashes.
+17. Clip-Path Masks
+clipPath: inset()
+Progress reveals and color sweeps use hardware clip-path without layout thrashing.
+Toggle Mask
+Masked Sweep
+18. Icon Crossfade + Blur
+blur(4px)
+Icon swaps blend with 4px optical blur to eliminate edge jumping.
+) : (
+19. Rubber Band Bounds
+dragElastic: 0.15
+Pulling past bounds yields logarithmic spring resistance.
+Pull Past Bounds
+20. Reuse layoutId
+Shared Tag
+Active indicators morph geometry continuously across buttons without re-mounting.

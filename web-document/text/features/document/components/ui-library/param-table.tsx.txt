@@ -1,0 +1,22 @@
+use client
+react
+@/lib/utils
+required
+optional
+No parameters required for this operation.
+mandatory
+boolean
+number
+string
+true
+Field
+Fields
+divide-y divide-[#CAD3F5]/60
+2px
+[REQUIRED]
+[OPTIONAL]
+) : (
+Parameter
+Type
+Mandatory
+Description

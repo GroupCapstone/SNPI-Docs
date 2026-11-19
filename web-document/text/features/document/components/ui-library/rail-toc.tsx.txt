@@ -1,0 +1,44 @@
+use client
+react
+@/lib/utils
+s top edge where a heading counts as reached. Default: 100. */
+/** Horizontal step in pixels for each depth level. Default: 12. */
+/** Text above the list. It also names the navigation for screen readers. Default: "On this page". */
+/** Extra classes merged onto the root nav. Inner parts carry data-slot attributes. */
+/** Active heading override for controlled mode. */
+/** Callback fired when user clicks or scrolls into a heading. */
+/** Show progress badge (e.g. "3 / 8"). Default: false. */
+/**
+* RailToc - Clean, Minimalist Table of Contents
+* Enforces clean vertical hierarchy:
+* - Straight continuous vertical track
+* - Crisp vertical accent indicator bar on the active item (zero awkward circle rings or horizontal lines)
+* - Whole-word legible labels with responsive indentation
+*/
+items,
+containerRef,
+offset = 100,
+indent = 12,
+title =
+activeId: controlledActiveId,
+onSelect,
+showProgress = false,
+// Internal active section tracking
+// Handle active heading detection and scroll-tracking
+container.addEventListener(
+window.addEventListener(
+container.removeEventListener(
+window.removeEventListener(
+<nav
+data-slot="rail-toc"
+<div
+data-slot="rail-toc-title"
+<svg
+viewBox="0 0 16 16"
+fill="none"
+stroke="currentColor"
+aria-hidden="true"
+<button
+type="button"
+isActive
+true

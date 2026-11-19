@@ -1,0 +1,21 @@
+use client
+react
+motion/react
+@/components/icons
+@/lib/utils
+@/lib/motion
+default
+success
+info
+warning
+error
+Undo
+Retry
+status
+polite
+button
+Dismiss message
+size-4
+Student enrollment confirmed for STU-2026-0891.
+0 && (
+Anchor: Bottom Center (Native Material)

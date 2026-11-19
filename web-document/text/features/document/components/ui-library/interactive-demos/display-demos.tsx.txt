@@ -1,0 +1,159 @@
+use client
+react
+motion/react
+@/lib/utils
+@/components/icons
+../tactile-folder-showcase
+consensus
+security
+gateway
+DISTRIBUTED CONSENSUS
+5 min read
+Oct 2026
+Detailed architectural benchmark analyzing 47 domain modules under concurrent transaction isolation sessions, zero-leak connection pools, and constant-time HMAC verification across multi-campus branches.
+Dr. Sovanarith Keo
+Chief Systems Architect · Faculty of ICT
+SK
+MongoDB rs0
+TypeScript
+ACID Sessions
+CRYPTOGRAPHIC AUDITING
+7 min read
+Zero-Trust Token Hygiene & Timing-Safe RBAC Authorization Contracts
+Mathematical formulation of constant-time timingSafeEqual verification, single-source-of-truth permission enforcement in @snp/shared, and automated GitLab CI security bots for enterprise student registrars.
+Prof. Kimhorng Heng
+Head of Cybersecurity & Cryptography
+KH
+Timing-Safe
+RBAC Scopes
+Zero Trust
+EDGE COMPUTE
+4 min read
+Nov 2026
+Hybrid Serverless & Long-Running Container Deployment Topologies
+Next.js 15 App Router serverless edge routing combined with persistent Docker container backend clusters to deliver sub-10ms response times for nationwide academic institutions.
+Dara Sok
+Principal Cloud Infrastructure Engineer
+DS
+Next.js 15
+Docker Monolith
+Edge Proxy
+Research Paper
+Security Charter
+Cloud Architecture
+button
+Remove Bookmark
+Save to Reading List
+size-4
+fill-[#0056FF]
+size-3.5
+fill-rose-600
+Copy Article Link
+curriculum
+Curriculum_Master_Roster_2026.pdf
+VERIFIED
+Official academic timetable verified by Central Academic Council.
+leading-relaxed
+tuition
+Tuition_Ledger_Reconciliation_Q1.xlsx
+LEDGER READY
+Consolidated batch tuition transaction hashes and ledger entries.
+passbook
+Cryptographic_Student_Passbook_STU-0891.json
+HMAC SIGNED
+Verifiable student credential ledger with cryptographic seal.
+size-3
+replicaSet: 'rs0',
+maxPoolSize: 100,
+timeoutMs: 5000,
+Copied
+Copy
+SNPI-SMS ACADEMICS
+Reset Position
+Trigger Gravity
+cubic-bezier(0.34, 1.56, 0.64, 1)
+Data Intake
+Ingesting and validating payload schema structure
+Verify Roles
+Evaluating multi-tenant RBAC permissions and scopes
+Commit Ledger
+Writing immutable transaction to replica set cluster
+Dispatch Notice
+Broadcasting real-time event notice to institutional nodes
+Pause
+Auto Play
+wait
+check
+spring
+size-3.5 stroke-[2.5]
+num
+100%
+0%
+-100%
+linear
+mt-1.5
+Completed
+Next Step
+suspended
+closed
+size-4 stroke-[2]
+Pause voice memo
+Play voice memo
+size-4.5
+ml-0.5 size-4.5
+Click to seek
+All
+Architecture
+Security
+Deployment
+How does the modular monolith preserve tenant isolation?
+Every Mongoose schema automatically enforces mandatory schoolId and branchId filters on all reads, updates, and ACID transactions. Express middleware guarantees client-supplied scopes are never trusted.
+Are permissions enforced client-side or server-side?
+All RBAC scopes are strictly verified server-side inside Express middleware against @snp/shared contracts using constant-time crypto.timingSafeEqual comparison for token hashes.
+How do responsive device previews work in this library?
+The Phone and Web toggles adjust the preview viewport container in real-time with CSS container queries without modifying application code or affecting live production routes.
+Why are all UI components built developer-library first?
+Per repository policy, all new components, dark modes, and designs are built and demoed in the developer portal (/document/design-system) first. They are never injected into the real dashboard without explicit user commands.
+space-y-3 border-b border-slate-100 pb-4
+relative
+text
+Search rules
+space-y-2.5
+size-4 shrink-0 transition-transform duration-200
+Thank You!
+Yes
+Select Content Archetype:
+) : (
+DOCUMENT ID
+DOC-CUR-2026-01
+Standardized 4-year curriculum frameworks for Software Engineering, Applied AI, and
+            Cloud Monolith Infrastructure across all 4 regional campuses.
+TOTAL CREDITS
+128 Credits
+SEMESTERS
+8 Terms
+RECONCILIATION
+100% MATCH
+Automated bank statement reconciliation verifying 3,120 student tuition transfers with
+            zero discrepancies recorded across Cambodian banking gateways.
+SHA-256: 8f9b2c0192a834e7...d2a1
+CREDENTIAL ID
+STU-2026-0891
+Immutable academic transcript passbook containing verified grades, department honors,
+            and biometric RFID gate access tokens.
+Constant-Time Signature Authenticated
+Tactile Document Folder
+Tap cards to bring forward:
+CODE
+Gravity Letters Simulation
+Simulates physics-based Newtonian drop and ground bounce on typography.
+(prev
+PROGRESS:
+Active Workflow Phase
+Previous
+Reset
+Total Validated Enrolled Students
++250 Students
+Voice Note
+Institutional Knowledge FAQ
+Was this explanation helpful?

@@ -1,0 +1,28 @@
+use client
+react
+@/lib/utils
+@/components/icons
+GET
+POST
+PUT
+PATCH
+DELETE
+Institutional Authorization (Bearer Token)
+undefined
+public
+exempt
+2px
+button
+Copy Endpoint
+size-3
+[PUBLIC]
+[PROTECTED]
+Specification Summary
+Method
+Name
+Endpoint
+Copied
+) : (
+Copy
+Description
+Authentication

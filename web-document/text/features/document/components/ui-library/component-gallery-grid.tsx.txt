@@ -1,0 +1,59 @@
+use client
+react
+@/lib/utils
+@/components/icons
+chip
+Chip
+Selection & Filters
+Compact interactive pill filters for multi-criteria search and tagging.
+switch
+Toggle Switch
+Selection & Inputs
+Physical switch metaphor for instant binary on/off state activation.
+dropdown
+Dropdown
+Compact disclosure menu displaying selectable options upon click.
+card
+Card
+Layout & Containers
+Interactive container with metrics, status pills, and sliding card layers.
+hanging-tabs-nav
+Hanging Tabs Nav
+Header Navigation
+Inverted trapezoid folder tabs suspended from the ceiling baseline.
+input
+Pill Input & Search
+Actions & Inputs
+Capsule pill text input with continuous border and keyboard shortcut badge.
+All
+home
+openapi
+Siem Reap Campus
+border-[#0056FF] ring-2 ring-[#0056FF]/20
+border-slate-200/90
+pointer-events-none absolute inset-0 opacity-30
+radial-gradient(circle at 1px 1px, #CAD3F5 1px, transparent 0)
+16px 16px
+Enrolled
+Grade 10
+button
+ACTIVE
+PAUSED
+translate-x-5
+translate-x-0
+truncate
+Phnom Penh Branch
+Battambang Wing
+text
+Filter records...
+Live Interactive
+44px touch · zero shadows
+Auto Sync
+Students Active
++8.5%
+10,119
+Term 1 2026
+Inspect
+Open API
+Library
+⌘K

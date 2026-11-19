@@ -1,0 +1,93 @@
+use client
+react
+@/lib/utils
+@/components/icons
+light
+dark
+cpu
+CPU / Node Ingress
+#0056FF
+db
+DB Throughput
+#10B981
+ops/s
+mem
+Heap Allocation
+#F59E0B
+MB
+t recreate arrays
+id:
+name:
+color:
+glowColor: isDark ?
+fillColorStart: isDark ?
+fillColorEnd: isDark ?
+unit:
+glowColor:
+fillColorEnd:
+// Track latest values for 08 Legend
+cpu: 45,
+db: 68,
+mem: 31,
+// Ticking interval: push new data point and shift old point
+// Organic bounded random walk
+if (s.id ===
+// Mouse hover tracking for 09 Crosshair and 10 Tooltip
+name: s.name,
+color: s.color,
+value: s.data[clampedIndex] ?? 0,
+unit: s.unit,
+x: mouseX,
+y: mouseY,
+tooltipLeft,
+tooltipTop,
+index: clampedIndex,
+timeLabel,
+values,
+// 60FPS Hardware-accelerated Canvas Rendering Loop
+// 01 Canvas Element: devicePixelRatio scaling
+// Clear Canvas
+// 02 Dot Grid: Subtle 40px interval dot pattern
+ctx.fillStyle = isDark ?
+// 03 Gridlines & 07 Axis Labels (Y-Axis: 0%, 25%, 50%, 75%, 100%)
+ctx.font =
+ctx.textAlign =
+ctx.textBaseline =
+// Dashed reference lines
+ctx.strokeStyle = isDark ?
+// Label
+// 07 Axis Labels (X-Axis: Time markers along bottom)
+// Draw Series: 04 Bezier Curves, 05 Gradient Fills, 06 Glow Effects
+// Path generator using cubic midpoint Bezier curves
+// 05 Gradient Fill
+// 06 Glow Effects & 04 Bezier Line Stroke
+ctx.lineCap =
+ctx.lineJoin =
+// End Pulse Dot
+// 09 Crosshair: Vertical tracking line & snapped intersection dots
+// Vertical tracking crosshair
+// Snap dots for each series
+<div
+Real-Time Metrics Telemetry
+PAUSED
+<span
+<canvas
+<button
+type="button"
+isPaused
+speedMs === rate
+: rate === 1000 ?
+TIMELINE:
+RATE:
+Telemetry Feed:
+LIVE 60FPS
+Canvas Surface
+40px Linear Grid
+Dashed Lines
+Bezier Splines
+Gradient Fills
+Glow Halos
+Dynamic Axes
+Live Legend
+Crosshair Snap
+Float Tooltip

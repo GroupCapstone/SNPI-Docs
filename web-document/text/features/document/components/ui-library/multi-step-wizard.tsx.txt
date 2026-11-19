@@ -1,0 +1,171 @@
+use client
+react
+motion/react
+@/lib/utils
+@/components/icons
+Student Applicant
+Main Campus (Phnom Penh)
+Email & SMS
+Time-Based Authenticator (TOTP)
+Semester 1 - 2026/2027
+snp_multi_step_wizard_form_state_v1
+light
+dark
+Identity
+Campus
+Security
+Review
+Select an option
+Escape
+mousedown
+keydown
+button
+listbox
+border-[#0056FF] ring-1 ring-[#0056FF]/20
+border-[#CAD3F5] hover:border-[#0056FF]
+truncate
+option
+Undergraduate & Graduate candidate
+Faculty Staff
+Academic teaching & research department
+Department Admin
+Institutional registrar & campus office
+Lab Researcher
+Advanced ICT research laboratory
+Central Administration & Engineering Wing
+Siem Reap Branch
+Provincial Tech & Tourism Innovation Hub
+Battambang Campus
+Agricultural Technology & Science Wing
+Kompong Cham Center
+Eastern Campus Training Hub
+Google Authenticator, 1Password, or Authy
+Hardware Security Key (FIDO2)
+YubiKey or WebAuthn biometrics
+SMS Verification Code
+Cellular carrier fallback protocol
+Fall term starting October 2026
+Semester 2 - 2026/2027
+Spring term starting March 2027
+Summer Intensive 2026
+Accelerated 8-week bootcamp
+Dual-channel transactional delivery
+Email Only
+Institutional email inbox delivery
+SMS Only
+Cellular SMS notifications
+forward
+backward
+undefined
+(prefers-reduced-motion: reduce)
+change
+Full legal name is required.
+Name must be at least 3 characters.
+Institutional email is required.
+Please enter a valid email address.
+Phone number is required.
+Enter a valid telephone number (8-15 digits).
+National ID or passport number is required.
+Identification must be at least 6 characters.
+You must accept the enrollment terms.
+ring-[#2277FF]/20
+ring-[#0056FF]/20
+ring-[#1D4ED8]/20
+ring-emerald-500/20
+-100%
+100%
+linear
+step
+cursor-not-allowed opacity-50
+cursor-pointer hover:opacity-100
+size-3.5 stroke-[2.5]
+0%
+status
+polite
+size-8 stroke-[2.5]
+space-y-1
+size-3.5
+p-6 sm:p-8
+step1-heading
+space-y-4
+transition-opacity duration-200
+animate-in fade-in-50 duration-300
+slide-in-from-right-4
+slide-in-from-left-4
+space-y-1 pb-2
+space-y-1.5
+fullName
+relative
+text
+fullName-error
+Full name
+email
+email-error
+Email address
+role
+step2-heading
+branch
+phone
+tel
+phone-error
+Phone number
+idNumber
+idNumber-error
+ID number
+step3-heading
+mfaMethod
+term
+notificationChannel
+step4-heading
+size-3
+pt-2
+checkbox
+termsAccepted
+submit
+CONFIRM & SUBMIT
+NEXT STEP
+= 1 && parsed.step
+Admissions Dossier Registered
+Your application has been logged into the SNPI multi-branch admissions database.
+REF:
+START NEW SUBMISSION
+) : (
+        /* ======================================================== */
+        /* STEP PANELS & FORM CONTROLS                              */
+        /* ======================================================== */
+Personal & Applicant Details
+Enter your verified legal credentials for institutional identity matching.
+Full Legal Name *
+Institutional Email *
+Applicant Affiliation
+Campus Branch & Telephone
+Select your primary learning facility and verifiable contact numbers.
+Designated Branch Campus *
+Telephone / Telegram Number *
+National ID / Passport Number *
+Two-Factor Auth & Term
+Configure authentication credentials and academic intake schedules.
+Authentication Protection Method
+Enrollment Academic Term
+Notification Delivery Preference
+Review Application Details
+Please verify all information before finalizing your admissions dossier.
+01. IDENTITY DETAILS
+Edit
+Name:
+Email:
+Role:
+02. CAMPUS ALLOCATION
+Branch:
+Phone:
+ID / Passport:
+03. SECURITY & PREFERENCES
+MFA Method:
+Term:
+Notification:
+I certify that all provided details are authentic and comply with SNPI-SMS
+                      institutional admissions governance.
+BACK
+Candidate Enrollment Pipeline
+Session Storage Synced
+Reset Session

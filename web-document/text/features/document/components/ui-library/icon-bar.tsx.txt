@@ -1,0 +1,30 @@
+use client
+react
+@/lib/utils
+@/components/icons
+pen
+Pen
+eraser
+Eraser
+fill
+Fill
+crop
+Crop
+text
+Text
+select
+Select
+ArrowRight
+ArrowDown
+ArrowLeft
+ArrowUp
+Home
+End
+Enter
+Escape
+toolbar
+Tool options
+horizontal
+button
+true
+size-4.5 shrink-0 stroke-[1.8]

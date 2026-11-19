@@ -1,0 +1,18 @@
+use client
+react
+motion/react
+@/lib/utils
+@/lib/motion
+top
+bottom
+left
+right
+bottom-full left-1/2 -translate-x-1/2 mb-2
+top-full left-1/2 -translate-x-1/2 mt-2
+right-full top-1/2 -translate-y-1/2 mr-2
+left-full top-1/2 -translate-y-1/2 ml-2
+bottom center
+top center
+right center
+left center
+tooltip

@@ -1,0 +1,75 @@
+use client
+react
+motion/react
+@/lib/utils
+@/components/icons
+@/lib/motion
+light
+dark
+combobox
+listbox
+Select options...
+Select an option...
+Type to filter...
+mousedown
+Options
+ArrowDown
+ArrowUp
+Enter
+Escape
+Backspace
+\\$&
+gi
+true
+sr-only
+button
+focus-visible:ring-2 focus-visible:ring-[#0056FF]
+border-[#0056FF] ring-1 ring-[#0056FF]
+cursor-not-allowed opacity-50
+size-2.5
+hidden
+visible
+exit
+relative border-b border-slate-100 p-2.5 dark:border-slate-800
+text
+list
+space-y-0.5
+option
+cursor-not-allowed opacity-40
+size-2.5 stroke-[3]
+truncate
+cs-ai
+Computer Science & AI
+Engineering & Computing
+cyber-sec
+Cybersecurity & Cryptography
+cloud-arch
+Cloud Systems Architecture
+data-eng
+Distributed Data Engineering
+fintech
+Financial Technology (FinTech)
+Digital Business
+biz-analytics
+Business Analytics & BI
+e-commerce
+E-Commerce Operations
+ui-ux
+UI/UX Interface Architecture
+Creative Technology
+motion-design
+Interactive Motion Design
+digital-media
+Digital Media Production
+space-y-1
+Choose Department...
+None
+Specializations
+part.toLowerCase() === query.toLowerCase() ? (
+0 ? (
+) : (
+No matching options found.
+Backspace removes tag
+Primary Academic Department
+Selected ID:
+Specialization Electives & Skill Tags

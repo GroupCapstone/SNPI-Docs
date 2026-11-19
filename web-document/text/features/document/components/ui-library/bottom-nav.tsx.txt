@@ -1,0 +1,8 @@
+use client
+react
+@/components/icons
+@/lib/utils
+Bottom Navigation Demo
+button
+relative
+size-5 shrink-0

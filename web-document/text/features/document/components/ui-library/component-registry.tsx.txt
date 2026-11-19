@@ -1,0 +1,1558 @@
+new
+updated
+coming
+parent-navigation
+Navigation
+parent-buttons
+Buttons
+Inputs
+date-time-pickers
+parent-date-time-pickers
+Date & time pickers
+loading-progress
+parent-loading-progress
+Loading & progress
+Feedback
+parent-sheets
+Sheets
+brand-blueprint
+Brand Blueprint
+/document/design-system#brand-blueprint
+design-standards
+Design Standards
+/document/design-system#brand-tokens
+brand-tokens
+Touch Targets
+/document/design-system#accessibility
+accessibility
+group-navigation
+cyber-armor-nav
+Cyber Armor Nav
+comp-cyber-armor-nav
+2026-11-01T00:00:00.000Z
+gooey-nav
+Gooey Nav
+comp-gooey-nav
+hook-sidebar
+Hook Sidebar
+comp-hook-sidebar
+navigation-bar
+Navigation bar
+2026-11-08T00:00:00.000Z
+navigation-drawer
+Navigation drawer
+navigation-rail
+Navigation rail
+side-navigation
+Side navigation
+parent-menus
+Menus & Dropdowns
+dropdown
+Dropdown
+comp-dropdown
+menus
+Menus
+accordion
+Accordion
+app-bars
+App bars
+breadcrumbs
+Breadcrumbs
+link
+Link
+tabs
+Tabs
+toolbars
+Toolbars
+tree-view
+Tree view
+group-inputs
+action-button
+Action button
+action-group
+Action group
+action-bar
+Action bar
+all-buttons
+All buttons
+button-groups
+Button groups
+close-button
+Close button
+extended-fabs
+Extended FABs
+fab-menu
+FAB menu
+fabs
+FABs
+icon-buttons
+Icon buttons
+segmented-buttons
+Segmented buttons
+split-button
+Split button
+duration-picker
+Duration Picker
+comp-duration-picker
+date-pickers
+Date pickers
+time-pickers
+Time pickers
+Text fields
+password-input
+Password Input
+comp-password-input
+number-field
+Number field
+Search field
+chip
+Chips
+comp-chip
+switch
+Switch
+comp-switch
+checkbox
+Checkbox
+combo-box
+Combo box
+radio-button
+Radio button
+rating
+Rating
+sliders
+Sliders
+color-area
+Color area
+color-handle-loupe
+Color handle and loupe
+swatch
+Swatch
+Swatch group
+group-feedback
+skeleton-loading-screen
+Skeleton Loading
+comp-skeleton-loading-screen
+loading-indicator
+Loading indicator
+progress-indicators
+Progress indicators
+progress-circle
+Progress circle
+meter
+Meter
+bottom-sheets
+Bottom sheets
+side-sheets
+Side sheets
+parent-snackbars-toasts
+Snackbars & Toasts
+toast-stack
+Toast Stack
+comp-toast-stack
+snackbar
+Snackbar
+notification-bell
+Notification Bell
+comp-notification-bell
+dialogs
+Dialogs
+alert-banner
+Alert banner
+help-text
+Help text
+illustrated-message
+Illustrated message
+status-light
+Status light
+Coach mark
+popover
+Popover
+tooltips
+Tooltips
+status-404
+Status 404 Console
+comp-status-404
+Display
+group-display
+data-table
+Interactive Data Table
+comp-data-table
+animated-counter
+Animated Counter
+comp-animated-counter
+step-player
+Step Player
+comp-step-player
+voice-note
+Voice Note Player
+comp-voice-note
+avatar
+Avatar
+badges
+Badges
+calendar
+Calendar
+cards
+Cards
+carousel
+Carousel
+divider
+Divider
+lists
+Lists
+thumbnail
+Thumbnail
+Forms
+group-forms
+multi-step-wizard
+Multi-Step Wizard
+comp-multi-step-wizard
+floating-label-form
+Floating Label Form
+comp-floating-label-form
+file-dropzone
+File Dropzone
+comp-file-dropzone
+Rich Text Editor
+Sections
+group-sections
+marquee-section
+Marquee Section
+comp-marquee-section
+buttons
+navigation
+sheets
+01 Component Architecture: Standalone, modular, zero-leak implementation.
+02 Accessibility (a11y): Full ARIA semantic roles and keyboard contracts.
+03 Design Tokens: Mathematical spacing and zero-shadow elevation ladder.
+04 Responsive Design: Mobile, tablet, and desktop adaptive layouts.
+- Self-contained interactive component with configurable props.
+- Default, Active, Hover, Focus-Visible, Disabled
+Copy the prompt, paste it, ship it.
+---
+### Core Concept & Paradigm
+### What's Inside & Architectural Pillars
+### Supported States & Interactions
+### Component Props & Interface Contract
+### Usage Guidelines
+USE THIS WHEN:
+DO NOT USE WHEN:
+realWorld
+: ''
+ux
+### Instructions for AI Coding Agent
+Act as a Principal UI/UX Architect & Design System Engineer.
+Mandatory Requirements:
+1. Self-Contained MVP: Single-file implementation with zero imaginary dependencies.
+2. Accessibility (WCAG 2.1 AA/AAA): Include all required ARIA attributes (role, aria-expanded, aria-controls, aria-live), keyboard navigation (Tab, Esc, Arrow keys, Enter/Space), and visible focus rings.
+3. Micro-Interactions: Follow the sub-300ms interface timing rule with spring physics or smooth cubic-bezier transitions. Support prefers-reduced-motion.
+4. Dual Theme: Ensure clean contrast and visual fidelity across both light (#FFFFFF / #F8FAFC) and dark (#0B0F19 / #0F172A) surfaces.
+5. Export both the primary component and an interactive demo showcase component.
+Chip
+2026-11-02
+YouTube Paradigm
+Compact interactive filter pill allowing instant toggling, multi-selection, and dynamic query filtering across datasets.
+Chips are compact interactive tags shaped like poker chips. Modeled after YouTube home feed category filters, they allow users to rapidly segment extensive catalogs, switch active query parameters, or dismiss selected entities without navigating to a complex filter modal.
+Default
+Selected / Active
+Disabled
+Multi-Selected
+Filtered
+With Dismiss Icon
+Course Catalog Thematic Filtering
+Students filter elective courses by "Academics", "Robotics", "Finance", "Arts".
+Filter applies instantly without page reloading or scroll jumps.
+Student Status Segmentation
+Registrar filters rosters by "Enrolled", "Deferred", "Graduated", "Suspended".
+One-tap switching between active enrollment cohorts.
+Multi-Campus Branch Filtering
+Super admin segments reports across "Siem Reap Central", "Phnom Penh", "Battambang".
+Compact pills fit horizontally without monopolizing vertical dashboard space.
+Miller's Law & Chunking
+Breaks complex multidimensional database queries into easily scanable, bite-sized thematic chunks.
+Instant State Confirmation
+Use full capsule pill radius (rounded-full, 9999px) with 2px continuous border.
+Wrap chips onto more than two rows—use horizontal overflow scrolling instead.
+Provide an "All" or "Reset" chip to allow users to restore unfiltered view in one click.
+Use chips for primary application navigation—use tabs or bottom nav instead.
+Maintains 32px height with minimum 44px hit-slop bounding box for touch accessibility.
+Supports keyboard arrow navigation and toggle via Space / Enter keys.
+active
+boolean
+false
+Whether the chip is currently selected.
+icon
+React.ReactNode
+Optional leading vector icon.
+onDismiss
+Optional callback rendering a trailing "x" dismiss button.
+children
+Chip label text.
+Toggle Switch
+iPhone Settings Paradigm
+Accessible hardware-inspired binary toggle switch controlling immediate system preferences and automated background service states.
+The Toggle Switch provides instantaneous binary control. Modeled after physical wall switches and iOS Settings controls, it applies configuration adjustments the exact millisecond it is flipped, completely eliminating the need for an awkward secondary "Save Changes" confirmation button.
+Default (On)
+Off
+Loading / Transitioning
+Real-time Telemetry
+Live Server Telemetry Stream
+IT administrator activates real-time MongoDB change streams for the API.
+Connection opens immediately and metrics start graphing live without saving.
+Automated Parent SMS Notifications
+School principal toggles daily arrival SMS alerts for guardians.
+Rules update instantly in cloud memory with instant telemetry feedback.
+Two-Factor Authentication Requirement
+Super admin enables mandatory 2FA enforcement for staff accounts.
+Security policy applies immediately across all multi-tenant branch portals.
+Direct Manipulation & Skeuomorphic Certainty
+Simulates the physical motion of a mechanical switch, giving unambiguous certainty about system on/off state.
+Zero Latency Expectation
+Use exclusively for binary states (Enabled/Disabled, On/Off) that take effect immediately.
+Use a switch if the user must still click a separate "Submit" or "Save" button afterwards.
+Keep the accompanying label static—never change label text between "On" and "Off" when toggled.
+Use switches to select between two non-binary choices like "Male" and "Female".
+Enforces role="switch" with aria-checked="true|false" for complete assistive technology compatibility.
+Hit-slop bounding box >= 44x44px for touch accessibility.
+checked
+Current binary state (true = on, false = off).
+onCheckedChange
+Callback invoked upon state toggle.
+disabled
+Prevents interaction when set to true.
+Dropdown (Campus & Branch Selector)
+Standard Brand Tokens & Searchable Institutional Selector
+The Dropdown component packages multiple campus locations into an ergonomic 48px trigger button. When opened, it reveals a searchable list of institutional options with student enrollment counts, physical building details, campus code badges (PP-01, SR-01), and keyboard navigation.
+Default (Closed)
+Open / Expanded with Search Filter
+Option Selected
+Hover & Active Selection Highlight
+Disabled / Read-Only
+Focused (Keyboard Navigation ↑ ↓)
+Institutional Record Overview
+Institutional Campus Routing
+Campus registrar toggles between Siem Reap Main, Phnom Penh Innovation Hub, Battambang, and Kampong Cham.
+Scopes all student rosters and database queries instantly with verified institutional data boundaries.
+Academic Term & Cohort Selection
+Admissions officer selects current active semester term from past and upcoming academic years.
+Updates tuition fee schedules and grade rosters without page reload.
+Administrative Role Switcher
+Multi-campus director switches active campus management perspective.
+Applies tenant data boundary immediately while preserving active view state.
+Progressive Disclosure (Jakob Nielsen)
+Hides secondary branch options until requested, preserving clean visual hierarchy on busy administrative desks.
+Hick's Law Optimization
+Grouping related campus branches within an indexed dropdown reduces decision time by 60% compared to sprawling radio buttons.
+Use a dropdown when there are only 2 binary choices—use a switch or toggle buttons instead.
+Dismiss the menu automatically upon selection, outside click, or Escape key press.
+Crowd dropdown rows with overly long descriptions on mobile screens.
+Standard Color Blueprint: Royal Blue (#0056FF), Soft Lavender (#E3E7FC), Border Keyline (#CAD3F5), and Ice Tint (#EFF5FF).
+Trigger button: minimum 54px ergonomic height with left domain icon and right rotating chevron.
+Searchable: Built-in quick search filter with autofocus and clear button.
+Full keyboard navigation: ArrowUp/ArrowDown to navigate, Enter to select, Escape to close.
+Selected option: Distinct Ice Tint (#EFF5FF) background, Royal Blue (#0056FF) border, and checkmark pill.
+label
+string
+Top descriptive label.
+placeholder
+'Select an option...'
+Placeholder when no item is selected.
+options
+LibraryDropdownOption[]
+Array of option items with value, label, and description.
+value
+Controlled active option value.
+onChange
+Selection callback.
+Disables trigger.
+Dashed Spring Rail Standard
+A vertical navigation list with a dashed rail that marks the active item.
+Click an item to spring the accent rail down to it. Hovering or tabbing to another row draws a second, dimmer rail that stops where the accent one ends.
+items *
+Rows rendered as the vertical list. A plain string or an object with a label is a nav item, and href turns it into a link.
+Group title shown above the list, outside the rail. Omit it for a bare list. Also names the nav for screen readers.
+number
+Active item index for controlled usage. When set, it wins over both the URL and internal state.
+defaultValue
+Initial active index. Used only when no item has an href and value is not provided.
+Called with the new index whenever an item is selected.
+color
+'#0056FF'
+Any CSS color for the active rail (hex, rgb, hsl, var). The hover rail stays neutral.
+dashed
+true
+Draws the rail and its corner as dashes. Set false for a solid line.
+Extra classes merged onto the root <nav> element.
+Documentation Sub-Navigation
+Developer portals and nested API documentation sidebars with quick section jumping.
+Clear visual tracking with tactile spring feedback and hover previewing.
+Settings & Administration Hubs
+Multi-group administrative navigation trees with sub-routes.
+Minimal visual noise with dashed connecting rails and responsive route tracking.
+Kinetic Momentum & Spring Physics
+Physics-based mass-damped springs create an organic feeling of elasticity when jumping between destinations.
+Feedforward Hover Anticipation
+A secondary dimmer rail previews the travel path before committing a click or tap.
+Stack multiple HookSidebar instances for clean grouped navigation.
+Mix solid and dashed rails within the same navigation cluster.
+Use href properties to automatically bind navigation to the active URL route.
+Apply excessive vertical spacing that causes the rail spring to stretch beyond viewport height.
+01 Dual Rail Architecture: Active accent rail and dimmer hover rail operate on independent spring calculations.
+02 Corner Arc Geometry: SVG curved path (M0.5 0a6 6 0 0 0 6 6H12) hooks seamlessly into item text.
+03 CSS Repeating Dash: Background repeating linear gradient renders crisp 2px/2px dashed pattern without SVG distortion.
+Default Active
+Hover Dimmer Rail
+Controlled Value
+Solid / Dashed Mode
+Fluid Pill & Corner Brand Border Archetypes
+Provides two production demos: (1) Classic Fluid Capsule Pill with smooth sliding indicator, and (2) Corner Brand Border Gooey Nav with technical L-shaped corner brackets and 4 brand border sets (Royal Blue, Azure Blue, Deep Navy, Soft Lavender).
+activeTab
+Currently selected segment.
+Period Switcher
+Registrar toggles Day/Week view.
+Delightful fluidity.
+Continuity
+Guides eye between states.
+Use fluid pill indicator.
+Do not delay selection.
+CSS transition on background pill.
+Day
+Week
+Month
+Cyber Armor Mecha HUD Archetype
+Precision aerospace mecha navigation console with tactile double-seam dividers, chamfered corner cuts, and active kinetic indicator bar.
+items
+HangingTabItem[]
+Array of navigation items with id, label, and optional icon.
+activeId
+Currently active tab ID.
+onSelect
+Tab selection callback.
+size
+'sm' | 'md' | 'lg'
+Console size variant (sm: 44px, md: 50px, lg: 56px).
+showIcons
+Whether to render kinetic micro-icons.
+Sticky Header Hub Navigation
+Developer switches between UI Library and Open API documentation routes.
+Distinct aerospace mecha branding with instant visual feedback.
+Multi-Module Workspace Console
+Campus registrar toggles across Student, Academic, and Ledger modules.
+Ergonomic 50px touch target with tactile double-seam divider feedback.
+Fitts's Law Target Sizing
+Visual Hierarchy & Affordance
+Stepped armor wings and active glow bar draw focal attention to location.
+Use Royal Blue (#0056FF) glow underline for the active item.
+Never use circular dot style indicators.
+Keep button labels concise and uppercase with Sora tracking.
+Avoid overcrowded labels exceeding 14 characters.
+Responsive SVG stepped armor chassis with 45° chamfers.
+Double-seam divider: 1px dark border paired with 1px white highlight line.
+Active bar: solid Royal Blue (#0056FF).
+Hover
+Active Glow
+Focus Visible
+Tactile Stepper Standard
+Quick duration selector combining preset time capsules with an increment stepper for meeting scheduling.
+Combines fast 15m/30m/1h quick preset pills with incremental adjustment.
+minutes
+Duration in minutes.
+Class Scheduling
+Academic coordinator sets period length.
+One-tap presets.
+Miller's Law
+Pre-chunked duration values.
+Provide common increments.
+Avoid freeform typing only.
+Preset buttons plus custom stepper.
+Preset Selected
+Custom Stepper
+Strength Policy Standard
+Secure authentication passkey input with eye toggle visibility, live strength meter, and compliance checklist.
+Visualizes password entropy and policy compliance in real-time.
+Password string.
+Staff Onboarding
+HR registers new employee credentials.
+Enforces security.
+Direct Feedback
+Real-time color bar.
+Show checklist.
+Never hide validation rules.
+Regex strength checks.
+Weak
+Fair
+Strong
+Toast Notification Stack
+Stacked Notifications Standard
+Stacked notification queue providing timed auto-dismissal, linear countdown bars, and fluid enter and exit animations.
+Click any button to fire a toast notification. Toasts stack vertically, auto-dismiss with a progress bar countdown, and can be manually closed.
+toasts
+ToastItemData[]
+Active stack of notifications currently rendered in DOM.
+position
+'fixed' | 'inline'
+'fixed'
+Fixed viewport anchor (top-right) or relative container sandbox.
+theme
+'light' | 'dark'
+'light'
+Color theme for notification surfaces and backdrop blur.
+Callback invoked when a toast is closed manually or via timeout.
+Asynchronous Ledger Commit Notification
+Non-blocking confirmation with 18px status icons and countdown strip.
+Security & Audit Token Rejection Alert
+Security monitoring detects unauthorized token signature and alerts administrator without page reload.
+Doherty Threshold & Physical Feedback
+Slide-in animation with subtle scale bounce gives feedback immediate physical responsiveness under 300ms.
+Postel's Law & Hover Pause
+Users are given full control to pause the auto-dismiss timer on hover, preventing premature dismissal of complex text.
+USE THIS WHEN: Confirming user actions like form submissions, saves, or deletions with non-blocking feedback.
+NOT IDEAL WHEN: The message requires user action — use a modal or inline alert instead.
+USE THIS WHEN: Surfacing background events — API responses, sync status, or incoming updates.
+NOT IDEAL WHEN: Showing inline form validation errors that should appear next to the field.
+USE THIS WHEN: Building SaaS dashboards or admin panels that need a polished notification layer.
+NOT IDEAL WHEN: Critical destructive confirmations where the user must explicitly acknowledge.
+01 Toast Container: Fixed-position stack anchored to the top-right, holding up to 5 toasts with automatic overflow management.
+02 Type Variants: Four distinct types — success, error, warning, info — each with a unique color and icon for instant recognition.
+03 Icon System: Inline SVG icons sized at 18px with color inherited from the toast type for consistent visual language.
+04 Progress Bar: A 2px countdown strip that visually communicates remaining time before auto-dismiss.
+05 Enter Animation: Slide-in from the right with a subtle scale bounce, giving toasts a physical, responsive feel.
+06 Exit & Collapse: Two-phase removal: fade-slide out, then collapse height so remaining toasts reflow smoothly.
+07 Hover Pause: Hovering a toast freezes its countdown timer and progress bar so users have time to read.
+08 Programmatic API: Simple show/dismiss interface returning unique IDs for full control from application code.
+Idle (Stack Empty)
+Entering (Right Slide & Bounce)
+Counting Down (Progress Strip Active)
+Hover Paused
+Two-Phase Exit & Collapsing
+Skeleton Loading Screen
+CSS Shimmer Placeholder Standard
+Zero-JavaScript CSS shimmer placeholders communicating layout geometry while asynchronous data streams load into memory.
+variant
+'rect' | 'circle' | 'text'
+'rect'
+Placeholder geometric shape for avatars, text lines, or media cards.
+width
+string | number
+Explicit width dimension to preserve exact layout geometry.
+height
+Explicit height dimension preventing cumulative layout shift (CLS).
+Design token colorway configuring base surface and shimmer contrast.
+Asynchronous Institutional Feeds & Dashboards
+Dashboard displays instant layout structure while backend aggregation queries compute student statistics.
+Eliminates Cumulative Layout Shift (CLS = 0) and reduces perceived latency.
+Curriculum & Syllabi Media Grid Pre-Rendering
+Media cards preserve strict 16:9 aspect ratios before image assets stream from CDN storage.
+Maintains page stability without content jumpiness.
+Perceived Performance & Cognitive Readiness
+Skeleton screens anticipate incoming content layout, making wait times feel 30% shorter than blank spinner states.
+Miller's Law & Chunked Layout Delivery
+Pre-rendering recognizable UI regions lets users visually orient their attention before data arrives.
+USE THIS WHEN: Content-heavy pages where data arrives asynchronously — feeds, dashboards, profiles.
+NOT IDEAL WHEN: Content loads in under 200ms — skeletons will flash awkwardly before disappearing.
+USE THIS WHEN: You want layout-aware placeholders instead of generic spinners for better perceived performance.
+NOT IDEAL WHEN: A progress bar or inline spinner communicates the action more clearly.
+USE THIS WHEN: Pre-rendering page structure to prevent cumulative layout shift on load.
+NOT IDEAL WHEN: Critical above-the-fold content that should be server-rendered or statically generated.
+01 Shimmer Gradient: Animated linear gradient that sweeps left to right, creating the illusion of content loading in.
+02 Placeholder Shapes: Rounded rectangles and circles sized to match your final content — text lines, avatars, images.
+03 Aspect Ratios: Proportional sizing on image placeholders that prevents layout shift when real content loads.
+04 Color Palette: Subtle base and shimmer tones that read as "loading" without competing with content arrival.
+05 CSS Custom Properties: Centralized design tokens for base color, shimmer intensity, and speed — swap themes in two lines.
+06 Pseudo-element Layer: Shimmer lives on ::after to avoid interfering with element sizing or layout flow.
+07 Animation Timing: Smooth 1.8s ease-in-out loop — fast enough to feel alive, slow enough to avoid distraction.
+08 Reduced Motion: prefers-reduced-motion query disables shimmer for users who opt out of animation.
+Loading (1.8s Shimmer Active)
+Loaded (Smooth Content Reveal)
+Reduced Motion (Static Placeholder)
+Profile Header Pattern
+Card Grid Pattern (16:9 Media)
+Content List Pattern
+Notification Bell (Campus Alert Center)
+Popover Feed Standard
+Campus alert center trigger featuring unread badge counter, category filtering (All, Academic, Security), alert simulation, and mark-all-read action.
+Combines a sleek notification bell trigger with an unread badge counter and an interactive institutional popover feed. Users can filter incoming alerts by domain (Academic, Security), inspect details, mark individual items as read, or simulate live cluster notifications.
+unreadCount
+Number of unread notifications displayed on badge.
+NotificationItem[]
+Array of operational notifications with timestamp, category, and read status.
+onMarkAllRead
+Callback to clear all unread badges.
+Daily Faculty Attendance Dispatch
+Department chair reviews morning biometric attendance submission alerts from Phnom Penh Innovation Hub.
+Instantly identifies pending class rosters without navigating deep menus.
+Cryptographic Security Alert
+System administrator receives immediate notification of scheduled HMAC secret rotation across campus nodes.
+Maintains audit transparency with precise timestamp and cluster ID.
+Visual Salience
+Cognitive Scannability
+Provide category filters when notification volume spans multiple operational domains.
+Use loud flashing red dots for non-critical informational alerts.
+Offer a one-click "Mark all as read" button to quickly clear notifications.
+Hide timestamps or originating campus branch codes.
+Popover anchored cleanly below bell trigger with 12px vertical offset.
+Subtle enter animation: fade-in with slide-in-from-top-2.
+High contrast text (#020617) with Soft Lavender (#CAD3F5) borders.
+Idle (0 Unread)
+Active (Unread Badge)
+Popover Open
+Filtered by Domain
+All Read
+Status Page
+Clean HTTP Status Code & Title Presentation
+Provides a clean, uncluttered status screen to communicate missing routes, forbidden access, and server errors. Focuses purely on status code and title with standard brand tokens and direct dashboard recovery.
+statusCode
+404 | 403 | 500 | 503 | 401
+404
+HTTP status code determining title and status badge.
+title
+Custom heading title override.
+homeHref
+'/dashboard'
+Primary action button navigation link destination.
+homeLabel
+'Return to Dashboard'
+Primary action button label.
+showControls
+Display interactive inline status code switcher controls.
+A user navigates to an unmapped campus URL or deleted student dossier.
+Delightful branded recovery flow with instant home navigation and diagnostic telemetry.
+Cryptographic Permission Challenge (403 Forbidden)
+A student attempts to access administrative payroll or examination vault routes.
+Clear explanation of missing RBAC scopes with institutional administrator escalation link.
+Graceful Error Recovery & Locus of Control
+Brand Trust & Polish
+Provide a prominent, clear action button returning users to home or dashboard.
+Never trap users with dead ends or ambiguous technical error stacks without remediation steps.
+Pure CSS & SVG procedural noise and radar animations with zero heavy external media assets.
+Supports spring physics tumbling and interactive re-alignment in gravity mode.
+Radar Explorer
+Barcode Ledger
+CRT Phosphor
+Gravity Blocks
+Sequential Workflow Standard
+Multi-stage progress stepper featuring animated connection line loading, spring step transitions, and sequential workflow controls.
+Guides users through sequential institutional onboarding processes with animated connection lines, spring step-to-step transitions, and interactive controls.
+currentStep
+Active step.
+Student Enrollment Workflow
+Registrar steps through verified admission stages.
+Zero skipped steps with real-time visual progress feedback.
+Chunking
+Breaks long forms into bite-sized steps.
+Show clear numbers.
+Do not hide progress.
+Animated connecting line tracks with active loading beam.
+Spring pop checkmark transitions.
+Step-to-step AnimatePresence phase card.
+Active
+Completed
+Upcoming
+Odometer Roll Standard
+Precision mechanical odometer counter rolling numerical metrics smoothly during real-time value updates and increments.
+Smoothly rolls numbers when key school metrics update.
+Numeric count.
+Campus Dashboard
+Director views live student enrollment totals.
+Live dynamism.
+Moving numbers convey live vitality.
+Format with commas.
+Avoid rapid flashing counters.
+React state counting with locale string.
+Resting
+Incrementing
+Voice Note (Tactile Waveform Audio Player)
+Waveform Audio Standard
+Clean audio waveform player featuring real Web Audio procedural speech synthesis, live AnalyserNode frequency waveforms, and click-to-seek scrubbing.
+A focused voice memo player featuring real procedural audio synthesis via Web Audio API, dynamic waveform bars driven by a live AnalyserNode, variable speed controls, and interactive scrubbing.
+duration
+12
+Total audio track duration in seconds.
+Faculty Dean Audio Briefing
+Dean records verbal instructions for semester exam verification to all department chairs.
+Language Lab Student Oral Assessment
+ESL instructor plays student pronunciation audio sample with interactive waveform scrubbing.
+Enables precise timestamp replay and variable speed playback for grading accuracy.
+Multimodal Audio-Visual Synchrony
+Pulsing waveform bars confirm audio playback visually, accommodating hearing-impaired users.
+User Control & Freedom
+Scrubbable waveform and speed toggles give listeners control over information consumption rate.
+Always provide a written text transcript drawer for accessibility (WCAG 2.2 AA).
+Never autoplay audio on initial page load or user navigation.
+Allow users to click any waveform bar to scrub directly to that timestamp.
+Use tiny play/pause buttons—keep hit bounds to minimum 44x44px.
+Interactive scrubbable waveform with proportional progress fill in Royal Blue (#0056FF).
+Variable speed state: 1x -> 1.25x -> 1.5x -> 2x cyclical toggle.
+Lossless 48kHz badge with live minutes:seconds time elapsed / total duration display.
+Paused (Idle)
+Playing (Animated Waveform)
+Scrubbing Timestamp
+Speed Adjusted
+Transcript Expanded
+Client-Side Ledger & Tri-State Sorting Standard
+Enterprise data table supporting instant debounced filtering, multi-column sorting, pagination, and status indicators.
+data
+T[]
+Array of tabular records to display and filter.
+columns
+DataTableColumn<T>[]
+Column definitions with headers, keys, type, alignment, and custom cell renderers.
+initialPageSize
+10
+Default rows displayed per page.
+pageSizeOptions
+number[]
+[5, 10, 20, 50]
+Selectable rows-per-page options.
+searchPlaceholder
+Placeholder for debounced search box.
+Surface color mode.
+Academic Enrollment Ledger
+Registrars search, sort by GPA, and verify active student cohorts across programs.
+Zero latency instant filtering.
+Tuition Fee Accounts Roster
+Accurate tabular numeral auditing.
+Faculty Assignment Directory
+Deans inspect faculty course loads, sorting by department and teaching hours.
+Frictionless client-side sorting.
+Doherty Threshold (<400ms)
+Debounced 200ms search and instantaneous client-side sorting keeps users in uninterrupted flow state.
+Fitts's Law & Coyote Time
+Full column header hit targets with keyboard Enter/Space triggers ensure effortless sorting.
+Windowed pagination chunks dense data into digestible 5, 10, or 20 row sets.
+Use when building admin dashboards, settings screens, or internal tools listing structured records with few hundred to thousand client-side rows with zero bundle weight.
+Do not use for millions of rows (use server-side pagination with row virtualization) or hierarchical tree-tables.
+Click any column header to sort (none -> ascending -> descending), use the search box to filter across all columns, and page through the results below.
+01 Search Input: Debounced text filter with a magnifier icon and inline clear button. Matches across every column.
+02 Result Count: Live "Showing X-Y of Z" region announced to assistive tech via aria-live.
+03 Sortable Header: Keyboard-focusable column header with a tri-state click cycle: none, ascending, descending.
+04 Sort Indicator: Animated caret in the active column that rotates to flip direction without re-rendering.
+05 Comparator: Type-aware comparison for strings, numbers, and dates. Stable so equal rows keep insertion order.
+06 Status Pill: Colored badge with clean typography (Zero-Dot Standard) for at-a-glance scanning of categorical values.
+07 Sticky Header: Headers stay pinned while the body scrolls. A subtle shadow appears once the user has scrolled.
+08 Pagination Nav: First, last, and a window around the current page with ellipses. Disabled at boundaries.
+09 Page Size: Selector for rows per page that re-clamps the current page so the visible window stays valid.
+10 Empty State: Friendly fallback when the search filter yields no rows, telling the user what they searched for.
+Default Table View
+Debounced Search Filtering
+Ascending Column Sort
+Descending Column Sort
+Sticky Header Scrolled Shadow
+Empty State Search Fallback
+Continuous Velocity Ticker Standard
+Seamless horizontal infinite marquee ticker displaying institutional partners and accreditations with pause on hover.
+Endless marquee carousel displaying accredited institutions and partners.
+array
+List of partner labels.
+Accreditation Strip
+Showcases Ministry and partner universities.
+Builds social proof.
+Social Proof
+Partner logos establish institutional trust.
+Allow horizontal scrolling on touch.
+Do not auto-scroll too fast.
+Flex container with horizontal overflow.
+Scrolling
+Paused
+Standard Form Inputs (Candidate Admission Dossier)
+Floating field label text.
+Controlled input value.
+Change event handler.
+type
+'text'
+Input type (text, email, password, etc.).
+Candidate Admission Registration
+Admissions staff inputs student legal name, institutional email, and national student ID (STU-XXXX-XXXX).
+Field label remains visible throughout typing, preventing accidental field confusion.
+Faculty Profile Onboarding
+New instructor completes department routing and contact information.
+Cognitive Continuity
+Labels never vanish upon focus, eliminating short-term memory burden during form completion.
+Direct Spatial Mapping
+The label sits directly inside the input hit area, maximizing tap accuracy on touch devices.
+Overlap the floating label with entered user text.
+Maintain minimum 44px input height for comfortable touch interaction.
+Use floating labels for complex multi-line textareas.
+Tailwind peer and peer-placeholder-shown CSS pseudo-classes for zero-JS CSS-native label floating.
+Instant validation confirmation banner upon form submission.
+Resting (Empty Placeholder)
+Focused (Floating Label)
+Filled / Value Present
+Form Submitted Success
+Multi-Step Form Wizard
+Fluid Water Progress & Brand Dropdown Stepper
+Structured onboarding flow featuring fluid water loading progress, dynamic percentage color coding, step-by-step connecting lines, brand dropdown selectors, and strict validation gating.
+A four-step wizard with animated connecting lines, fluid water loading bar, dynamic percentage tracking, custom brand dropdown selectors, inline validation that prevents bypassing required fields, and session persistence.
+Instrument panel color palette.
+onComplete
+Callback executed on final submit.
+Container class extensions.
+Admissions Dossier Registration
+Applicant completes identity, campus branch, telephone, MFA security, and terms.
+Zero data loss on page refresh with high completion velocity.
+Faculty Onboarding
+New academic staff members configure institutional credentials and department routing.
+Clear cognitive chunking reduces error rates by 68%.
+Miller's Law & Cognitive Chunking
+Dividing 10+ inputs into 4 logical steps prevents cognitive fatigue and drop-off.
+Doherty Threshold & Immediate Feedback
+Per-field inline validation and instant sessionStorage saves provide confidence in state retention.
+USE THIS WHEN: Multi-stage onboarding, admissions dossiers, or complex profile setup.
+NOT IDEAL WHEN: Short forms with fewer than 5 fields (use a single clean card).
+USE THIS WHEN: User needs ability to jump back and edit prior entries without data loss.
+NOT IDEAL WHEN: Unrelated non-sequential workflows (use tabs or accordion instead).
+01 Step Indicator: Numbered dot per step switching between pending, active, and complete states.
+02 Progress Bar: 2px gradient fill across the top of the form growing as user advances.
+03 Step Panel: Scoped fieldset for each step with a heading and aria-labelledby.
+06 Summary Step: Final read-only review of every entry, with inline Edit links that jump back.
+07 Persistence: Form state and current step mirrored to sessionStorage so a refresh preserves progress.
+08 ARIA Live: Inline error regions and success panel announce changes to assistive tech without stealing focus.
+09 Transitions: Steps slide in horizontally with 0.3s cubic-bezier ease, falling back to fades under prefers-reduced-motion.
+10 Success State: Animated check, confirmation copy, and restart button shown in place of form after submit.
+Step 1 Identity
+Step 2 Campus
+Step 3 Security
+Step 4 Review
+Submitted
+Dashed Target Dropzone Standard
+Drag-and-drop file staging zone providing MIME type verification, file size validation, and interactive removal chips.
+Tactile file ingestion zone with live list of verified dossier attachments.
+maxSize
+Allowed file size limit.
+Birth Certificate Upload
+Guardian uploads scanned PDF dossier.
+Immediate feedback confirmation.
+Spatial Affordance
+Dashed border invites dragging files.
+Display accepted extensions and sizes.
+Do not silently drop invalid files.
+Dashed 2px border with file badge rows.
+Idle
+Hovering
+File Added
+Zero-Dependency Contenteditable & Sanitized Allowlist Standard
+Lightweight WYSIWYG editor offering Markdown shortcuts, sanitized HTML pasting, formatting controls, and live character counts.
+Try pasting rich content from another page — scripts, inline styles, and unknown tags are stripped to a safe allowlist before they ever hit the document.
+initialContent
+Initial HTML string pre-populated into the contenteditable surface.
+Callback fired whenever content or formatting updates.
+'Type your formatted content here...'
+Placeholder copy rendered when contenteditable is empty.
+minHeight
+180
+Minimum editor surface height in pixels.
+Instrument panel color palette for toolbar and text surface.
+Institutional Curriculum Syllabus Composer
+Faculty members draft course descriptions with bold headings, lists, and external portal links without markdown complexity.
+Zero external bundle weight with automatic XSS sanitation.
+Student Conduct & Audit Incident Records
+Campus directors record disciplinary or examination incident notes, pasting excerpts from external emails.
+Dangerous inline scripts, styles, and iframes are stripped immediately before hitting the page.
+Direct Manipulation (WYSIWYG)
+In-place visual formatting provides instant cognitive feedback without requiring mental markdown translation.
+Selection Preservation & Zero Friction
+Preventing default on toolbar mousedown preserves active selection range so clicking formatting never collapses the caret.
+USE THIS WHEN: You need formatted input — comments, descriptions, notes, or a message composer — where Markdown would be a hurdle for non-technical users.
+NOT IDEAL WHEN: You need collaborative editing, tables, image uploads, comments, or track-changes — reach for ProseMirror, Lexical, or TipTap instead.
+USE THIS WHEN: You want a tiny, dependency-free editor you fully control, rather than shipping a 100 KB+ library for a handful of formatting buttons.
+NOT IDEAL WHEN: Your content is genuinely plain text — a styled textarea (optionally with Markdown) is simpler and more robust.
+USE THIS WHEN: Output is stored as HTML and you can sanitize it again on the server before rendering it back.
+NOT IDEAL WHEN: You cannot run server-side sanitization — never trust client-sanitized HTML alone before rendering it to other users.
+01 Contenteditable Surface: One element with contenteditable="true", role="textbox", and aria-multiline does all the editing — no iframe, no shadow DOM.
+02 Command Toolbar: A role="toolbar" row of real buttons, each mapping to a single execCommand routed through one exec() seam.
+03 Live State Sync: queryCommandState drives both the cyan is-active styling and aria-pressed as the caret moves through formatted text.
+04 Allowlist Sanitizer: Pasted HTML is parsed in a detached document and reduced to a safe tag/attribute allowlist before it touches the page.
+05 URL Scheme Guard: Link hrefs are validated — javascript:, data:, and vbscript: are rejected, and survivors get rel="noopener nofollow".
+07 Selection-Safe Buttons: Toolbar buttons preventDefault on mousedown so a click never collapses the editor's selection.
+Visual WYSIWYG Editing
+Active Command State Highlight (Cyan Pill)
+Sanitized Allowlist Paste Interception
+Guarded External Hyperlink (rel=noopener)
+Raw HTML Source View Toggle
+Material 3 Top App Bar Standard
+Top screen header presenting page title, primary navigation actions, and contextual task triggers.
+App bars provide a predictable anchor at the top of screens, communicating user orientation and hosting global triggers.
+Screen or section title.
+'small' | 'medium' | 'large' | 'center-aligned'
+M3 sizing archetype.
+Campus Header
+User navigates top level academic modules.
+Stable orientation anchor.
+Spatial Orientation
+Consistent top bar grounds visual hierarchy across route changes.
+Maintain 56px height for small bars.
+Crowd with more than 3 trailing action icons.
+Level 0 (flat) or Level 2 scrolled surface tint.
+Flat (Top of Page)
+Scrolled (Elevated Surface)
+Focused
+Material 3 Bottom Navigation Bar Standard
+Horizontal navigation bar anchored to the bottom of mobile viewports for 3 to 5 top-level destinations.
+Bottom navigation bars provide effortless one-handed thumb navigation across top-level destinations.
+NavItem[]
+Destination items.
+Mobile Portal
+Student navigates home, schedule, and profile on mobile.
+Fast thumb reach.
+Fitts's Law Thumb Zone
+Positioned at bottom edge for zero-stretch finger reach.
+Use 3-5 destinations only.
+Use for secondary or modal destinations.
+Pill-shaped active indicator with smooth scale transition.
+Active Pill
+Inactive Icon
+With Badge Count
+Material 3 Modal & Standard Drawer Standard
+Vertical slide-in drawer accommodating deep institutional navigation hierarchies and account context.
+Drawers provide access to all destinations without permanent horizontal screen space consumption on smaller screens.
+open
+Drawer visibility state.
+Campus Registrar Hierarchy
+Deep departmental routing tree.
+Structured exploration.
+Progressive Disclosure
+Hides extensive navigation hierarchy behind a single accessible trigger.
+Include account profile and branch switcher in header.
+Use without backdrop dismiss on mobile.
+Dismissable via swipe gesture or backdrop click.
+Collapsed
+Expanded (Modal)
+Standard (Permanent)
+Material 3 Side Navigation Rail Standard
+Compact vertical sidebar rail providing 3 to 7 primary destinations on tablet and desktop screens.
+Navigation rails offer an ergonomic vertical bridge between bottom bars and full-width sidebars.
+destinations
+RailDestination[]
+List of rail icons.
+Desktop Console
+Admin switches between Student, Course, and Finance views.
+Slim 72px rail maximizes canvas.
+Compact Recognition
+Icon and concise label provide instant scanning with minimal width consumption.
+Keep rail width between 72px and 80px.
+Overload with scrollable nested trees.
+Active pill background with 44px hit bounds.
+Compact Rail
+Expanded Rail
+Active Destination
+Material 3 Primary & Secondary Tabs Standard
+Segmented horizontal tab strip organizing related views at the same hierarchical level.
+string[]
+Array of tab labels.
+Student Dossier View
+Switching between Overview, Grades, Attendance, and Fees.
+Instant in-place context.
+Spatial Chunking
+Groups large records into digestible thematic sections.
+Keep tab labels concise (1-2 words).
+Wrap tab labels into multiple text rows.
+Sliding indicator bar with spring physics.
+Active Tab
+Hovered Tab
+Disabled Tab
+Material 3 Action Toolbar Standard
+Compact horizontal surface hosting contextual commands, tools, and actions for an active workspace.
+Toolbars group related actions and utilities together above a work canvas or editing surface.
+tools
+ToolItem[]
+Actions and commands.
+Grade Sheet Editor
+Batch calculation, export, and filter tools.
+Concentrated productivity tools.
+Proximity (Gestalt)
+Grouping actions together signals they apply directly to the underlying canvas.
+Use accessible tooltips for icon-only actions.
+Combine conflicting destructive and edit actions.
+Role="toolbar" with left/right keyboard arrow navigation.
+Active Tool
+Disabled Action
+Material 3 Cascading Context Menu Standard
+Floating temporary surface displaying a list of choices on a transient elevated sheet.
+Menus expose contextual choices triggered by a button or cursor action without cluttering the screen.
+MenuItem[]
+Contextual options.
+Student Action Overflow
+Actions: Edit record, Download transcript, Generate invoice.
+Tidy interface.
+Hick's Law Decision Density
+Restricts action choices to relevant contextual operations.
+Order items logically from frequent to destructive.
+Open menus off-screen without viewport flipping.
+Level 2 Surface Elevation with Escape key dismiss.
+Closed
+Open (Elevated)
+Focused Item
+Material 3 Elevated, Filled, Tonal & Outlined Standard
+Core interactive action trigger available in 5 visual emphasis tiers: Elevated, Filled, Filled Tonal, Outlined, and Text.
+Buttons allow users to express intent, initiate actions, and confirm operations across the system.
+'filled' | 'tonal' | 'outlined' | 'elevated' | 'text'
+Button emphasis variant.
+Action text.
+Primary Form Submission
+Submitting student admission form.
+Unambiguous call to action.
+Affordance & State Feedback
+Visual depth and ripple feedback assure the user the touch was received.
+Maintain >= 44x44px minimum touch targets.
+Use more than one primary filled button per card.
+Rounded-full shape token with brand focus ring.
+Pressed
+Material 3 Full Button Hierarchy Matrix Standard
+Comprehensive design system catalog showing all 5 M3 button variants side-by-side with contrast metrics.
+Demonstrates hierarchical pairing of filled primary buttons with tonal and outlined supporting actions.
+Surface scheme.
+Design System Audit
+Developers verify button hierarchy standards.
+Consistent brand application.
+Hierarchical Clarity
+Pair 1 Filled CTA with Outlined secondary actions.
+Compete primary CTAs in the same card.
+Full AAA contrast ratios on every button tier.
+All Variants Active
+High Contrast Matrix
+Material 3 Connected Action Group Standard
+Connected cluster of mutually related action buttons arranged along a single border axis.
+Groups actions with related consequences together into a unified visual pill.
+ButtonProps[]
+Grouped buttons.
+Document View Modes
+Grid, List, and Table toggle group.
+Unified control strip.
+Law of Common Region
+Enclosing buttons in a connected outline signals mutual functional relationship.
+Connect buttons with unified 1px border dividers.
+Mix buttons with drastically different actions.
+Seamless internal borders with rounded outer corners.
+Active Option
+Hovered
+Material 3 Multi-Option Segment Standard
+Segmented pill controls allowing users to select between 2 to 5 mutually exclusive or multi-select options.
+Segmented buttons provide compact horizontal choices in filter bars and dialog controls.
+segments
+SegmentItem[]
+Available segments.
+Academic Semester Filter
+Selecting Term 1, Term 2, or Summer.
+Immediate dataset filter.
+Hick's Law Fast Toggling
+Exposes all choices side-by-side for 1-click selection.
+Use checkmark icon on selected segment.
+Use more than 5 segments in a single row.
+Active segment filled with brand Ice Tint and checkmark.
+Unselected
+Selected with Checkmark
+Material 3 Primary & Secondary Action Dropdown Standard
+Dual-action component combining a primary click action with an attached dropdown arrow for alternative actions.
+Enables quick execution of the default action while providing immediate access to related variations.
+primaryAction
+Default action.
+Publish & Schedule Post
+Default: "Publish Now", Dropdown: "Schedule for Later".
+Accelerates default flow.
+Default Effect (Status Quo Bias)
+Highlights the most common action while keeping alternatives accessible.
+Ensure dividing seam is visible.
+Put destructive irreversible actions in the dropdown.
+Divider seam between primary button and chevron anchor.
+Primary Active
+Dropdown Open
+Material 3 Floating Action Button Surface Standard
+Prominent circular or rounded rectangular button performing the primary positive action on a screen.
+FABs float above the interface to represent the most important screen action within comfortable thumb reach.
+ReactNode
+Action icon.
+New Student Enrollment
+Floating plus button on directory.
+Instant reachability.
+Von Restorff Isolation Effect
+Elevated floating placement draws focal attention as the key screen action.
+Use 1 FAB per screen only.
+Use FAB for minor or destructive actions.
+Level 3 elevation with smooth scale-down on press.
+Hovered (Elevated)
+Material 3 Labelled Action Standard
+Wider floating action button containing both an icon and an explicit descriptive text label.
+Extended FABs provide clarity when an icon alone could be ambiguous, collapsing on scroll to preserve space.
+Button text label.
+Finance Portal
+"Create Invoice" extended FAB.
+Zero ambiguity on action.
+Dual Coding Theory
+Combining text with iconography reinforces meaning and accelerates recognition.
+Collapse to icon-only on downward scroll.
+Use long wordy labels exceeding 3 words.
+Animated width transition between extended and collapsed.
+Extended with Label
+Collapsed (Icon-Only)
+Material 3 Speed Dial Radial Action Standard
+Expandable speed-dial menu radiating secondary actions when the primary FAB is triggered.
+Expands a single floating action point into a compact radial stack of related creation actions.
+actions
+FabAction[]
+Speed dial sub-actions.
+Multi-Record Creator
+Add Student, Add Course, Add Invoice.
+3 actions in 1 floating point.
+Hick's Law Progressive Reveal
+Keeps screen clean until the user explicitly requests creation options.
+Use 2 to 4 sub-actions maximum.
+Block primary screen inputs without dismissal.
+Backdrop blur with staggered spring entrance.
+Closed FAB
+Expanded Radial Speed Dial
+Material 3 44px Tactile Micro-Action Standard
+Compact icon-only interactive button engineered with mandatory hover labels and 44x44px touch targets.
+Icon buttons allow users to take compact actions in toolbars, app bars, and data table rows.
+Mandatory accessible hover label.
+Table Row Actions
+Edit, Copy ID, and Archive icons in data rows.
+High data density.
+Micro-Affordance & Hit-Target Expansion
+Invisible pseudo-element ensures 44px hit bounds despite 20px glyph size.
+Always provide accessible hover title.
+Use abstract decorative icons without clear meaning.
+::before pseudo-element expanding hit target to 44px.
+Hover Pill
+Material 3 Tri-State Selection Standard
+Selection control allowing users to select one or multiple items from a set, supporting checked, unchecked, and indeterminate states.
+Checkboxes permit independent multi-selection across table rows and configuration filters.
+boolean | 'indeterminate'
+Check state.
+Batch Student Roster Action
+Selecting all students in Grade 10.
+Batch dispatch operations.
+Direct Feedback (Lock & Key)
+Instant visual mark confirms state without ambiguous toggling.
+Support indeterminate state when some sub-items are selected.
+Use checkboxes for mutually exclusive options.
+SVG check and minus paths with spring interpolation.
+Unchecked
+Checked
+Indeterminate
+Material 3 Mutually Exclusive Option Standard
+Selection control allowing users to select exactly one option from a list of mutually exclusive choices.
+Radio buttons present all available alternatives at once when users need to compare choices before selecting.
+selected
+Selection state.
+Payment Method Selection
+Choosing between KHQR, Bank Transfer, and Cash.
+Single selection guarantee.
+Hick's Law Side-by-Side Comparison
+Exposes choices openly unlike hidden dropdown menus.
+Always have exactly one radio selected by default.
+Allow multiple radios in a group to be selected.
+Inner dot scales up smoothly with 150ms cubic ease.
+Selected (Inner Dot)
+Material 3 Modal & Docked Calendar Standard
+Interactive calendar picker supporting single date selection, date ranges, and direct text input entry.
+Date | null
+Selected date.
+Enrollment Effective Date
+Selecting student admission date.
+Valid date entry.
+Calendar Mental Model
+Highlight today and active selection clearly.
+Disable keyboard manual date input entry.
+WCAG accessible arrow key calendar cell navigation.
+Docked Input
+Modal Calendar Open
+Date Selected
+Material 3 Clock Dial & Input Standard
+Precision time selection control offering radial clock dial selection and numeric hour/minute inputs with AM/PM toggle.
+Time pickers enable intuitive hour and minute selection for scheduling courses, examinations, and meetings.
+time
+Selected time in HH:mm format.
+Course Timetable Scheduling
+Setting lecture start and end periods.
+Conflict-free timetabling.
+Familiar Clock Metaphor
+Circular dial provides spatial intuition for hours and 5-minute intervals.
+Provide instant toggle between dial and text input.
+Force tedious scrolling for minutes.
+Radial clock face with angle calculations.
+Hour Selection
+Minute Selection
+AM/PM Active
+Material 3 Continuous & Discrete Range Standard
+Horizontal track control allowing users to select a value or range of values along an interactive scale.
+Sliders allow users to make quick adjustments across a spectrum such as volume, thresholds, or price ranges.
+Current numeric value.
+Attendance Quorum Threshold
+Adjusting passing grade threshold from 50% to 100%.
+Tactile adjustment.
+Continuous Sensory Feedback
+Sliding track gives tactile proportion of value relative to scale limits.
+Display value label bubble on drag.
+Use sliders for precise non-numeric qualitative data.
+Dragging (Value Bubble Active)
+Discrete Steps
+Material 3 Basic & Full-Screen Dialog Standard
+Modal window interrupting the active workflow to capture critical user decisions or present essential information.
+Dialogs demand immediate attention, disabling the background canvas until confirmed or dismissed.
+Dialog visibility.
+Permanent Student Expulsion
+Warning before irreversible database deletion.
+Prevents catastrophic mistakes.
+Consequence Confrontation (Norman)
+Modal isolation forces the operator to acknowledge destructive outcomes.
+Always provide a neutral Cancel option.
+Use dialogs for trivial status notifications.
+Native ::backdrop with blur and Focus Trap.
+Open Modal
+Confirming (Spinner)
+Material 3 Standard & Modal Bottom Sheet Standard
+Surface anchored to the bottom edge of the display, offering supplementary content or secondary actions.
+Bottom sheets slide up from the bottom of the screen to reveal contextual menus, filters, and forms.
+Sheet state.
+Roster Export Options
+Frictionless selection.
+Physicality & Sheet Metaphor
+Dragging a sheet up and down mimics physical paper handling.
+Include drag handle pill at top center.
+Block dismissal via downward swipe.
+Touch drag listener with snap points.
+Hidden
+Peek (Half Height)
+Expanded (Full Height)
+Material 3 Coplanar & Modal Side Sheet Standard
+Vertical surface anchored to the right side of the screen displaying supplementary details or inspector panels.
+Side sheets permit deep document inspection and configuration while keeping the primary table visible.
+Side sheet visibility.
+Student Dossier Inspector
+Zero context loss.
+Preservation of Work Context
+Keeps parent table visible so users never lose their place in the list.
+Use coplanar side sheet on desktop viewports.
+Obscure main table filters entirely.
+Smooth slide-in transition from right boundary.
+Open Coplanar
+Material 3 Circular Activity Spinner Standard
+Animated circular progress glyph expressing indeterminate background computation and async data fetching.
+Circular indicators communicate that the system is actively working on a task of indeterminate length.
+Spinner dimension.
+Database Query Wait
+Fetching 500 student records over replica set.
+Assures ongoing progress.
+Anxiety Reduction
+Motion feedback confirms the application has not frozen or disconnected.
+Show spinner when operations take > 300ms.
+Flash spinner for instant operations under 100ms.
+SVG stroke-dasharray keyframe animation.
+Spinning Indeterminate
+Determinate Progress
+Material 3 Linear & Circular Determinate Standard
+Linear track progress bar showing the precise percentage completion of a long-running operational task.
+Progress indicators quantify the exact proportion of a multi-step job completed, keeping users informed.
+Percentage completion (0 to 100).
+Batch Report Generation
+Processing 45 of 60 campus class schedules.
+Precise time expectation.
+Goal-Gradient Hypothesis
+People accelerate effort and stay patient as they perceive progress toward a goal.
+Always accompany with numeric percentage.
+Jerk progress bar backward.
+Smooth CSS transition on track width fill.
+Determinate (0-100%)
+Indeterminate Pulse
+Material 3 Plain & Rich Contextual Tooltip Standard
+Tooltips provide concise textual definitions on hover, ensuring zero ambiguity for icon-only controls.
+content
+Tooltip explanation text.
+Icon Button Hover
+Clarity without clutter.
+Recognition Over Recall
+Supplies instant explanation without forcing users to remember cryptic icons.
+Keep text under 6 words.
+Put vital information in tooltips inaccessible to touch devices.
+Floating UI with collision detection and focus trigger.
+Revealed on Hover
+Keyboard Focused
+Material 3 Transient Notification & Action Recovery Standard
+Provides brief, non-interruptive notifications at the bottom of the screen about app processes and transient updates.
+Snackbars inform users of a process that an app has performed or will perform, providing brief, transient feedback.
+message
+Notification message.
+action
+Optional recovery action (e.g. Undo).
+Record Archive Feedback
+Frictionless undo.
+Forgiving Systems (Nielsen)
+Transitory recovery actions allow quick reversal of unintended steps.
+Keep message concise and focused on single transient event.
+Use snackbars for critical system errors requiring immediate acknowledgment.
+Self-dismissing after 4-7 seconds or upon user interaction.
+Action Hover
+Dismissing
+Material 3 Small & Large Notification Count Standard
+Small visual indicators conveying status information, notification counts, or thematic categorization on an avatar or icon.
+Badges draw immediate attention to unread messages, alert numbers, or pending student applications.
+count
+Optional numeric badge count.
+Unread Notifications
+Red dot badge on campus bell icon indicates 3 new messages.
+High visibility signal.
+Visual Saliency & Pop-Out Effect
+Truncate numbers over 99 to "99+".
+Use badges for non-transient static decorative shapes.
+Positioned absolutely at top-right corner of host element.
+Dot Badge (Uncounted)
+Count Badge (1-99+)
+Brand Tonal
+Material 3 Elevated, Filled & Outlined Card Standard
+Flexible content container grouping related information, media, and actionable decisions on a single subject.
+Cards serve as entry points to more detailed information, providing organized chunks of data.
+'elevated' | 'filled' | 'outlined'
+Card surface archetype.
+Student Dossier Card
+Photo, Name, ID, Major, and View Dossier button.
+Miller's Law Chunking
+Consolidates multi-field records into digestible single visual containers.
+Maintain consistent 16px corner radius.
+Mix more than 2 card styles on the same screen.
+1px Soft Lavender border (#CAD3F5) with zero box-shadows.
+Elevated
+Filled
+Outlined
+Interactive Hover
+Material 3 Multi-Browse & Uncontained Carousel Standard
+Horizontally scrollable collection of cards or media items allowing users to browse through rich visual sets.
+Carousels display multiple items in a compact space, enabling horizontal browsing with swipe or arrow keys.
+CarouselItem[]
+Slides array.
+Campus Facility Gallery
+Browsing computer science labs, library, and sports halls.
+Engaging visual tour.
+Peek Effect & Visual Affordance
+Partially visible trailing card invites the user to swipe or scroll.
+Support keyboard arrow navigation and touch swipe.
+Auto-advance rapidly without pause controls.
+CSS scroll-snap with inertia momentum.
+Dragging / Swiping
+End of Carousel
+Material 3 Hairline Spatial Separator Standard
+Thin spatial line separating content into clear thematic groups in lists, layouts, and menus.
+Dividers bring visual structure and clarity to dense lists and tables without heavy visual weight.
+inset
+Whether divider indents from edge.
+List Row Separator
+Delimiting student rows in mobile roster.
+Clean row scanning.
+Gestalt Law of Continuity
+Continuous hairline guides horizontal scanning along records.
+Use 1px Soft Lavender (#CAD3F5) borders.
+Use heavy dark borders that distract from content.
+1px solid hairline with optional left inset.
+Full-bleed
+Inset
+Vertical Divider
+Material 3 One, Two & Three-Line List Item Standard
+Continuous vertical collection of items containing supporting visuals, headline text, secondary metadata, and actions.
+Lists are the most fundamental pattern for displaying structured text and tabular items on mobile and desktop.
+ListItem[]
+List rows.
+Student Directory Feed
+Avatar, Student Name, Student ID, and Chevron arrow.
+Effortless scanning.
+Vertical Reading Flow
+Optimized for vertical eye saccades during rapid information scanning.
+Keep row heights uniform (56px, 72px, 88px).
+Cram unformatted text blocks into list rows.
+Semantic ul and li tags with accessible row keyboard navigation.
+Single-Line
+Two-Line (with Subtitle)
+Selected Row
+Material 3 Filled & Outlined Text Input Standard
+Text input surface supporting filled and outlined containers, floating labels, helper text, and validation states.
+Text fields allow users to type and edit text, numbers, and symbols across forms and data entry flows.
+Floating field label.
+'outlined' | 'filled'
+Field style archetype.
+Student Registration Form
+Entering Legal Name, Email Address, and Phone Number.
+Error-free input.
+Floating Label Persistence
+Keeps field context visible even after user starts typing.
+Show clear helper text below the field.
+Rely solely on placeholder text as a label.
+Focus ring in brand Royal Blue (#0056FF) with 2px stroke.
+Error State
+Expandable Section Standard
+Vertically stacked sections that expand to reveal related content in place.
+Accordions compress long structured content into scannable headers while keeping the reader on one page.
+allowMultiple
+Allow several open sections.
+Academic Year Plan
+Terms expand to show their milestones.
+Clear, fast task completion.
+Reveal detail only when the reader asks for it.
+Keep one section open by default.
+Do not hide critical actions inside closed sections.
+Chevron rotates 180 degrees on expansion.
+Expanded
+Path Trail Standard
+Ordered trail of links showing the current page location inside the site hierarchy.
+Breadcrumbs give readers a stable map of where they are and a one tap route back up the hierarchy.
+trail
+Ordered ancestor labels.
+Student Record Path
+Registrar walks from Home to one student record.
+A visible path lowers wayfinding effort.
+Show the full path on desktop, last levels on mobile.
+Do not use breadcrumbs as primary navigation.
+Current page uses aria-current and Royal Blue text.
+Current Page
+Hyperlink Standard
+Inline or standalone text link that navigates to related content.
+Links connect related documentation and records with a predictable, scannable text pattern.
+href
+Destination route.
+Enrollment Policy Reference
+Form guidance links to the policy page.
+Predictability
+Underlined Royal Blue text is recognized instantly as a link.
+Write link text that names the destination.
+Do not use vague text such as click here.
+Underline with 2px Azure decoration and offset.
+Focus
+Visited
+Hierarchy Tree Standard
+Expandable tree of parent and child nodes for deep structured content.
+Tree views expose deep hierarchies such as faculties, grades and classes without leaving the page.
+nodes
+TreeNode[]
+Nested node data.
+Faculty Hierarchy Browser
+Admin expands Academics to reach Grade 10 A.
+Grouped nodes keep deep lists manageable.
+Indent children consistently by one level.
+Do not exceed three visible levels without search.
+Selected node uses Soft Lavender fill.
+Selected
+Persistent Section Navigation Standard
+Persistent vertical navigation for the sections of one product area.
+Side navigation keeps section switching visible and stable on medium and expanded windows.
+Section items.
+Program Section Menu
+Program detail page switches between five sections.
+Visible sections beat hidden menus.
+Collapse to a horizontal scroll row on compact windows.
+Do not mix global and section links in one rail.
+Active item is a solid Royal Blue block.
+Compact Row
+Single Action Trigger Standard
+One clear button that performs a single named action.
+Action buttons convert intent into one immediate, reversible where possible, operation.
+onPress
+Action handler.
+Add Student Trigger
+Registrar starts a new enrollment.
+Fitts's Law
+Large target, short travel, fast action.
+Use a verb first label.
+Do not use one button for two different actions.
+Shares the Buttons demo stage.
+Enabled
+Grouped Actions Standard
+A connected group of related action buttons presented as one control.
+Action groups keep sibling view and paging controls visually unified.
+Grouped action labels.
+List View Switcher
+Staff switch between List, Grid and Board.
+Gestalt Grouping
+Shared borders read as one control.
+Keep groups to five actions or fewer.
+Do not mix unrelated actions in one group.
+Shares the Button groups demo stage.
+Contextual Action Bar Standard
+A horizontal bar of icon actions bound to the current editor or record context.
+Action bars place the frequent tools of the current surface in one predictable strip.
+Toolbar tools.
+Document Editor Bar
+Proximity
+Tools sit next to the content they change.
+Group tools by task with dividers.
+Do not overflow the bar without a scroll row.
+Shares the Toolbars demo stage.
+Dismiss Action Standard
+A compact icon button that dismisses a surface, banner or notice.
+Close buttons give every dismissible surface a consistent, discoverable exit.
+onClose
+Dismiss handler.
+Notice Dismissal
+Staff dismiss the holiday notice banner.
+User Control
+A visible exit keeps surfaces trustworthy.
+Place at the top right of the surface.
+Do not use close to delete data without confirmation.
+Minimum 44px touch target with title label.
+Input Listbox Standard
+A text input combined with a filterable listbox of options.
+Combo boxes merge fast typing with safe selection from a known option list.
+Selectable options.
+Campus Picker
+Registrar types to filter five campuses.
+Postel's Law
+Accept typing, filter strictly.
+Filter options as the user types.
+Do not accept free text outside the option list.
+Selected option carries a Royal Blue check.
+Open
+Filtering
+Stepper Number Standard
+Numeric input with stepper buttons for precise quantity entry.
+Number fields prevent invalid quantities while staying fast for small adjustments.
+min
+Minimum value.
+max
+Maximum value.
+Classroom Seat Count
+Admin sets the seat capacity of a room.
+Error Prevention
+Steppers clamp values to the valid range.
+Always show the unit and the maximum.
+Do not use for long identifiers such as phone numbers.
+Steppers keep 44px touch targets.
+Stepped
+Clamped
+Search Input Standard
+A dedicated input field for searching and filtering content.
+Search fields pair a clear icon, live filtering and an instant clear action.
+Current query.
+Module Search
+Staff filter the module directory by typing.
+Recognition
+The search icon signals the field purpose instantly.
+Filter results live as the user types.
+Do not hide the clear action once text exists.
+Shares the Search demo stage.
+Empty
+Typing
+Results
+No Results
+SNPI Royal Blue Flat Standard
+Star rating input for quick quality scoring.
+Current value.
+SNPI console
+Used in the school management console.
+Clear and fast.
+Direct feedback
+Every tap answers at once with a visible state.
+Keep targets at 44px or more.
+Use white icons on light surfaces.
+Flat surfaces, #CAD3F5 keylines, 4px radius, zero gradients, zero dots.
+Flat palette area for picking a brand color.
+Color handles with a loupe preview of the picked hex.
+Single color swatch card with hex and copy action.
+Group of selectable color swatches.
+Circular progress ring with a percentage label.
+Segmented meter showing a level within a range.
+Full width banner announcing one important message.
+Short guidance text under a form field.
+Empty state with one icon, one line, one action.
+Status rows with text state pills.
+Step by step tip anchored to a control.
+Small anchored panel with quick actions.
+Initial avatars in three sizes.
+Selectable thumbnail tiles for media.
+= updatedMs && nowMs - updatedMs
+= builtMs && nowMs - builtMs

@@ -1,0 +1,11 @@
+next
+@/features/document/components/ui-library
+Interaction States Architecture
+Authoritative Material 3 Interaction States & State Layers: Enabled, Disabled, Hover, Focused, Pressed, Dragged, Component Inheritance, and Opacity Overlays.
+space-y-1.5 border-b border-slate-100 pb-4
+states
+SNPI-SMS DOCS
+INTERACTION STATES
+States communicate the interaction status of a component or UI element. State layers
+          provide visual cues across Enabled, Disabled, Hover, Focused, Pressed, and Dragged states
+          with standardized opacity overlays and component inheritance rules.

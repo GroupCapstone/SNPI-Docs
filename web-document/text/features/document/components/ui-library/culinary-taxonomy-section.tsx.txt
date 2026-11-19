@@ -1,0 +1,172 @@
+use client
+react
+@/components/icons
+@/lib/utils
+ingredients
+recipes
+entrees
+templates
+pages
+cookbook
+emerald
+blue
+slate
+Ingredients
+Tokens & Atoms
+Pure, raw, irreducible building blocks. Cannot be broken down further without losing semantic meaning.
+Ingredients are the elementary constants of a design system. They encapsulate raw visual choices—color hexes, typographic scales, spacing units, elevation/z-indexes, motion curves, and standalone SVG glyphs. Ingredients possess zero business logic and zero composite markup.
+Foundations (0/26 Checks: Color 0/4, Layout 0/4, Typography 0/5, Elevation 0/3, Motion 0/3, Iconography 0/7)
+0/26 Foundations
+Color Ramps: #0056FF (Brand Blue), #020617 (Navy Deep), #CAD3F5 (Border)
+Typography: Google Sans 36px Bold, 14px Regular, font-mono line-heights
+Spacing Grid: 4px, 8px, 12px, 16px, 24px, 32px standard increments
+Motion Curves: cubic-bezier(0.16, 1, 0.3, 1), 150ms-300ms timings
+Iconography: 24px stroke-width 2.0 Material Symbols Outlined
+Irreducible: An ingredient cannot be decomposed into smaller design units.
+Stateless: Holds pure values (strings, numbers, vectors) with zero execution runtime.
+Single Source of Truth: Exported directly from Figma tokens or Tailwind configuration.
+// Level 1: Ingredients (Design Tokens)
+brandBlue: '#0056FF',
+brandNavy: '#020617',
+borderSlate: '#CAD3F5',
+xs: '4px',
+sm: '8px',
+md: '16px',
+lg: '24px',
+md: '8px',
+lg: '12px',
+xl: '16px',
+inline-block size-6 rounded-full transition-transform
+Recipes
+Atomic UI Primitives
+Single-purpose, reusable components created by combining fundamental ingredients.
+Recipes combine several ingredients (tokens, typography, SVG icon, padding, hover state) into an atomic, interactive component with a single operational responsibility. They do not handle backend domain state or page-level layout.
+Core Components (Atoms: Button, Checkbox, Radio, Switch, Input, Badge, Avatar, Link, Divider, Tooltip)
+Core Components (Atoms)
+Button: Default, Primary, Destructive, Subtle, Link variants with focus rings
+Text field: Single-line input with prefix icon, clear button, and error state
+Input radio: Single-select radio element with accessible label association
+Switch: Immediate binary toggle with keyboard focus and active tactile pop
+Badge: Pill metadata indicator (New, Updated, Coming, Completed)
+Avatar: Circular user representation with fallback initials and image status
+Tooltip: Accessible hover/focus helper tag with aria-describedby linkage
+Atomic: Serves exactly one interactive or visual responsibility.
+Framework Agnostic UI: Fully accessible via keyboard navigation, screen readers, and WCAG AA contrast.
+Zero Direct API Calls: Driven purely by props, callbacks, and controlled state.
+// Level 2: Recipes (UI Primitives)
+<button
+scale-110
+Entrees
+Compound Components & Organisms
+Complex, multi-component structures that solve complete user workflows and interaction patterns.
+Entrees combine multiple recipes (buttons, inputs, dropdowns, badges, dividers) into a rich, self-contained organism. An entree satisfies an end-to-end interaction need, such as a filtered data table, navigation drawer, multi-step modal dialog, or toast stack.
+Core Components (Organisms: Accordion, Modal, Toast, Dropdown, Calendar, Breadcrumbs, Pagination, Select, Text Area)
+Core Components (Organisms)
+Data Table: Column sorting, row selection, bulk actions, and pagination
+Modal Dialog: Scrim overlay, escape key dismissal, focus trap, and header/footer slots
+Dropdown Menu: Floating anchored listbox with keyboard arrow navigation and search
+Navigation Bar / Rail: Horizontal and vertical adaptive navigation controllers
+Toast Stack: Queued ephemeral notification overlay with auto-dismiss timer and undo CTA
+Search Filter Bar: Composed search input with chip filters, clear-all, and sort menu
+Self-Contained Orchestration: Manages internal composition of 2 or more atomic recipes.
+Focus & Accessibility Containment: Traps focus (modals) or manages roving tab indexes (menus).
+Slot Architecture: Provides clear header, body, footer, or action slots for customization.
+// Level 3: Entrees (Compound Components)
+Templates
+Layout Scaffolds & Page Shells
+Page-level structural wireframes that position entrees across adaptive viewports without production data.
+Templates define the architectural skeleton of user views. They establish how top app bars, navigation rails, drawers, content canvases, and safety insets arrange and reflow across compact, medium, expanded, and large breakpoints. Templates use mock placeholders or slot props rather than real API models.
+Section 05: Material Design 3 Layout Scaffold Architecture (Compact, Medium, Expanded, Large, Extra Large)
+05 Layout Scaffold
+Settings Master-Detail: Left navigation pane (320px) + right form configuration pane
+Split Screen View: 50/50 dual pane layout for side-by-side editing and previewing
+Full-Bleed Media Layout: Top hero section + constrained content article body (840px max)
+Modal Form Template: Centered floating card with fixed header, scrollable body, and sticky actions
+Responsive Invariant: Smoothly transitions between navigation drawer (mobile) and navigation rail (desktop).
+Safe Insets: Respects system status bar, dynamic island, and desktop viewport boundaries.
+// Level 4: Templates (Layout Scaffolds)
+Pages
+Production Real-World Views
+Concrete, fully instantiated screens with live backend data, real state, and localized copy.
+Pages inject real production models, user authentication, role-based permissions, API error handling, and business logic into templates. At this level, users complete their goals—enrolling in courses, viewing campus metrics, paying invoices, or managing student rosters.
+Complete Production Screen Implementations across SNP-SMS Admin, Teacher, Student, and Parent Portals
+Concrete Views
+Campus Analytics Dashboard: Live metrics, enrollment trends, lab utilization, and latency stats
+Student Lifecycle Hub: Admissions verification, KYC record review, document uploads
+Tuition Billing & Checkout: KHQR dynamic payment generation, fee calculation, receipt print
+Attendance Management: Class barcode scan, attendance roster, absence approval workflows
+Examination & Gradebook: Marks entry, grade distribution curves, report card issuance
+Fully Instantiated: Bound to real API endpoints, database models, and server actions.
+Resilience & States: Handles initial load skeleton, empty state, error boundary, and optimistic updates.
+Role Aware: Restricts visibility and actions based on user permissions (RBAC).
+// Level 5: Pages (Concrete Views)
+Cookbook
+The Complete Design System
+The living master manual, token governance rules, and contribution workflows that bind all tiers.
+The Cookbook is the supreme governance layer of the design system. It contains brand principles, accessibility requirements, component anatomy, design tokens, contribution RFC guidelines, version release procedures, and maintenance SLAs. It ensures consistency across all product teams.
+Complete 4-Phase System (Design Language 5/10, Foundations 0/26, Core Components 0/166, Maintenance 0/28)
+230 Total Checks
+Brand Blueprint: Vision, Principles, Voice, Terminology, Assets (5/5 Completed)
+Design Guidelines: Accessibility (WCAG 2.1 AA), Writing, Microcopy, i18n (0/5)
+Foundations: 26 token checks for Color, Layout, Typography, Elevation, Motion, Icons (0/26)
+Core Components Manual: 166 checks across 29 primitives with interactive demos (0/166)
+Maintenance Manual: 28 checks across Documentation, Local libs, Team processes, Community, RFCs (0/28)
+Tier 1 Browser Matrix: Chrome 120+, Safari 17+, Edge 120+, Firefox 120+
+Comprehensive: Documents every ingredient, recipe, entree, template, and page guideline.
+Living Governance: Governed by semantic versioning, automated quality gates, and RFC proposals.
+Pair Programming Ready: Accessible to both designers (Figma tokens) and developers (React library).
+// Level 6: Cookbook (Design System Governance)
+name: 'SNP-SMS Liquid Glass M3 Design System',
+version: 'v0.2.17',
+architecture: 'Ingredients -> Recipes -> Entrees -> Templates -> Pages -> Cookbook',
+designLanguage: '5/10 (Brand 5/5 Completed, Guidelines 0/5)',
+foundations: '0/26 Checks',
+coreComponents: '0/166 Checks (29 Primitives)',
+maintenance: '0/28 Checks (5 Pillars)',
+p0Security: '2h SLA',
+p1Breaking: '24h SLA',
+p2Enhancement: '5d SLA',
+relative size-9 transition-transform
+id
+undefined
+space-y-6
+size-5
+button
+space-y-2
+space-y-1.5
+size-3
+leading-relaxed whitespace-pre-wrap
+space-y-2 pt-2
+Raw Figma Design Tokens
+Production Design System
+Zero (Pure UI Presentation)
+Layout Reflow & Viewports
+Live Domain Models & APIs
+Component Taxonomy Architecture
+6-Tier Culinary Model
+From Ingredients to the Master Cookbook
+Metaphor: Brad Frost Atomic + Culinary Specialization
+A design system scales reliably when components are categorized by granularity and
+          dependency. By structuring elements from irreducible
+(design
+          tokens) through atomic
+, compound
+,
+          structural
+, and production
+, all the way
+          to the governing
+, teams avoid tech debt, prevent circular
+          dependencies, and maintain seamless velocity.
+ACTIVE
+Checklist Framework Association:
+Mandatory Architectural Invariants:
+Concrete Catalog Components in SNP-SMS:
+TypeScript / React Specification
+Copied
+) : (
+Copy Snippet
+Dependency Hierarchy Flow
+Inputs:
+Outputs:
+Business Logic:

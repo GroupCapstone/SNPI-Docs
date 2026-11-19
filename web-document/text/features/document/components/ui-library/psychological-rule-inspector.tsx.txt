@@ -1,0 +1,158 @@
+use client
+react
+@/components/icons
+@/lib/utils
+fitts
+hicks
+millers
+doherty
+postels
+culinary
+ingredients
+recipes
+entrees
+templates
+pages
+cookbook
+Fitts's Law
+Paul Fitts
+1954
+T = a + b * log2(2D / W)
+All interactive elements must possess an effective hit target >= 44x44px (using ::before hit expansion for compact icons <= 24px) and provide 100ms temporal coyote time on boundary exits.
+Target Width >= 44px
+Meets WCAG 2.1 AAA and Apple HIG spatial acquisition standards.
+Target too small (<44px). Add relative positioning and ::before expansion.
+Hick's Law
+William Edmund Hick & Ray Hyman
+1952
+T = b * log2(n + 1)
+The time it takes to make a decision increases logarithmically as the number of choices increases.
+Never overwhelm users with uncurated choices. Enforce progressive disclosure: surface <= 5 primary actions per tier and defer secondary options behind searchable pickers or expandable drawers.
+Visible Choices <= 5
+Optimal decision velocity. Users maintain rapid cognitive throughput.
+High cognitive friction (>5 options). Introduce search filtering or progressive disclosure.
+Miller's Law
+George A. Miller
+1956
+Capacity = 7 ± 2 chunks
+The average person can only keep 7 (plus or minus 2) items in their working memory simultaneously.
+Group dense records, forms, and tables into semantic visual cards containing <= 5 fields per section. Segment long numeric identifiers (phones, payment cards, student IDs) with hyphens or spaces.
+Chunked Items <= 5 per section
+Working memory load respected. Information easily scanned and retained.
+Cognitive overload (>5 fields). Segment form fields into modular titled sub-cards.
+Doherty Threshold
+Walter J. Doherty & Ahrvid Thadhani
+1979
+Interaction Response <= 400ms
+Computer and human productivity increases dramatically when interaction pace is sustained at <= 400ms, preserving flow state.
+Provide immediate tactile pointerdown feedback (scale 0.96) within <100ms. For operations requiring >400ms, immediately display animated skeleton shimmers and optimistic UI updates.
+Feedback Latency <= 400ms
+Flow state preserved. User perceives instantaneous physical parity.
+Cognitive lag detected (>400ms). Implement client optimistic UI and skeleton shimmers.
+Postel's Law (Robustness Principle)
+Jon Postel
+1981
+Liberal Acceptance, Strict Transmission
+Be conservative in what you send, be liberal in what you accept in human-computer data entry.
+Inputs must accept varied human representations (e.g. date strings, unformatted phone numbers, informal search queries) and normalize internally before dispatching strict ISO/E.164 models to APIs.
+Input Tolerance Active
+Forgiving normalization active
+Strict regex rejection only
+Robust user tolerance. User intent is parsed without frustrating validation friction.
+High user error rate. Replace strict regex blocking with permissive input normalizers.
+Culinary Component Hierarchy Rule
+Brad Frost & Dan Mall (Adapted for SNP-SMS)
+2026
+Downward Dependency Invariant
+Components must follow a strict one-way downward composition hierarchy from Ingredients to Cookbook, preventing circular dependencies and architectural bloat.
+One-Way Downward Dependency
+culinaryTier
+id
+### Mandatory AI Agent Skill Rule: Cognitive Psychology & Component Architecture
+As an AI coding agent pair-programming on SNP-SMS, you MUST ALWAYS obey the following psychological invariants when designing or implementing user interfaces:
+1. FITTS'S LAW (SPATIAL & TEMPORAL ACQUISITION):
+- Touch targets must measure >= 44x44px. For compact icon buttons (<= 24px), expand hit areas via `::before` absolute pseudo-elements.
+- Maintain 100ms temporal coyote time on cursor leave boundaries to prevent unintended menu dismissal.
+2. HICK'S LAW (COGNITIVE DECISION VELOCITY):
+- Surface <= 5 primary visible actions or options per tier.
+- Employ progressive disclosure: defer secondary configurations behind search fields, expandable drawers, or segmented tabs.
+3. MILLER'S LAW (WORKING MEMORY CHUNKING):
+- Group dense forms and ledgers into titled visual cards containing <= 5 fields per section.
+- Chunk identifiers (phones, payment cards, national IDs) into 3-4 character clusters with spaces or hyphens.
+4. DOHERTY THRESHOLD (PERCEIVED VELOCITY PARITY):
+- Maintain <= 400ms feedback cycles. Trigger instant active press feedback (scale 0.96) on pointerdown.
+- Display optimistic UI state updates and skeleton shimmers for asynchronous operations requiring > 400ms.
+5. POSTEL'S LAW (ROBUSTNESS PRINCIPLE IN INPUTS):
+- Liberal acceptance: Parse loose human formats (dates, phone numbers, search keywords).
+- Strict transmission: Normalize internally to standard ISO/E.164 structures before network dispatch.
+6. CULINARY HIERARCHY RULE (ONE-WAY DOWNWARD IMPORTS):
+- Obey the 6-tier architecture: Ingredients (Tokens) -> Recipes (Atoms) -> Entrees (Organisms) -> Templates (Scaffolds) -> Pages (Views) -> Cookbook (Governance).
+undefined
+space-y-6
+size-5
+button
+size-3
+<input
+type="range"
+min="20"
+max="64"
+step="2"
+space-y-1.5 pt-2
+range
+16
+min="2"
+max="12"
+step="1"
+min="50"
+max="1200"
+step="50"
+translate-x-5
+translate-x-0
+space-y-3 lg:col-span-7
+space-y-2
+Compliant
+Violation
+size-4
+size-3.5
+leading-relaxed whitespace-pre-wrap
+= 44x44px (using ::before hit expansion for compact icons
+400ms, immediately display animated skeleton shimmers and optimistic UI updates.',
+    metricThreshold: 'Feedback Latency
+= 44x44px. For compact icon buttons (
+Cognitive Psychology Engine
+AI Agent Skill Enforcement
+Real-Time Psychological Design Rule Inspector
+Compliance:
+Reset
+This real-time inspector bridges foundational human-computer interaction (HCI) psychology
+          with production engineering. Any AI agent or engineer creating new components or views in
+          SNP-SMS must evaluate designs against these 6 invariants before implementation.
+Interactive Component Parameters
+Live Simulator
+Touch Target Dimension:
+20px (Inaccessible)
+44px (Standard)
+64px (Spacious)
+Visible Choices per Tier:
+2 choices
+5 choices (Optimal)
+16 choices (Fatigue)
+Fields per Card / Chunk:
+2 fields
+5 fields (Miller Ceiling)
+12 fields (Overload)
+Perceived System Response:
+50ms (Physical)
+400ms (Flow Threshold)
+1200ms (Lag)
+Postel Normalization:
+Target Component Tier:
+Psychological Invariant Checklist (Real-Time Evaluation)
+Live Engine
+Mathematical Formula:
+Rule:
+AI Agent Skill Rule Specification (Real-Time Output)
+Ready-to-use rule prompt for autonomous AI coding agents
+Copied Rule Prompt
+) : (
+Copy Agent Rule

@@ -1,0 +1,2 @@
+@/features/document/components/ui-library
+library

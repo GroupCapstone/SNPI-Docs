@@ -1,0 +1,20 @@
+use client
+react
+motion/react
+@/lib/utils
+border-2 border-[#CAD3F5]
+#0056FF
+BÉZIER SPEC
+border-none
+#FFFFFF
+SYSTEM CORE
+#020617
+TOKEN SPEC
+LAYOUT MESH
+ACTION SPEC
+INTELLIGENCE
+spring
+bottom center
+MOD 0
+ring-2 ring-current
+ACTIVE

@@ -1,0 +1,139 @@
+use client
+react
+@/lib/utils
+@/components/icons
+cyber-armor
+armor
+gooey
+hook-sidebar
+sidebar
+dropdown
+menu
+rail
+navigation
+accordion
+breadcrumbs
+search
+tab
+button
+fab
+action
+duration
+time
+clock
+date
+calendar
+password
+lock
+key
+text
+field
+label
+chip
+tag
+badge
+switch
+toggle
+check
+select
+combo
+picker
+color
+swatch
+bell
+notification
+toast
+snackbar
+skeleton
+loading
+progress
+meter
+dialog
+alert
+404
+sheet
+help
+tooltip
+popover
+table
+counter
+number
+player
+step
+voice
+audio
+mic
+sound
+volume
+avatar
+user
+card
+folder
+list
+dropzone
+upload
+ai
+bot
+cipher
+terminal
+marquee
+group-navigation
+group-inputs
+group-feedback
+group-display
+group-forms
+group-sections
+md
+sm
+lg
+size-8 rounded-[4px]
+size-10 rounded-[4px]
+size-11 rounded-[4px]
+size-4
+size-5
+size-5.5
+4px
+border-slate-200
+border-slate-300
+border-transparent
+border-[#CAD3F5]
+ring-[#0056FF]/35
+rgba(0, 86, 255, 0.16)
+ring-[#2277FF]/35
+rgba(34, 119, 255, 0.16)
+rgba(0, 86, 255, 0.14)
+#0056FF
+border-slate-200/90
+border-slate-200/80
+rgba(2, 6, 23, 0.04)
+ice
+Ice Tint
+rgba(0, 86, 255, 0.08)
+yellow
+Signal Yellow
+border-[#FEF08A]
+rgba(250, 204, 21, 0.12)
+azure
+Azure Tint
+border-[#BAE6FD]
+rgba(34, 119, 255, 0.08)
+emerald
+Mint Emerald
+border-[#BBF7D0]
+rgba(16, 185, 129, 0.10)
+lavender
+Soft Lavender
+border-[#DDD6FE]
+rgba(139, 92, 246, 0.08)
+slate
+Pearl Slate
+border-[#E2E8F0]
+rgba(100, 116, 139, 0.06)
+amber
+Warm Amber
+border-[#FDE68A]
+rgba(245, 158, 11, 0.09)
+rose
+Rose Quartz
+border-[#FECDD3]
+rgba(244, 63, 94, 0.08)

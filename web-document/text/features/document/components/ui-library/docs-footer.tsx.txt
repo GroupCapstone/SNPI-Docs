@@ -1,0 +1,106 @@
+use client
+react
+next/link
+@/lib/utils
+./asterisk-logo
+../../changelog-data
+light
+dark
+0 0 24 24
+currentColor
+M12 0C12 6.627 6.627 12 0 12C6.627 12 12 17.373 12 24C12 17.373 17.373 12 24 12C17.373 12 12 6.627 12 0Z
+none
+1.8
+round
+12
+10
+M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20
+M2 12h20
+m6 9 6 6 6-6
+M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z
+M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566 1.01 1.5 1.765 1.5 4.542c0 2.443.682 9.07 1.077 10.428.847 2.915 3.914 3.738 6.643 2.164-3.953 1.002-5.466 4.316-3.1 6.36 4.124 3.565 5.568-3.084 5.88-5.347.312 2.263 1.756 8.912 5.88 5.347 2.366-2.044.853-5.358-3.1-6.36 2.729 1.574 5.796.751 6.643-2.164.395-1.358 1.077-7.985 1.077-10.428 0-2.777-1.066-3.532-3.702-1.737-2.752 1.942-5.711 5.881-6.798 7.995z
+M4 11a9 9 0 0 1 9 9
+M4 4a16 16 0 0 1 16 16
+19
+en
+kh
+0.2.15
+Student Lifecycle
+/students
+Academic Operations
+/classes
+Examination & Grading
+/reports
+Finance & Fee Ledger
+/finance/tuition
+Modular Monolith API
+/document#available-services
+Security & Access Control
+/document/design-system#security
+Developer Documentation
+/document
+Brand & Colors
+/document/design-system#brand-concept
+Architecture Standards
+/document#architecture-standards
+Design System Manual
+/document/design-system
+Monorepo Security Policy
+/document#security-policy
+10 UI Core Components
+/document/design-system#core-10
+Verification Pipeline
+/document/changelog#verification
+Changelog Portal
+/document/changelog
+Quickstart Guide
+/document#quickstart
+About SNPI-SMS
+/document#about
+Engineering Team
+Institutional Governance
+/document#governance
+Campus Life & Events
+/document#campus-life
+Contact Administration
+/document#contact
+Trust & Compliance
+/document#compliance
+Partner Network
+/document#partners
+Status
+Privacy Policy
+/document#privacy
+Terms of Use
+/document#terms
+Modern Slavery Statement
+/document#modern-slavery
+Cookie Preferences
+/document#cookies
+md:col-span-1 lg:col-span-1
+SNPI-SMS Developer Portal
+inline-block
+md
+standard
+space-y-4 md:col-span-3 lg:col-span-3
+space-y-3
+relative
+button
+English (US)
+Khmer (KH)
+rotate-180
+_blank
+noreferrer noopener
+X (formerly Twitter)
+SNPI on X
+size-4
+LinkedIn
+SNPI on LinkedIn
+Bluesky
+SNPI on Bluesky
+/document#public-feeds
+RSS 2.0 Syndication Feed
+Public Feeds & RSS 2.0
+PLATFORM
+LEARN
+COMPANY

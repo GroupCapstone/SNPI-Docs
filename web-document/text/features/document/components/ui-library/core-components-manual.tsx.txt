@@ -1,0 +1,687 @@
+use client
+react
+@/components/icons
+@/lib/utils
+Structure
+Feedback
+Media
+Action
+Navigation
+Form
+comp-accordion
+Accordion
+Accordion toggles the visibility of content regions when the trigger element gets pressed.
+acc-active
+Active state
+Comes in two states for toggling its content visibility. Distinct trigger icon between open/closed.
+acc-comp
+Composition
+acc-trans
+Toggle transition
+Subtle height and opacity animation to help users understand component behavior.
+acc-rel
+Content and trigger relation
+Focusing content area with assistive technologies announces additional context from trigger element.
+comp-alert
+Alert
+Alert displays a prominent message about the whole page or its specific area.
+alt-color
+Colors
+Differentiate visual appearance based on role (info, success, warning, error) with AA standard contrast.
+alt-title
+Title support
+Supporting a title helps users understand the context faster for longer alert messages.
+alt-icon
+Icon support
+Icon illustrates the role and provides an additional visual hint for colorblind users.
+alt-actions
+Supplementary actions
+Actions relate to text and provide a way to react to the message sent to the user.
+alt-resp
+Responsiveness
+Adapts to viewport size, becoming full-width on mobile to save space.
+alt-a11y
+Accessibility roles
+Announces accessibility roles correctly via role="alert" or role="status".
+comp-avatar
+Avatar
+Thumbnail of a user photo, organization, or a visual representation of other types of content.
+ava-img
+Image
+Masks image into shape and handles arbitrary source image aspect ratios safely.
+ava-fallback
+Image fallback
+Shows fallback image, icon, or initials when image is missing or errors during load.
+ava-sizes
+Sizes
+Supports at least 3 distinct sizes (e.g. 24px, 36px, 48px) with small size for dense tables.
+ava-colors
+Applies background color to shape with WCAG AA contrast ratio for initials and icons.
+ava-shape
+Shape
+Supports circle and rounded square variants based on surface and branding requirements.
+ava-groups
+Avatar groups
+Stacks multiple avatars with negative margin and overflow badge (+N).
+ava-label
+Accessibility label
+Provides accessible name for non-decorative avatars without visible text.
+comp-badge
+Badge
+Compact element that represents the status of an object or user input.
+bdg-colors
+Predefined colors per role with WCAG AA standard contrast ratio.
+bdg-variants
+Variants
+Multiple variants including filled, outlined, and subtle/faded background.
+bdg-sizes
+Multiple sizes: micro 18px for dense tables up to large 28px for marketing banners.
+bdg-icon
+Recognizable leading or trailing icon illustrating badge context.
+bdg-dismiss
+Dismissible action
+Close/dismiss trigger button for dynamic filter and tag selections.
+bdg-empty
+Empty state
+Pill or circular dot without text preserving geometric proportions.
+bdg-pos
+Positioning
+Supports absolute anchor positioning relative to icons or container corners.
+comp-button
+Button
+Interactive element used for single-step actions.
+btn-colors
+Role-based colors (primary blue, neutral slate, destructive red) with WCAG AA contrast.
+btn-variants
+Five tiers: Filled, Filled Tonal, Elevated, Outlined, and Text.
+btn-sizes
+Multiple sizes (sm 32px, md 40px, lg 48px) adhering to min 44px touch targets on mobile.
+btn-icon
+Icon + label, label-only, and icon-only with mandatory aria-label.
+btn-hover
+Hover state
+Clear visual cue and background tint transition on pointer hover.
+btn-active
+Subtle scale-down or elevation drop on press.
+btn-loading
+Loading state
+Embedded spinner replacing content without altering button dimensions.
+btn-disabled
+Disabled state
+Visually non-interactive with disabled attributes and pointer-events-none.
+btn-role
+Accessibility role
+Resolves button or anchor link role automatically based on href.
+btn-focus
+Focus indicator
+Visible 2-3px focus ring on keyboard Tab navigation.
+comp-breadcrumbs
+Breadcrumbs
+Top-level product navigation that helps user understand current page hierarchy and navigate back.
+brd-icon
+Communicates roles of pages linked in breadcrumbs consistently.
+brd-disabled
+Current page item disabled from clicking with aria-current="page".
+brd-collapse
+Collapsed state
+Truncates long path hierarchies into an ellipsis dropdown.
+brd-separator
+Custom separator
+Supports slashes, chevrons, or arrows between path segments.
+comp-calendar
+Calendar
+Grid displaying days in one or more months allowing users to select a single date or date range.
+cal-modes
+Display modes
+cal-selected
+Selected state
+Visually highlights selected single dates and range spans between start/end.
+cal-month
+Month selection
+Fast switching between months and dropdown for jump-to-year.
+cal-days
+Day names
+Compact weekday abbreviations (Mo, Tu, We, Th, Fr, Sa, Su).
+cal-i18n
+Internationalisation
+Localized date formatting and correct regional first-day-of-week ordering.
+cal-keyboard
+Keyboard navigation
+cal-a11y
+State announcement
+Selected dates announced by screen reader upon cell focus.
+comp-card
+Card
+Container to group information about subjects and their related actions.
+crd-comp
+Content composition
+Flexible body container supporting arbitrary text, metrics, and nested controls.
+crd-media
+Media sections
+Top full-width media banner or horizontal side thumbnail integration.
+crd-actions
+Footer action buttons or full-surface clickable card with hover elevation.
+crd-resp
+crd-groups
+Card groups
+Consistent gutter and height alignment in multi-column collections.
+comp-carousel
+Carousel
+Horizontal scrollable areas used for displaying grouped content.
+car-controls
+Navigation controls
+Accessible previous/next buttons for mouse users.
+car-comp
+Item composition
+Flexible item slots supporting cards, banners, or mixed components.
+car-sizes
+Item sizes
+Displays peek of next item on mobile to visually cue horizontal scrollability.
+car-touch
+Touch navigation
+Hardware-accelerated touch swipe gestures with momentum snap.
+car-resp
+Dynamically adjusts visible slide count based on container breakpoint.
+car-a11y
+comp-checkbox
+Checkbox
+Form field used to select one or multiple values from a list.
+chk-label
+Label
+Clickable text label linked via htmlFor, announced properly by screen readers.
+chk-checked
+Checked state
+chk-error
+Error state
+Form validation error border with linked error message.
+chk-disabled
+Prevents interaction and excludes value from form submission.
+chk-indet
+Indeterminate state
+Horizontal dash symbol when child items are partially selected.
+chk-group
+Checkbox group
+Supports multi-select arrays with group-level legend or label.
+chk-kbd
+Keyboard support
+Spacebar toggle and native Tab focus traversal.
+comp-divider
+Divider
+Element for visual content separation.
+div-dir
+Direction
+div-a11y
+Announced with role="separator" and aria-orientation if non-decorative.
+comp-dropdown
+Dropdown
+List of contextual actions that users can trigger.
+drp-comp
+Flexible menu surface supporting action items, subheaders, and dividers.
+drp-hover
+Hover trigger
+Optional hover trigger with focus synchronization for keyboard users.
+drp-pos
+Dynamic positioning
+Floating collision detection keeping menu visible within viewport.
+drp-resp
+Floating popover on desktop, converts to bottom sheet on mobile.
+drp-trap
+Focus trapping
+Focus moves into menu on open and returns to trigger upon dismiss.
+drp-kbd
+Arrow keys navigate items, Escape or Tab out closes menu.
+comp-icon
+Icon
+Wrapper for SVG assets to control their appearance.
+icn-colors
+Supports color values from design system tokens and inherits color from parent element automatically.
+icn-sizes
+Several predefined sizes (16dp, 20dp, 24dp, 32dp) paired with typography scale for visual alignment.
+icn-interactive
+Interactivity
+comp-image
+Utility for displaying images and controlling their behavior.
+img-sizes
+Flexible width and height with CSS aspect-ratio support to scale proportions dynamically based on parent container.
+img-fallback
+Displays an empty box with background, icon, or static placeholder image when URL is incorrect or undefined.
+img-density
+Screen density support
+Supports responsive srcset loading of 1x, 2x, and 3x assets to serve the optimal resolution.
+img-alt
+Alt text
+Provides concise, meaningful alt text describing picture contents when non-decorative (or empty alt="" for decorative).
+comp-link
+Link
+Interactive text element used for navigation within text paragraphs.
+lnk-icon
+lnk-colors
+Predefined colors per role, automatically inheriting color from parent element when embedded in text.
+lnk-disabled
+Visually shows link is non-interactive and restricts click/keyboard activation.
+lnk-font
+Font inheritance
+Inherits typography styles (font-family, size, weight) when used inside text elements.
+lnk-multiline
+Multiline display
+Wraps gracefully across line breaks within paragraphs without breaking text flow or hit target boundaries.
+lnk-role
+Resolves button or link accessibility role automatically based on href presence.
+comp-list
+List
+List is used to display a list of items.
+lst-order
+Order
+Supports bulleted (unordered), numbered (ordered), unstyled, and icon-bulleted list types.
+lst-comp
+lst-role
+Assistive technologies announce correct list role (<ul>, <ol>) and total item count.
+comp-loading
+Loading indicator
+Animated element that communicates progress without telling how long the process will take.
+lod-colors
+Supports multiple semantic roles and adapts to parent surface color schemes (brand blue, white on dark).
+lod-sizes
+Predefined sizes (16dp inline, 24dp button, 48dp page center) matching rendered area.
+lod-duration
+Loading duration
+Displays continuously until completion or error, or displays elapsed/estimated progress when determinable.
+lod-motion
+Reduced motion
+Honors prefers-reduced-motion settings by slowing down or replacing spin with static opacity pulse.
+lod-label
+Provides aria-label and role="status" describing the content area being loaded.
+comp-modal
+Modal
+Container appearing in front of main content to provide critical information or actionable content.
+mdl-comp
+mdl-actions
+Dedicated bottom action row for primary confirmation, secondary cancel, and tertiary actions.
+mdl-close
+Close action
+Straightforward dismiss via top-right close button, backdrop click, or cancel action.
+mdl-pos
+Supports centered viewport modal dialogs or sliding drawer sheets on screen edges.
+mdl-sizes
+Sizes display
+Supports responsive width tiers (sm 400px, md 600px, lg 840px) and max-height scrolling.
+mdl-trap
+Focus moves into first focusable modal element on open and stays trapped until closed.
+mdl-kbd
+Escape key closes modal, Tab traverses internal elements, and focus returns to trigger on close.
+mdl-label
+Title and subtitle labeling
+Uses role="dialog" or "alertdialog" with aria-labelledby and aria-describedby linkage.
+comp-pagination
+Pagination
+Pagination enables a selection from a range of pages.
+pag-selected
+Selected page state
+Visually highlights active page number with brand fill and makes it non-interactive (aria-current="page").
+pag-ranges
+Page display ranges
+Renders bounded range around active page (e.g. 1 ... 4 [5] 6 ... 20) with ellipsis jump buttons.
+pag-items
+Amount of items per page
+Provides dropdown to select 10, 25, 50, or 100 items per page with live recount.
+pag-indet
+Indeterminate amount of pages
+Supports cursor-based previous/next mode when total count is unknown beforehand.
+pag-labels
+Full page label announcements
+Provides dynamic aria-label ("Page 5 of 20", "Go to page 6") instead of bare numbers.
+pag-announcement
+Screen reader announces active page selection upon focus or page transition.
+comp-progress-bar
+Progress bar
+Bar displaying progress for a task that takes a long time or consists of several steps.
+prg-label
+Provide support for visually displaying a label explaining what a progress bar is responsible for.
+prg-sizes
+Loading indicators might provide multiple sizes, depending on the size of the areas where the loading indicator is rendered.
+prg-duration
+Duration
+In some cases, the wait time can't be determined. The loading indicator should be shown until the loading finishes or an error happens. In other cases, it's better to indicate the time left until the loading is complete.
+prg-a11y
+Provide support for adding an accessibility label in case you can't display a label in the interface.
+comp-radio
+Input radio
+Radio is a form element used for selecting one option from a list.
+rad-label
+There should be a text label linked with the radio field. Clicking the label should also trigger the selection. If the label is not rendered on the page, assistive technologies should still announce it.
+rad-checked
+Display when the radio gets selected and is used for the form submission.
+rad-error
+Use an error state for form validation when the error is related to the radio field. Always use a text error along with a different field color.
+rad-group
+Radio group
+Radio buttons are always used as a group to avoid locking the selection after one of the radio buttons is checked.
+rad-keyboard
+Radio selection should be triggered with the keyboard. Using native elements for this should provide this kind of interaction automatically.
+comp-select
+Select
+Select lets you choose a single value from a list of options.
+sel-label
+Text labels linked with the Select field can provide users with additional context. Clicking the label should also trigger the select dropdown.
+sel-error
+Use an error state for form validation when the error is related to the select only. Display an additional error icon for better accessibility.
+sel-disabled
+Use the disabled state to prevent Select interactions and remove its value from the submitted form values.
+sel-placeholder
+Placeholder
+When no value is selected - display a placeholder value. You can use the same placeholder value to let users reset the select value back to the default.
+sel-helper
+Helper text
+Provide users with additional context about the select purpose and the requirements for the selection.
+sel-icon
+Add an area for displaying an icon at the start of the field to communicate the purpose of the Select as a component or the selected value.
+sel-prefix
+Prefix
+Add an area for custom content to make the selection more contextual for the user. For example, you can display country flags in your country code selection.
+sel-a11y
+Assistive technologies announce expanded/collapsed state, selected value, and provide full keyboard arrow navigation.
+comp-skeleton
+Skeleton
+Placeholder replacing page elements while their data is loading.
+skl-sizes
+Skeleton matches components of various sizes available in design system to avoid layout shifts once data is loaded.
+skl-shapes
+Shapes
+Matches components of various shapes (circles, pills, rectangles) to keep loading state aligned with actual layout.
+skl-comp
+Compose simple skeletons into advanced composite layouts without requiring 1:1 interface mapping.
+skl-motion
+Reduces or altogether removes the shimmer wave animation for the prefers-reduced-motion user preference.
+comp-switch
+Switch
+Toggle for immediately changing the state of a single item.
+Displays when switch gets selected and activates underlying functionality, immediately updating data.
+Disabled state prevents switch interactions and visual manipulation.
+Switch selection triggered via Spacebar or Enter using native button or input semantics.
+Provides accessible name (aria-label or aria-labelledby) describing component purpose when visual text is omitted.
+comp-tabs
+Tabs
+Navigation between multiple pages or content sections.
+tab-comp
+tab-variants
+Multiple variants: rendered as pills when used directly on the page, or underlined when inside cards.
+tab-selected
+One tab trigger is always selected and highlighted visually since tabs display content from one panel.
+tab-disabled
+Tab triggers can be disabled to prevent users from switching to a specific tab panel.
+tab-icon
+Displays an icon next to tab trigger text to better illustrate the meaning of each tab.
+tab-equal
+Equal width layout
+Tab triggers stretch to take equal horizontal space when spanning the full width of the parent container.
+tab-keyboard
+comp-textarea
+Text area
+Form field to enter and edit multiline text.
+txa-label
+txa-error
+Error state for form validation when error relates only to text area, with text error and alert styling.
+txa-disabled
+Disabled state prevents text area interactions and removes its value from submitted form values.
+txa-placeholder
+Displays placeholder value when empty without substituting the persistent label.
+txa-helper
+Provides users with additional context about purpose and formatting requirements for expected value.
+txa-sizes
+Comes in multiple sizes (e.g. compact for data tables, large for marketing inquiry forms).
+txa-a11y
+Provides accessible name when visual label is omitted.
+comp-textfield
+Text field
+Form field to enter and edit single-line text.
+txf-label
+txf-error
+Error state for form validation when error relates only to text field, with distinct error text and icon.
+txf-disabled
+Disabled state prevents text field interactions and removes its value from submitted form values.
+txf-placeholder
+txf-helper
+Provides users with additional context about text field purpose and character/format requirements.
+txf-icon
+Displays leading icon to communicate component purpose or input datatype.
+txf-prefix-suffix
+Prefix / Suffix
+Area for custom contextual content (e.g. payment provider badges, currency symbols, domain suffixes).
+txf-sizes
+txf-a11y
+comp-toast
+Toast
+Notification message or a piece of information displayed above the page content.
+tst-comp
+tst-colors
+Supports multiple semantic colors depending on notification role (e.g. red for error notifications, emerald for success).
+tst-icon
+Area for displaying an icon at the start of the toast to communicate the purpose of the notification.
+tst-timeout
+Timeout
+Dismissed after a sufficient reading timeout, or provides a close button when persistent.
+tst-stacking
+Stacking
+Stacks multiple active toasts on top of each other to avoid cluttering the screen.
+tst-action
+Supplementary action
+Contextual action element (e.g. undo operation when deleting content).
+tst-focus
+Focus management
+tst-motion
+Reduces or removes entrance/exit slide animation for reduced motion preference.
+comp-tooltip
+Tooltip
+Contextual text information display on element hover or focus.
+tlp-pos
+Dynamically switches position to alternate sides (top/bottom/left/right) when default position doesn't fit into viewport.
+tlp-timeout
+Brief delay before opening to prevent unintentional triggers while cursor moves across screen.
+tlp-keyboard
+Accessible on trigger element keyboard focus as well as mouse hover.
+All
+unchecked
+checked
+indeterminate
+sm
+md
+lg
+term-semester
+pp-central
+overview
+pills
+underlined
+Student demonstrated exceptional proficiency in system architecture, microservices decomposition, and relational schema normalization.
+Sokha Chea
+success
+error
+info
+top
+bottom
+core-components-manual
+space-y-8
+space-y-1
+size-3.5
+size-3
+button
+Collapse Invariants
+Expand All Invariants
+border-emerald-300 ring-2 ring-emerald-500/10
+border-[#CAD3F5]
+Toggle all invariants for this component
+size-3 stroke-[3]
+p-5 pb-2
+size-4 transition-transform
+rotate-180
+space-y-0.5
+checkbox
+size-4
+size-5
+size-6
+size-8
+#brand-blueprint
+list
+size-5 animate-spin rounded-full border-2 border-[#CAD3F5] border-t-[#0056FF]
+status
+Loading student records
+space-y-3 font-sans
+progressbar
+Academic Transcript Upload Progress
+Clear Error
+Simulate Error
+radiogroup
+Payment Frequency
+space-y-2
+Semester Payment
+Two installment billing cycles per academic year
+term-annual
+Annual Advance
+5% tuition discount paid upfront before term orientation
+term-monthly
+Monthly Direct Debit
+10 recurring debit schedules via Bakong KHQR
+radio
+paymentFrequency
+campus-select
+relative
+border-[#CAD3F5] hover:border-[#0056FF]/50
+siem-reap
+battambang
+space-y-2 pt-1
+Enabled · Auto-Save
+Disabled · Standby
+space-y-2.5
+space-y-0.5 pr-4
+switch
+true
+translate-x-5
+translate-x-0
+border-b border-[#CAD3F5]
+Overview
+curriculum
+Curriculum
+faculty
+Faculty
+tab
+Overview panel: Core institutional degree accreditation, academic requirements, and department governance details.
+Curriculum panel: 8 semester course syllabi, prerequisite course matrix, and laboratory credit allocations.
+Faculty panel: 24 active professors, department research groups, and scheduled consultation office hours.
+comp-textarea-input
+Semester comment
+comp-textfield-input
+text
+Full name
+Dismiss
+Show
+polite
+block font-bold
+Student Enrollment Confirmed
+Payment Transaction Declined
+Invoice #9042 created and guardian notified
+Bakong KHQR gateway returned timeout code E401
+Undo
+Retry
+tooltip
+absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-[#020617]
+gpa-tooltip
+absolute bottom-full left-1/2 -translate-x-1/2 border-4 border-transparent border-b-[#020617]
+All Verified
+size-3.5 transition-transform duration-200
+mt-3 space-y-2 border-t border-slate-100 pt-3
+CORE REUSABLE COMPONENT SPECIFICATIONS
+Core Components Manual
+Category:
+) : (
+        /* COMPACT TOOLBAR FOR STUDIO MODE */
+Cluster:
+Live Interactive Stage
+Tactile Operable Preview
+Academic Calendar 2026-2027
+Semester 1 begins October 15, 2026. Fall enrollment window open.
+Unsaved Roster Modifications
+Save class changes before leaving page.
+SC
+JD
+MK
++4
+Active
+Enrolled
+Pending (3)
+Primary Action
+Secondary
+Disabled
+Academics
+CS401
+October 2026
+Khmer / English (Mon Start)
+CS401 Syllabus
+3 Credits
+Active Enrollment
+Left Section
+Right Section
+Select Campus Branch...
+16dp
+20dp
+24dp
+32dp
+Aspect Ratio: 16:9
+Density: 2x
+Academic Charter
+Configure Institutional Branches
+Assign Department Faculty Leads
+Loading class roster... (84%)
+Confirm Enrollment
+Esc to close
+Register Student ID #4092 for CS401 Fall Term?
+Cancel
+Confirm
+...
+12
+10 of 120 items
+Uploading Transcript PDF
+Est. 8s left
+File size: 4.2 MB / 6.1 MB
+-15%
++15%
+Tuition Payment Frequency
+Please select an active tuition payment option to continue
+                              registration.
+Campus Branch Location
+KH-01
+Choose campus location...
+Phnom Penh Central Campus (Sen Sok)
+Siem Reap Regional Campus (Wat Bo)
+Battambang Innovation Hub
+) : (
+Valid campus branch is required for faculty allocation.
+Determines localized classroom scheduling, faculty advisors, and
+                            regional fee adjustments.
+Content Card Loading State
+Avoids Cumulative Layout Shift (CLS)
+Immediate State Toggle
+Automated SMS Grade Notification
+Dispatches instant SMS to registered guardians upon exam score
+                                publication
+Enterprise Ledger Sync (Locked)
+Requires Super Administrator elevated access permissions to
+                                reconfigure
+Section Navigation
+Pills
+Underlined
+Archives
+Academic Performance Evaluation
+Commentary must be at least 40 characters for formal report card
+                              export.
+Printed directly onto official end-of-term transcript card.
+Student Full Name (Latin)
+ID: 8092
+Name must match passport or national identification document.
+Primary identification field synchronized with Ministry accreditation
+                            database.
+Stacked Toast Notification Layer
+Success
+Error
+Top
+Bottom
+Calculated based on 8 semester credit weights (GPA 3.85)
+Cumulative Academic GPA: 3.85

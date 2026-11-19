@@ -1,0 +1,370 @@
+use client
+react
+@/components/icons
+@/lib/utils
+sync
+light
+dark
+light-default
+light-colorblind
+light-lavender
+dark-default
+dark-dimmed
+dark-colorblind
+Day (White Default)
+Crisp pure white canvas (#FFFFFF) with soft lavender borders (#CAD3F5), royal blue accents (#0056FF), and deep navy typography (#020617).
+#FFFFFF
+#CAD3F5
+Moon (Dark Mode)
+Psychologically calibrated nocturnal moonlit slate canvas (#0F172A) with pure white typography (#FFFFFF), pure white keyline icons (#FFFFFF), and luminous azure accents (#60A5FA).
+#0F172A
+#60A5FA
+AAA
+AA
+UI
+#EFF5FF
+#E3E7FC
+#000000
+#020617
+#1E293B
+#475569
+#0038B3
+#2563EB
+#0056FF
+#DBEAFE
+#050E28
+#0369A1
+#2277FF
+#E0F2FE
+#082F49
+#B45309
+#D97706
+#FEF3C7
+#78350F
+#B91C1C
+#DC2626
+#FEE2E2
+#991B1B
+Light high contrast
+Light colorblind
+Light soft lavender
+Light default
+primary
+primary-700
+primary-500
+7.4:1
+4.7:1
+Key institutional brand actions, primary CTAs, active highlights.
+primary-container
+primary-50
+15.2:1
+Subtle tonal card fills, segment tracks, pill selections.
+secondary
+accent-2-500
+4.8:1
+Secondary actions, filters, interactive accents.
+secondary-container
+accent-2-100
+14.8:1
+Secondary tonal badge backdrops, navigation highlights.
+tertiary
+accent-500
+5.1:1
+Warm accents, badges, contrasting highlights.
+tertiary-container
+accent-100
+13.5:1
+Tonal warning highlights, subtle alert backgrounds.
+error
+error-600
+5.9:1
+Destructive operations, failed validations, error states.
+error-container
+error-100
+14.2:1
+Alert containers, invalid form input backgrounds.
+surface-container-lowest
+neutral-50
+16.5:1
+Base document canvas layer
+surface-container-low
+#F8FAFC
+neutral-100
+15.8:1
+Sidebar & recessed track
+surface-container
+Default card container
+surface-container-high
+#E2E8F0
+neutral-200
+12.4:1
+Hovered card & dropdown track
+surface-container-highest
+#CBD5E1
+neutral-300
+9.8:1
+Modal dialogs & elevated sheets
+inverse-surface
+primary-900
+Inverse snackbars & tooltips
+outline
+neutral-900
+neutral-500
+7.0:1
+3.1:1
+Input borders, prominent component outlines.
+outline-variant
+primary-200
+3.0:1
+Dividers, subtle card keylines, table borders.
+status-success
+#10B981
+success-500
+Passed checks, active status, verified records.
+status-warning
+#F59E0B
+warning-500
+6.0:1
+Pending states, cautionary flags, attention notices.
+status-error
+#EF4444
+error-500
+4.6:1
+System errors, broken builds, validation blocks.
+status-info
+#0284C7
+info-500
+Informational announcements, guidance pills.
+dark-moon
+#0B132B
+#334155
+#F1F5F9
+#94A3B8
+#BFDBFE
+#93C5FD
+#002A8C
+#BAE6FD
+#38BDF8
+#7DD3FC
+#075985
+#FDE68A
+#FBBF24
+#FCD34D
+#92400E
+#FECACA
+#F87171
+#450A0A
+Dark high contrast
+Dark dimmed (Moon)
+Dark colorblind
+Dark default
+primary-400
+primary-300
+12.8:1
+8.2:1
+Luminous primary highlights, core action triggers.
+14.5:1
+Deep nocturnal track fills, segment pill backdrops.
+accent-2-300
+7.8:1
+Illuminated azure interactive accents, secondary buttons.
+accent-2-700
+13.2:1
+Secondary card elevations, active navigation indicators.
+accent-300
+8.4:1
+Warm nocturnal amber badges, contrasting indicators.
+accent-700
+11.8:1
+Muted warm warning containers in night conditions.
+error-400
+7.5:1
+error-800
+Subdued error card containers and validation callouts.
+neutral-950
+19.8:1
+Deep obsidian pitch base layer (Neutral 950)
+primary-950
+18.4:1
+Nocturnal workspace canvas (Primary 950)
+17.5:1
+Subsurface card foundation (Neutral 900)
+neutral-800
+Elevated dropdown and hover layer (Neutral 800)
+neutral-700
+9.1:1
+Modal popups and floating tooltips (Neutral 700)
+Inverse stark light callout
+neutral-600
+5.8:1
+4.2:1
+Subtle table dividers, card keylines in night mode (Neutral 700).
+#34D399
+#064E3B
+success-400
+7.2:1
+Passed pipeline runs, verified checkmarks.
+warning-400
+6.8:1
+Attention warnings, review alerts.
+6.6:1
+Failed pipeline runs, critical alerts.
+info-400
+Informational logs, telemetry packets.
+groups
+surfaces
+components
+demo
+SNPI Campus Academic Core
+idle
+running
+passed
+undefined
+button
+shrink-0 rounded p-1 opacity-70 transition-opacity hover:opacity-100
+size-3.5
+font-mono font-bold
+space-y-2 border-b border-slate-100 pb-5
+space-y-1
+2px
+pt-3
+theme-mode-select
+Day mode active (Pure White #FFFFFF canvas · Deep Navy typography)
+Moon mode active (Obsidian Slate #0F172A canvas · Pure White typography)
+group relative cursor-pointer rounded-2xl border p-4 transition-all duration-150 ease-out active:scale-[0.97] sm:p-5
+space-y-1.5 border-r border-slate-100 pr-2
+col-span-3 space-y-2
+space-y-1.5 border-r border-slate-700/60 pr-2
+space-y-0.5 border-b border-slate-200 pb-2.5
+translate-x-5
+translate-x-0
+space-y-6 rounded-2xl border p-5 transition-colors
+6 Role Groups
+Surface Hierarchy
+Component Roles
+Live Demo Test
+opacity-70 hover:opacity-100
+space-y-2 rounded-xl border p-3
+space-y-2
+Filled Action
+Tonal Base
+Interactive
+Tonal Highlight
+Warm Accent
+Warm Container
+Destructive
+Alert Fill
+Input Stroke
+Divider Line
+Success
+Warning
+Error
+Info
+space-y-3
+Filled Buttons
+on-primary
+Tonal Buttons
+on-secondary-container
+Keyline Buttons
+Form Inputs
+Card Foundations
+Modal Sheets
+Status Badges
+white
+Warning Callouts
+on-tertiary-container
+space-y-1 rounded-xl border p-3
+mt-6 space-y-6 rounded-xl border p-5
+space-y-0.5
+space-y-4
+ring-2 ring-[#0056FF] ring-offset-2
+transparent
+ring-2 ring-red-500 ring-offset-2
+space-y-2 rounded-xl border p-4
+demo-input-field
+text
+99.98%
+space-y-2 pt-2
+Verifying...
+Re-run Tests [PASSED]
+Run Verification Suite
+) : (
+Theme preferences
+Standardized dual-theme preferences:
+. Engineered on visual cognitive psychology to ensure
+              zero eye fatigue, photopic focus by day, and scotopic pure-white typography with white
+              keyline icons at night.
+2-Theme Cognitive Standard
+Active Theme Selection
+Day (White Default) — Active
+DEFAULT
+ACTIVE
+Crisp pure white canvas with soft lavender borders and deep navy typography. Photopic
+            focus for high ambient light.
+CANVAS: #FFFFFF
+TEXT: #020617
+ICONS: #020617 (BLACK)
+NOCTURNAL
+Psychologically optimized nocturnal moonlit slate canvas (#0F172A) with pure white
+            typography (#FFFFFF) and pure white keyline icons (#FFFFFF).
+CANVAS: #0F172A
+TEXT: #FFFFFF (WHITE)
+ICONS: #FFFFFF (PURE WHITE)
+HCI INVARIANTS
+01. Scotopic Glare Mitigation
+Why Moon Uses Slate (#0F172A) Over Pitch Black
+Pitch black (#000000) causes extreme pupillary dilation shock against bright text,
+              inducing astigmatic halation and light bleed. Neutral 900 (#0F172A) cushions retinal
+              light intake while maintaining 15.8:1 contrast.
+Pure White (#FFFFFF) Icons in Moon Mode
+In Moon mode, headings and icons form a single Gestalt unit. UI icons render in pure
+              white (#FFFFFF), matching code editors (VS Code, Cursor), GitHub dark mode, and
+              Antigravity Skills for zero visual noise.
+03. Geometric Container Invariant
+Strict 2px Corner Radius Containers
+All icon backing containers strictly enforce rounded-[2px] across both Day (#EFF5FF
+              fill) and Moon (#1E293B fill), preserving mathematical geometric consistency and
+              preventing circular distortion.
+Contrast
+Increase contrast. Enable high contrast for light or dark mode (or both) based on your
+            system settings.
+Light mode
+Higher contrast on light surfaces
+Dark mode
+Maximum nocturnal contrast ratio
+26 Calibrated Roles
+1. Primary Group
+2 Roles
+2. Secondary Group
+3. Tertiary Group
+4. Error Group
+6. Status Indicators
+4 Roles
+Tone-Based Surface Luminance Ladder (6 Standard Roles)
+Interactive verification of token mapping, live component contrast, and WCAG AAA
+                  compliance.
+Run Color Roles Verification
+Filled Action (Primary)
+Tonal Secondary
+Keyline Outline
+Destructive Action
+Interactive Form Field (Outline Role)
+Tonal Container Metrics
+[ACTIVE]
+Token parity compliance
+2. Automated Color Roles Verification Suite
+Test Assertion
+Derived Token
+Required Standard
+Measured Value
+Result
+Primary Text Contrast
+[PASSED]
+Secondary Copy Contrast
+Primary Action Contrast
+Surface Luminance Tiering
+6 Tiers Monotonic
+Verified
+Nocturnal Moonlit Parity
+Dark Dimmed (Moon)
+Non-Inverting Contrast

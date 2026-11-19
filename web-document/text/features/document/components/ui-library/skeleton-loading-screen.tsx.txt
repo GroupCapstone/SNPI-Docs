@@ -1,0 +1,80 @@
+use client
+react
+@/lib/utils
+@/components/icons
+background: linear-gradient(
+90deg,
+transparent 0%,
+transparent 100%
+rect
+circle
+text
+light
+dark
+rounded-full aspect-square shrink-0
+rounded-[4px]
+--skeleton-base
+#EFF5FF
+--skeleton-highlight
+rgba(255, 255, 255, 0.9)
+--skeleton-speed
+1.8s
+true
+skeleton-shimmer block
+size-16
+size-3
+button
+CS-401
+Computer Systems Architecture
+RISC-V microarchitectures, instruction pipelines, and memory hierarchies.
+Prof. Virak
+48 Enrolled
+DB-502
+Database Internals & Sharding
+MongoDB replica sets, write concerns, WAL journaling, and B-tree indexing.
+Eng. Chantrea
+36 Enrolled
+SEC-603
+Applied Network Cryptography
+Constant-time HMAC operations, PKI x509 cert chains, and timing side-channel defenses.
+Dr. Chann
+29 Enrolled
+space-y-2
+space-y-1.5 pt-1
+size-6
+space-y-3
+size-8
+space-y-1
+ACID Ledger Commitment TX-9204 Finalized
+FINANCIAL LEDGER
+2 minutes ago
+VERIFIED
+Branch Authority Key Rotation Executed
+SECURITY AUDIT
+14 minutes ago
+ROTATED
+Term 2 Final Exam Schedule Published
+ACADEMICS
+1 hour ago
+ACTIVE
+Cryptographic Student Passbook Batch Minted
+ADMISSIONS
+3 hours ago
+COMPLETED
+size-10 shrink-0 rounded-[4px]
+size-2.5
+profile
+list
+Card Grid
+Profile Header
+Data List
+size-3.5 shrink-0
+STATE: LOADED CONTENT
+STATE: SKELETON LOADING
+Dr. Sokha Chann
+SUPERADMIN VERIFIED
+Directs the 47 modular monolith domain engines, managing student lifecycles, ledger
+            hashes, and accreditation pipelines.
+Edit Profile
+Passbook
+SYLLABUS MODULE

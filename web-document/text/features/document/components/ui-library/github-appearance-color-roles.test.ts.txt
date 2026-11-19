@@ -1,0 +1,44 @@
+vitest
+./github-appearance-color-roles
+GitHub Appearance Color Roles Engine (computeActiveColorRoles)
+derives light-default roles matching SNPI Brand blueprint tokens
+light
+light-default
+dark-default
+Light default
+#FFFFFF
+#EFF5FF
+#020617
+#0056FF
+#2277FF
+#10B981
+#F59E0B
+#EF4444
+#0284C7
+derives dark-dimmed (Moon) nocturnal palette with reduced glare
+dark
+dark-dimmed
+Dark dimmed (Moon)
+#0F172A
+#1E293B
+#60A5FA
+#002A8C
+AAA
+derives dark-default roles with Primary 950 obsidian canvas and Neutral 900 subsurface
+Dark default
+#050E28
+#93C5FD
+Light high contrast
+#000000
+Dark high contrast
+#CBD5E1
+contains complete 6-tier surface hierarchy
+surface-container-lowest
+surface-container-low
+surface-container
+surface-container-high
+surface-container-highest
+inverse-surface
+exposes exactly 2 canonical theme specifications (Day and Moon)
+Moon
+Day

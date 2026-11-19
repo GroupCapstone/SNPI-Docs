@@ -1,0 +1,143 @@
+use client
+react
+@/lib/utils
+@/components/icons
+G D
+$mod+N
+light
+dark
+nav-dashboard
+Dashboard Overview
+Real-time telemetry, campus health & active attendance
+Navigation & Pages
+home
+metrics
+analytics
+kpi
+nav-students
+Student Roster & Profiles
+Active cohort rosters, transcripts & enrollment records
+G S
+pupils
+admissions
+dossier
+directory
+nav-attendance
+Attendance Matrix & Audit Logs
+Biometric verification records and branch audit history
+G A
+check-in
+clock
+present
+absent
+nav-academics
+Academic Term Calendar & Schedule
+Lecture periods, exam timetables & campus syllabus
+G C
+calendar
+timetable
+exam
+semester
+Register New Student Dossier
+Scaffold admissions profile with guardian contact data
+Actions & Operations
+create
+enroll
+applicant
+add
+act-invoice
+Issue Tuition Fee Invoices
+Generate batch fee notices for semester tuition balance
+$mod+I
+billing
+payment
+finance
+bursar
+act-export-report
+Export Monthly Audit Report
+Download signed compliance CSV & PDF reports
+$mod+E
+download
+csv
+pdf
+compliance
+act-smoke-test
+Run Smoke Test & Endpoint Health
+Execute monorepo health check across 47 domain modules
+$mod+T
+test
+ping
+api
+verify
+sys-audit-log
+Cryptographic Audit Trail
+Inspect constant-time signed transaction commitments
+System & Security
+G T
+security
+hash
+signature
+acid
+sys-api-docs
+Open REST API Specification
+View 193 OpenAPI contract endpoints and DTO schemas
+G O
+docs
+rest
+swagger
+developer
+sys-settings
+Institutional Branch Settings
+Configure tenant domain routing and RBAC permissions
+$mod+,
+config
+rbac
+admin
+permissions
+undefined
+keydown
+Ctrl
+$mod+
+$mod
+Escape
+ArrowDown
+ArrowUp
+Home
+End
+Enter
+Tab
+\\$&
+gi
+presentation
+dialog
+true
+Command Menu
+text
+combobox
+command-palette-results
+list
+Search routes
+listbox
+space-y-1
+option
+size-3
+truncate
+truncate font-sans leading-tight font-semibold
+MACOS (⌘K)
+WINDOWS/LINUX (CTRL+K)
+sr-only
+status
+polite
+⌘K
+Ctrl+K
+button
+size-3.5
+part.toLowerCase() === query.toLowerCase() ? (
+ESC
+Try searching for dashboard, student, attendance, or settings.
+ESC Close
+PLATFORM:
+Universal Command Surface
+Search commands, routes, actions...
+Instant Actions
+Click to Execute

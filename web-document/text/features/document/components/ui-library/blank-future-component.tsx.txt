@@ -1,0 +1,86 @@
+use client
+react
+@/lib/utils
+@/components/icons
+undefined
+// Status: Specification Ready
+// Touch Targets: >= 44x44px
+// Day Surface Token: #FFFFFF / #EFF5FF / #E3E7FC
+// Primary Token: #0056FF (Royal Blue) / #2277FF (Azure Blue)
+button
+Copy component technical specification
+size-3.5
+app-bars
+buttons
+all-buttons
+button-groups
+segmented-buttons
+split-button
+fabs
+extended-fabs
+fab-menu
+FAB action
+size-6 stroke-[2.5]
+size-4 stroke-[2.5]
+checkbox
+radio-button
+rounded-full
+rounded-md
+size-3.5 stroke-[3]
+Radio Selection Option
+Interactive Checkbox
+Selected
+Unselected
+navigation-bar
+navigation-rail
+navigation-drawer
+tabs
+toolbars
+Explore
+Directory
+Ledger
+Reports
+cards
+dialogs
+bottom-sheets
+side-sheets
+Confirm Operation
+Sheet Surface
+sliders
+snackbar
+search
+badges
+loading-indicator
+progress-indicators
+size-8 animate-spin rounded-full border-3 border-[#EFF5FF] border-t-[#0056FF]
+size-6
+[Coming Soon]
+Spec Copied
+) : (
+Copy Spec
+Elevation
+Level 1 Surface
+Touch Target
+Contrast Ratio
+Readiness
+Spec Finalized
+App Bar (56px)
+M3 Center-aligned & Small App Bar Standard
+Filled Button
+Outlined
+Tonal
+Extended FAB
+Elevated Surface (Card)
+Institutional Academic Card
+Standard M3 surface container with 16px corner radius.
+Modally focused prompt requiring user decision or inspection.
+Cancel
+Confirm
+60% (Active Value)
+100%
+Student record saved successfully.
+Undo
+M3 Transient Bottom Notification Container
+Search student directory, courses, or ledger...
+14
+Material 3 Standard Component Specification Ready

@@ -1,0 +1,50 @@
+use client
+react
+next/link
+@/lib/utils
+primary
+outline
+blue
+azure
+black
+soft-lavender
+white
+futurewave
+midnight
+green
+purple
+orange
+navy
+cyan
+ghost
+tab
+ticket
+speech
+sm
+md
+lg
+top-right
+bottom-right
+none
+font-mono font-bold tracking-tight
+truncate tracking-tight
+pointer-events-none cursor-not-allowed opacity-50
+_blank
+noopener noreferrer
+GeometricButton
+size
+error
+true
+size-3.5 animate-spin rounded-full border-2 border-slate-300 border-t-[#0056FF]
+button
+Clear text
+GeometricInput
+chamfer
+stepped
+pinnacle
+border-[#0056FF] ring-1 ring-[#0056FF]
+hover:border-[#0056FF]
+20
+BRAND
+26
+DESIGN

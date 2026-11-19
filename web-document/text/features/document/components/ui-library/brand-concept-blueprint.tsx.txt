@@ -1,0 +1,82 @@
+use client
+react
+@/components/icons
+./asterisk-logo
+undefined
+textarea
+fixed
+readonly
+copy
+Copy token failed:
+space-y-10
+border-b border-slate-200 pb-3
+#0056FF
+Royal Blue
+Click to copy HEX: #0056FF
+button
+space-y-0.5 pt-12
+#2277FF
+Azure Blue
+Click to copy HEX: #2277FF
+Copied!
+space-y-0.5
+#E3E7FC
+Soft Lavender
+Click to copy HEX: #E3E7FC
+#FFFFFF
+White
+Click to copy HEX: #FFFFFF
+#EFF5FF
+Ice Tint
+Click to copy HEX: #EFF5FF
+brand-logo-design
+space-y-1
+Blue Brand Edition
+size-6
+White Reversed Edition
+#020617
+Dark Edition
+Click to copy HEX: #020617
+SNPI Bold Asterisk Master Mark
+blue
+Save 1024px PNG
+lg
+light
+Save Blue on White PNG
+white
+Save White on Blue PNG
+dark
+Save Dark PNG
+dark-on-light
+Save Dark on Light PNG
+Brand Colors
+01
+) : (
+02
+Interactive Accent
+03
+Micro-Tint & Badges
+04
+Document Canvas Base
+05
+Subsurface Card Fill
+Official Brand Identity
+3 Canonical Editions
+Asterisk Logo Glyph (*) — Unified Bold Master Mark
+The official SNPI asterisk mark features unified wing geometry framing the iconic
+              central negative space. Weighted with bold vector stroke expansion to command optical
+              prominence over every surface canvas across three canonical editions:
+Edition 01 (Core Base)
+Blue Brand on Light
+Edition 02 (Reversed)
+White on Blue / Dark
+Edition 03 (Editorial)
+Dark on White
+Unified Wing Geometry · Bold Stroke Prominence
+Blue on White Canvas
+Primary Brand Standard · AAA Contrast
+White on Royal Blue
+White on Obsidian Black
+Dark Mode Canvas · 21:1 AAA Ratio
+Dark on White Canvas
+Monochrome Print & Document Standard

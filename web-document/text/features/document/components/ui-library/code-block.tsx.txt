@@ -1,0 +1,14 @@
+use client
+react
+./pretty-code-block
+json
+xml
+javascript
+typescript
+bash
+success
+error
+warning
+info
+string
+| Array

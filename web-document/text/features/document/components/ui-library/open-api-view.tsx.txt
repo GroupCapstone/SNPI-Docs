@@ -1,0 +1,371 @@
+use client
+react
+@/components/icons
+motion/react
+@/lib/utils
+@/lib/motion
+./api-spec-table
+./page-heroes
+./param-table
+./code-block
+GET
+POST
+changelogs
+Change Logs
+Version history & updates
+toc
+Table of contents
+Jump navigation index
+grp-introduction
+Introduction
+introduction
+Welcome & Overview
+purpose
+1. Purpose
+scope
+2. Scope
+overall-api
+3. Overall API
+grp-security
+Security & Access
+security
+4. Security & Access Control
+status-codes
+5. HTTP Status Codes
+grp-public
+Public Services
+api-health
+1.1 System Health Probe
+api-cert-verify
+1.2 Verify Certificate
+grp-protected
+Protected Services
+2.1 User Authentication
+2.2 Renew Session Token
+2.3 Profile & Permissions
+api-students-list
+2.4 Student Directory
+api-students-create
+2.5 Student Registration
+api-attendance-create
+2.6 Session Attendance
+api-payments-create
+2.7 Payment Records
+1.1.0
+05.11.2026
+Official REST API release with token authentication.
+1.0.4
+24.10.2026
+Student lifecycle, attendance, and payment endpoints.
+1.0.2
+10.10.2026
+Public certificate verification endpoint.
+1.0.0
+01.09.2026
+Initial SNPI Open REST API specification.
+System Health Probe
+Public (Open)
+Certificate Ledger Verification
+User Authentication (Login)
+User Credentials
+Renew Session Token
+Refresh Token
+User Profile & Permissions
+Bearer Token (Authorized)
+List Students
+Create Student
+Record Daily Attendance
+Record Payment Transaction
+200 OK
+Standard successful response for valid inquiry or update requests.
+Payload processed successfully.
+201 Created
+Resource successfully created on the server.
+Returns newly created entity ID and confirmation payload.
+400 Bad Request
+Malformed request payload, invalid parameters, or schema validation failure.
+Verify required parameters and input data formats.
+401 Unauthorized
+Missing or invalid Bearer authentication token, or session has expired.
+Provide a valid access token in the Authorization header.
+403 Forbidden
+Authenticated identity lacks the required permission for this resource.
+Check user role and permissions scope.
+404 Not Found
+The requested resource entity or endpoint does not exist.
+Confirm entity identifier and endpoint path.
+429 Too Many Requests
+Rate limit threshold exceeded.
+Implement exponential backoff retry logic.
+500 Server Error
+Internal service exception encountered.
+Contact platform support with the request timestamp.
+Content-Type
+String
+application/json
+Authorization
+Bearer <AUTHENTICATION_TOKEN>
+Accept
+keydown
+smooth
+start
+scroll
+2px
+text
+Search endpoints... ⌘K
+button
+Clear search
+size-3.5
+space-y-0.5
+auto
+truncate pr-1
+mt-3 space-y-0.5 border-t border-[#CAD3F5]/80 pt-2.5
+truncate
+border-b border-[#CAD3F5] pb-6
+scroll-mt-28 space-y-3
+divide-y divide-[#CAD3F5]/60
+space-y-1.5
+public-apis
+protected-apis
+scroll-mt-28 space-y-6
+scroll-mt-28 space-y-1
+scroll-mt-28 space-y-4
+api-documentation
+scroll-mt-28 space-y-12
+scroll-mt-28 space-y-8 border-t border-[#CAD3F5] pt-6
+System health inspection probe.
+Public (Open Access)
+Headers
+Query Parameters
+bash
+curl-health.sh
+GET /health
+info
+Response Parameters
+status
+Operational health status (healthy | degraded)
+timestamp
+ISO 8601 server timestamp
+version
+API engine release version
+json
+healthy
+2026-11-05T12:00:00.000Z
+success
+scroll-mt-28 space-y-4 pt-6
+Public cryptographic proof verification.
+URL Path Parameters
+hash
+64-character lowercase hexadecimal SHA-256 hash or certificate unique code
+Boolean
+Verification outcome
+verified
+Cryptographic signature authenticity indicator
+certificate
+Object
+Certified student record, award title, graduation date, and tamper seal
+CERT-2026-0042
+SOK CHANTHA
+Information Technology & Software Engineering
+Associate Degree
+2026-10-15
+a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0
+VALID
+cert-verify-200.json
+User Authentication
+Authenticates staff credentials and returns tokens.
+Account Credentials
+Request Body Parameters
+identifier
+Authorized account username or registered email address
+password
+Account authentication credential
+<AUTHORIZED_USER_EMAIL>
+<SECURE_AUTHENTICATION_CREDENTIAL>
+POST /auth/login
+Request status outcome
+accessToken
+Signed 15-minute Bearer access token
+refreshToken
+Session rotation refresh token
+user
+User profile with roles and branch tenancy
+<JWT_ACCESS_TOKEN_SAMPLE>
+<REFRESH_TOKEN_SAMPLE>
+<USER_UUID>
+staff
+all
+Rotates refresh token for new access token.
+Valid Refresh Token
+POST /auth/refresh
+Token rotation status
+New signed 15-minute Bearer access token
+Rotated refresh token for the next rotation cycle
+<ROTATED_REFRESH_TOKEN_SAMPLE>
+Returns authenticated profile and permissions.
+Institutional Authorization (Bearer Token)
+data
+User profile containing user ID, email, roles array, and permissions array
+students:read
+attendance:write
+<BRANCH_ID>
+active
+Paginated student directory.
+page
+Number
+Page number for pagination (default: 1)
+limit
+Page size limit (default: 20, max: 100)
+search
+Search string for student name or identifier
+branchId
+Filter by campus branch identifier
+Filter by student status (active | inactive | graduated)
+Request execution outcome
+Array<Object>
+Array of student entity records
+pagination
+Pagination metadata: total, page, limit, pages
+STU-2026-0001
+Sok
+Dara
+សុខ តារា
+male
+2008-05-14
+students-list-200.json
+Enrolls new student with branch tenancy.
+Campus branch identifier
+firstName
+Student first name (Latin script)
+lastName
+Student last name (Latin script)
+khmerName
+Student full name in Khmer script
+gender
+Student gender: male | female | other
+dateOfBirth
+Date of birth in YYYY-MM-DD format
+phone
+Contact telephone number
+Enrollment status (default: active)
++85512345678
+student-create-request.json
+POST /students
+Creation outcome
+Created student record with assigned student identifier
+student-create-201.json
+201 CREATED
+Submits daily session attendance records.
+academicYearId
+Academic year identifier
+classId
+Class cohort section identifier
+date
+Attendance session date in YYYY-MM-DD format
+records
+AY-2026
+CLS-G10-A
+2026-11-05
+present
+On time
+STU-2026-0002
+late
+Arrived 10 mins late
+attendance-post-request.json
+POST /attendance
+Submission outcome
+Saved session metadata including totals for present, late, and absent students
+2026-11-05T12:05:00.000Z
+attendance-post-200.json
+Records tuition fee payment transaction.
+studentId
+Enrolled student identifier
+tuitionFeeId
+Tuition fee schedule identifier
+amountDue
+Total fee due before discounts
+discountAmount
+Approved discount deduction
+amountPaid
+Actual received payment amount
+currency
+Payment currency: USD | KHR
+paymentMethod
+Payment gateway or channel: cash | aba_pay | bank_transfer | credit_card | wing
+paymentType
+Classification: tuition_monthly | tuition_term | registration_fee
+FEE-2026-T1
+USD
+aba_pay
+tuition_monthly
+payment-post-request.json
+POST /payments
+Ledger transaction outcome
+Created payment receipt with receiptNumber, balanceRemaining, and status
+REC-2026-00109
+paid
+2026-11-05T12:10:00.000Z
+payment-post-200.json
+Developer Docs
+v1.1.0 · OpenAPI
+SNPI REST Engine & Endpoints
+) : (
+⌘K
+No endpoints found
+Enterprise Gateway
+TLS 1.3 · Bearer Token
+ACTIVE
+Version
+Date
+Description
+[[toc]] Overview
+1. Introduction (Purpose, Scope, Architecture)
+2. Overall API Catalog
+3. Security & Access Control
+4. HTTP Status Codes Matrix
+Endpoints Catalog
+[Public] /health, /certificates/verify/:hash
+[Protected] /auth/login, /auth/refresh, /auth/me
+[Protected] /students, /attendance, /payments
+Technical specification for SNPI Open API integration.
+Contracts, authentication, endpoints, parameters, and response schemas.
+Name
+Method
+URL
+Access Scope
+Public Inquiry Tier (Open)
+GET /health, GET /certificates/verify/:hash
+Institutional Partner Tier (Restricted)
+Code
+Meaning
+Action & Troubleshooting
+API Documentation
+[PUBLIC]
+1. Public Endpoints
+1.1 System Health Probe (GET /health)
+[GET]
+Sample Request (cURL)
+Sample Response (200 OK)
+1.2 Certificate Ledger Verification (GET /certificates/verify/:hash)
+[RESTRICTED]
+2. Institutional Protected Services
+2.1 User Authentication (POST /auth/login)
+[POST]
+Sample Request
+',
+                      password: '
+',
+                      refreshToken: '
+',
+                        email: '
+2.2 Renew Session Token (POST /auth/refresh)
+2.3 User Profile & Permissions (GET /auth/me)
+',
+                        roles: ['staff'],
+                        permissions: ['students:read', 'attendance:write'],
+                        branchAccess: ['
+2.4 List Students (GET /students)
+2.5 Create Student (POST /students)
+Sample Response (201 Created)
+2.6 Record Daily Attendance (POST /attendance)
+2.7 Record Payment Transaction (POST /payments)

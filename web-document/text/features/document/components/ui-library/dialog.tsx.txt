@@ -1,0 +1,21 @@
+use client
+react
+motion/react
+@/components/icons
+./geometric-tag-primitives
+@/lib/motion
+Confirm
+Cancel
+Escape
+hidden
+keydown
+true
+dialog
+button
+Close dialog
+size-4
+mt-4
+outline
+sm
+orange
+blue

@@ -1,0 +1,123 @@
+use client
+react
+@/lib/utils
+@/components/icons
+xs
+sm
+md
+lg
+xl
+2xl
+3xl
+hero
+blue
+white
+dark
+standard
+brand
+solid
+tint
+outline
+bare
+tricolor
+light
+current
+monochrome
+M 77.75 75.73 L 55.16 58.98 L 55.16 41.02 L 77.75 24.27 L 87.48 41.62 L 69.67 48.65 L 69.67 51.35 L 87.48 58.38 Z M 56.96 12.00 L 53.81 39.98 L 38.26 48.95 L 12.52 37.73 L 22.55 20.68 L 37.66 32.50 L 39.90 31.15 L 37.06 12.30 Z M 12.52 62.27 L 38.26 51.05 L 53.81 60.02 L 56.96 88.00 L 37.21 87.70 L 39.90 68.85 L 37.66 67.50 L 22.70 79.32 Z
+M 77.75 75.73 L 55.16 58.98 L 55.16 41.02 L 77.75 24.27 L 87.48 41.62 L 69.67 48.65 L 69.67 51.35 L 87.48 58.38 Z
+M 56.96 12.00 L 53.81 39.98 L 38.26 48.95 L 12.52 37.73 L 22.55 20.68 L 37.66 32.50 L 39.90 31.15 L 37.06 12.30 Z
+M 12.52 62.27 L 38.26 51.05 L 53.81 60.02 L 56.96 88.00 L 37.21 87.70 L 39.90 68.85 L 37.66 67.50 L 22.70 79.32 Z
+#0056FF
+SNPI Official Asterisk Brand Logo
+0 0 100 100
+none
+img
+round
+nonzero
+2.5
+size
+size-6 rounded-md p-0.5
+size-8 rounded-lg p-1
+size-10 sm:size-11 rounded-xl p-1.5
+size-16 rounded-2xl p-2.5
+size-24 rounded-3xl p-3.5
+size-32 rounded-3xl p-4.5
+size-40 rounded-[2rem] p-5.5
+#FFFFFF
+#020617
+currentColor
+white-accent
+gradient
+string
+royal
+dark-on-light
+transparent
+squircle
+circle
+square
+undefined
+Canvas rendering is only available in browser
+canvas
+2d
+Canvas 2D context unavailable
+#CAD3F5
+rgba(255, 255, 255, 0.25)
+rgba(255, 255, 255, 0.14)
+#94A3B8
+function
+Failed to generate PNG blob
+image/png
+snpi-brand-logo.svg
+<!-- Official Sora Bold Asterisk Brand Mark (All Wings Unified Bold Style) -->
+================================================================================
+SNPI OFFICIAL BRAND MEDIA KIT & ASSET SPECIFICATIONS
+Brand Identity: SNPI School Management System (SNP-SMS)
+Geometric Foundation: Sora Bold Convergent Asterisk Mark (*)
+3 CANONICAL LOGO EDITIONS:
+01. Blue Brand Edition:     #0056FF (Royal Blue)     - Displayed on Pure White (#FFFFFF) / Ice Tint (#EFF5FF)
+02. White Reversed Edition: #FFFFFF (Pure White)     - Displayed on Royal Blue (#0056FF) or Obsidian Dark (#020617)
+03. Dark Edition:           #020617 (Obsidian Black) - Displayed on Pure White (#FFFFFF)
+ALL WINGS UNIFIED DESIGN:
+All wings share the unified bold geometric style framing the central equilateral negative space.
+Optical prominence is enforced via 2.5px vector stroke expansion making the glyph bolder than the background.
+INCLUDED ASSETS IN THIS PACKAGE:
+01. 01-snpi-logo-blue-on-white-1024.png   - 1024x1024 Blue Brand Logo on White Canvas
+02. 02-snpi-logo-white-on-royal-1024.png  - 1024x1024 White Logo on Royal Blue Canvas
+03. 03-snpi-logo-white-on-dark-1024.png   - 1024x1024 White Logo on Obsidian Slate Canvas (#020617)
+04. 04-snpi-logo-dark-on-white-1024.png   - 1024x1024 Obsidian Black Logo on White Canvas
+05. 05-snpi-logo-transparent-1024.png     - 1024x1024 Pure Bold Vector on Transparent Background
+06. 06-snpi-avatar-circle-blue-512.png    - 512x512 Circular Profile Avatar (Royal Blue)
+07. 07-snpi-avatar-circle-dark-512.png    - 512x512 Circular Profile Avatar (Obsidian Slate)
+08. 08-snpi-avatar-squircle-512.png       - 512x512 Standard Squircle Profile Avatar
+09. 09-snpi-web-favicon-192.png           - 192x192 Favicon Standard for Web Applications
+10. 10-snpi-web-app-icon-512.png          - 512x512 PWA Web App Manifest Standard Icon
+11. 11-snpi-brand-logo.svg                - Scalable Vector Graphic (Lossless Bold Vector)
+12. README-BRAND-STANDARDS.txt            - This specification manual
+CLEARSPACE & USAGE:
+Maintain a minimum clearspace equal to 25% of the asterisk height on all sides.
+Never distort, rotate, stretch, or apply shadows/blur effects to the asterisk mark.
+01-snpi-logo-blue-on-white-1024.png
+02-snpi-logo-white-on-royal-1024.png
+03-snpi-logo-white-on-dark-1024.png
+04-snpi-logo-dark-on-white-1024.png
+05-snpi-logo-transparent-1024.png
+06-snpi-avatar-circle-blue-512.png
+07-snpi-avatar-circle-dark-512.png
+08-snpi-avatar-squircle-512.png
+09-snpi-web-favicon-192.png
+10-snpi-web-app-icon-512.png
+11-snpi-brand-logo.svg
+README-BRAND-STANDARDS.txt
+application/zip
+snpi-brand-media-kit.zip
+Save PNG (1024px)
+button
+size-3.5 shrink-0
+Downloaded!
+snpi-brand-logo-1024.png
+Download complete brand media kit with all logo variants, profile avatars, and favicons (.ZIP <20MB)
+Bundling ZIP...
+Download Media Kit (.ZIP)
+Download Scalable Vector Graphic (SVG, pure vector)
+) : (
+Save SVG

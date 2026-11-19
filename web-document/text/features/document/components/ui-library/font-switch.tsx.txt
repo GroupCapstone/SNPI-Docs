@@ -1,0 +1,25 @@
+use client
+react
+@/components/icons
+@/lib/utils
+./docs-nav-context
+header
+panel
+icon
+Escape
+mousedown
+keydown
+relative
+button
+(hover: hover)
+listbox
+Switch font
+size-5 shrink-0 stroke-[2.5]
+shrink-0
+size-4 shrink-0 stroke-[2.5] transition-transform duration-200
+rotate-180
+Font
+top-[calc(100%+6px)] right-0 left-0
+option
+size-4.5 shrink-0 stroke-[2.5]
+) : (

@@ -1,0 +1,478 @@
+use client
+react
+@/components/icons
+@/lib/utils
+design-language
+foundations
+core-components
+maintenance
+completed
+in-progress
+queued
+ck-dl-1
+Vision
+Brand
+B1
+Strategic brand direction, institutional educational mission, and unified cross-campus product vision.
+brand-blueprint
+ck-dl-2
+Design Principles
+B2
+Foundational tenets: Accessibility-first, Liquid Glass ergonomics, Zero Emoji policy, and typographic discipline.
+ck-dl-3
+Tone of Voice
+B3
+Institutional, encouraging, clear, and authoritative educational tone across user roles.
+ck-dl-4
+Terminology
+B4
+Standardized nomenclature for students, enrollments, tuition structures, and academic cycles.
+ck-dl-5
+Brand Assets
+B5
+ck-dl-6
+Accessibility Guidelines
+Guidelines
+G1
+WCAG 2.2 AA compliance, 4.5:1 minimum text contrast, keyboard focus rings, and screen-reader ARIA semantics.
+accessible-design-principles
+ck-dl-7
+Writing Guidelines
+G2
+Sentence case capitalization, active voice verbs, concise error states, and clear instructional copy.
+ck-dl-8
+Microcopy Guidelines
+G3
+Button action labels, contextual input placeholders, empty states, and dismissible notification banners.
+ck-dl-9
+Terminology & Material Lexicon
+G4
+Complete cross-mapped dictionary linking design token terminology to technical implementation variables.
+material-a-z-glossary
+ck-dl-10
+Internationalisation (Khmer & English)
+G5
+Bilingual typography scaling, Khmer Unicode (U+1780-U+17FF) word-break handling, and RTL/LTR layout adaptability.
+ck-f-1
+Design Tokens Architecture
+Tokens
+F01
+Tiered token structure (Global primitives -> Semantic aliases -> Component-scoped tokens).
+color-ramps-tokens
+ck-f-2
+Token Naming Taxonomy
+F02
+Predictable kebab-case semantic syntax: [system]-[concept]-[property]-[variant]-[state].
+ck-f-3
+Tokens Studio Integration
+F03
+Automated bi-directional synchronization between Figma design tokens and Tailwind CSS variables.
+ck-f-4
+Platform-Agnostic JSON Spec
+F04
+DTCG-compliant JSON token exports ready for web, mobile, and native platform runtimes.
+ck-f-5
+11-Step Contrast Color Ramps
+Color
+F05
+Scientifically calibrated 50-950 luminance scales across Blue, Indigo, Emerald, Amber, and Slate.
+ck-f-6
+Semantic Functional Roles
+F06
+Explicit mapping for Primary, Secondary, Tertiary, Surface, Error, Success, and Warning tokens.
+ck-f-7
+Contrast Verification Matrices
+F07
+Mathematical verification of 4.5:1 text and 3:1 graphical element APCA/WCAG contrast boundaries.
+ck-f-8
+Light / Dark Theme Invariants
+F08
+Dual-palette elevation shifts with preserved semantic roles and pure-white canvas daytime readability.
+ck-f-9
+12-Column Responsive Grid
+Layout
+F09
+layout-scaffold-architecture
+ck-f-10
+Breakpoint Standards
+F10
+Standardized media query triggers: xs (360px), sm (640px), md (768px), lg (1024px), xl (1280px), 2xl (1536px).
+ck-f-11
+Scaffold Architecture
+F11
+Material 3 standard layout primitives: Top Bars, Navigation Rails, Content Panes, and Floating Anchors.
+ck-f-12
+Safe Areas & Padding Envelopes
+F12
+Dynamic viewport padding protecting touch targets and scroll boundaries on edge devices.
+ck-f-13
+4px Base Spacing Scale
+Spacing
+F13
+Harmonic 4px geometric progressions (4, 8, 12, 16, 24, 32, 48, 64, 96px).
+ck-f-14
+Density Modes (Compact vs Comfortable)
+F14
+ck-f-15
+Container Padding Rules
+F15
+Predictable internal card, modal, and drawer padding envelopes for visual balance.
+ck-f-16
+Modular Type Scale
+Typography
+F16
+Typeface hierarchy spanning Display, Headline, Title, Body, and Label scales.
+foundations-group
+ck-f-17
+Line-Height Pairings
+F17
+Optical leading calibrations ensuring optimal scanning speeds across desktop and mobile screens.
+ck-f-18
+Font Weight Matrix
+F18
+Explicit font-weight mapping: Regular (400), Medium (500), Bold (700), and Black (900).
+ck-f-19
+Khmer Typographic Rendering
+F19
+Subscript consonant clustering, vowel reordering, and baseline alignment for Khmer fonts.
+ck-f-20
+Code & Monospace Fonts
+F20
+Tabular numeral formatting for currency, percentages, timestamps, and API schemas.
+ck-f-21
+5-Level Elevation Shadow Tokens
+Elevation
+F21
+Multi-stop diffused ambient and key drop-shadow definitions for spatial depth.
+ck-f-22
+Z-Index Layer Architecture
+F22
+Strict categorical z-index stack: Base (0), Raised (10), Sticky (20), Overlay (30), Modal (40), Toast (50).
+ck-f-23
+Surface Tint Hierarchy
+F23
+Material 3 tonal surface overlays reflecting elevation height through primary color tinting.
+ck-f-24
+Cubic Bézier Easing Curves
+Motion
+F24
+Standard, decelerated, and accelerated motion curves with interruption resilience.
+ck-f-25
+Duration Token System
+F25
+Strict duration constraints honoring the <300ms perceptual responsiveness threshold.
+ck-f-26
+Spring Physics Parameters
+F26
+Mass, stiffness, and damping coefficients for fluid tactile micro-interactions.
+ck-c-01
+Accordion
+Containers
+C01
+4 checks: Collapsible panel, keyboard navigation, animated height, aria-expanded.
+comp-accordion
+ck-c-02
+Alert
+Feedback
+C02
+6 checks: Severity levels, dismiss action, assertive aria-live, icon pairing, title, border accent.
+comp-alert
+ck-c-03
+Avatar
+Data Display
+C03
+7 checks: Image fallback, initials generation, online presence dot, size scale, shape variants, border ring, grouping.
+comp-avatar
+ck-c-04
+Badge
+C04
+7 checks: Numeric pill, color ramps, dot badge, removable tag, icon prefix, size scaling, max count truncate.
+comp-badge
+ck-c-05
+Button
+Actions
+C05
+10 checks: 5 variants, loading spinner, disabled state, focus ring, icon slot, full-width, keyboard trigger, tap bounds.
+comp-button
+ck-c-06
+Breadcrumbs
+Navigation
+C06
+4 checks: Path separator, active leaf item, overflow collapse dropdown, structured data schema.
+comp-breadcrumbs
+ck-c-07
+Calendar
+Selection
+C07
+7 checks: Month/Year navigation, date range pick, disabled dates, week numbering, keyboard arrows, today marker, locale.
+comp-calendar
+ck-c-08
+Card
+C08
+5 checks: Header slot, media banner, body typography, actions footer, elevated/outlined styles.
+comp-card
+ck-c-09
+Carousel
+Media
+C09
+6 checks: Touch swipe gestures, slide indicators, next/prev arrow buttons, autoplay control, keyboard tabs, aria-roledescription.
+comp-carousel
+ck-c-10
+Checkbox
+Forms
+C10
+7 checks: Indeterminate state, custom checkmark SVG, focus ring, disabled mode, label wrapping, error text, group validation.
+comp-checkbox
+ck-c-11
+Divider
+C11
+2 checks: Horizontal/Vertical orientations, optional inset margins with centered text label.
+comp-divider
+ck-c-12
+Dropdown
+C12
+6 checks: Click outside dismiss, keyboard navigation, nested sub-menus, icon items, shortcut badge, portal positioning.
+comp-dropdown
+ck-c-13
+Icon
+C13
+3 checks: 24px bounding box, stroke weight token alignment, accessible aria-hidden or title.
+comp-icon
+ck-c-14
+Image
+C14
+4 checks: Responsive srcset, aspect-ratio placeholder, blur skeleton loading, fallback error container.
+comp-image
+ck-c-15
+Link
+C15
+6 checks: External icon suffix, security rel="noreferrer", underline hover styles, focus ring, router integration, color variants.
+comp-link
+ck-c-16
+List
+C16
+3 checks: Ordered/Unordered types, custom bullet tokens, multi-line item spacing.
+comp-list
+ck-c-17
+Loading Indicator
+C17
+5 checks: Circular spinner, linear bar, size scale, color token binding, aria-busy state.
+comp-loading
+ck-c-18
+Modal
+Overlays
+C18
+8 checks: Focus trap, ESC key dismiss, backdrop blur, scroll lock, header/footer slots, size variants, animation.
+comp-modal
+ck-c-19
+Pagination
+C19
+6 checks: Page number pills, ellipsis truncate, previous/next controls, jump-to-page input, total count label, keyboard access.
+comp-pagination
+ck-c-20
+Progress Bar
+C20
+4 checks: Determinate percentage, indeterminate pulse, color tokens, aria-valuenow.
+comp-progress-bar
+ck-c-21
+Radio Group
+C21
+5 checks: Radio pill, arrow key selection, disabled variant, card option style, validation message.
+comp-radio
+ck-c-22
+Select
+C22
+8 checks: Searchable options, multi-select tags, clear button, virtualized list, option grouping, loading state, error outline.
+comp-select
+ck-c-23
+Skeleton
+C23
+4 checks: Shimmer animation wave, text line variant, rectangular card skeleton, circular avatar placeholder.
+comp-skeleton
+ck-c-24
+Switch
+C24
+5 checks: Toggle thumb animation, active color change, disabled state, label association, keyboard space trigger.
+comp-switch
+ck-c-25
+Tabs
+C25
+7 checks: Active indicator line, keyboard arrow traversal, scrollable tabs, icon prefix, badge counters, disabled tab, vertical mode.
+comp-tabs
+ck-c-26
+Text Area
+C26
+7 checks: Auto-resizing height, character counter, error helper text, clear button, max-length enforcement, disabled style, resize handle.
+comp-textarea
+ck-c-27
+Text Field
+C27
+9 checks: Leading/Trailing icons, clear button, password visibility toggle, helper text, error state, floating label, input mask, disabled style, required marker.
+comp-textfield
+ck-c-28
+Toast
+C28
+8 checks: Auto-dismiss timer, pause on hover, action button, swipe to dismiss, stacking animation, polite aria-live, severity color, portal.
+comp-toast
+ck-c-29
+Tooltip
+C29
+3 checks: Hover delay trigger, dynamic collision boundary flip, keyboard focus reveal.
+comp-tooltip
+ck-m-01
+Design System Principles
+Documentation
+M01
+Core principles established to communicate team values and decision-making criteria.
+maint-documentation
+ck-m-02
+Getting Started Guide
+M02
+First steps for designers and developers to install and ship features autonomously.
+ck-m-03
+Design Best Practices
+M03
+Scalable design workflow guidelines and avoiding common Figma layout pitfalls.
+ck-m-04
+Development Best Practices
+M04
+Recommended dependencies, code conventions, and frontend performance standards.
+ck-m-05
+Component Anatomy
+M05
+Structural breakdown of customizable slots, boundaries, and internal tokens.
+ck-m-06
+Component Properties
+M06
+Cross-platform property alignment across design tools and code interfaces.
+ck-m-07
+Component Composition Examples
+M07
+ck-m-08
+Sandbox Product Example
+M08
+Isolated simulation application testing components in real product environments.
+ck-m-09
+Browser / OS Support
+M09
+Explicit tier support matrix for modern browsers, mobile viewports, and platforms.
+ck-m-10
+Release Cycle
+M10
+Documented semver breaking change cadence and migration roadmap planning.
+ck-m-11
+When to Build
+Local Libraries
+M11
+Guidelines on building custom local components vs requesting system primitives.
+maint-local-libraries
+ck-m-12
+Horizontal & Vertical Libraries
+M12
+Clear architectural boundary between multi-product shared libs and single-feature libs.
+ck-m-13
+Library Expectations
+M13
+Quality bars, testing requirements, and ownership expectations for team libraries.
+ck-m-14
+Release Cycle Alignment
+M14
+Ensuring local libraries maintain compatibility with core design system releases.
+ck-m-15
+Decision-Making Log
+Team Processes
+M15
+ADR architectural decision logs preserving context and eliminating repetitive debate.
+maint-team-processes
+ck-m-16
+Roadmap & Allocation
+M16
+Long-term strategic vision with dedicated capacity balance for community support.
+ck-m-17
+Stakeholder Mapping
+M17
+Comprehensive registry of cross-functional engineering, design, and executive leads.
+ck-m-18
+Analytics & Usage Tracking
+M18
+Quantifiable telemetry measuring component adoption, doc visits, and token utilization.
+ck-m-19
+Ongoing Support Shifts
+M19
+Structured on-call rotation shielding core developers from ad-hoc interruptions.
+ck-m-20
+SLA Commitments
+M20
+Defined response time agreements for incoming bug reports, triage, and PR reviews.
+ck-m-21
+Support Channels
+Community Support
+M21
+Dedicated communication channels segmented by platform to streamline resolution.
+maint-community-support
+ck-m-22
+Standard Issue Templates
+M22
+Structured reproduction requirements, design proposals, and environment specs.
+ck-m-23
+Regular Release Updates
+M23
+Predictable cadence of release notes, showcase demos, and migration guides.
+ck-m-24
+Open Office Hours
+M24
+Dedicated synchronous consultation slots for complex architectural queries.
+ck-m-25
+House Rules for the System
+Contribution
+M25
+Operational philosophy explaining why design systems move deliberately for scale.
+maint-contribution
+ck-m-26
+Contribution Guidelines
+M26
+Step-by-step local setup, branch standards, linting, and PR test verification.
+ck-m-27
+Feature Proposal Template
+M27
+Uniform RFC template ensuring cross-platform compatibility and zero regression.
+ck-m-28
+Contributor Engagement & Recognition
+M28
+Public appreciation, release changelog credits, and management advocacy.
+all
+smooth
+start
+space-y-8
+size-3.5
+button
+50%
+0%
+text
+Search checks
+space-y-3
+space-y-2
+size-3 stroke-[3]
+size-2.5
+OPEN-SOURCE DESIGN SYSTEM CHECKLIST
+Build better design systems
+An open-source checklist to help you plan, build, and grow your design system.
+              Complete checklist tracking across 4 foundational phases.
+Get started
+Design language
+5/10
+Foundations
+0/26
+Tokens, Color, Layout, Spacing
+Core components
+0/166
+29 Reusable UI Primitives
+Maintenance
+0/28
+Docs, Process, Community, SLA
+All 230 Checks
+Design Language
+Core Components
+Showing
+Reset filter
+Jump

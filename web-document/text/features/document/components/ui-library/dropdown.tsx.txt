@@ -1,0 +1,33 @@
+use client
+react
+motion/react
+@/lib/utils
+@/components/icons
+@/lib/motion
+Select an institutional branch...
+Search campus name or branch code...
+mousedown
+Enter
+ArrowDown
+Escape
+ArrowUp
+Tab
+nearest
+button
+listbox
+size-4.5 shrink-0 stroke-[2] transition-colors
+size-4 stroke-[2]
+hidden
+visible
+exit
+text
+size-3
+option
+cursor-not-allowed opacity-40
+mt-0.5 size-4.5 shrink-0 stroke-[2] transition-colors
+size-3 stroke-[2.5]
+(prev
+= 0 && activeIndex
+Institutional Branch Directory
+No campuses found
+Try adjusting your search terms

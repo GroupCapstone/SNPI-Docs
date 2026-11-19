@@ -1,0 +1,150 @@
+use client
+react
+@/lib/utils
+@/components/icons
+../rail-toc
+../hook-sidebar
+../icon-bar
+../hanging-tabs-nav
+installation
+Installation
+prerequisites
+Prerequisites
+installation-steps
+Installation Steps
+configuration
+Configuration
+usage
+Usage
+customizing-content
+Customizing Content
+submenu-content
+Submenu Content
+features
+Features
+Get started with package installation and repository cloning.
+Run npm install to bootstrap monorepo workspaces and shared packages.
+CORE SETUP
+git clone <REPO_URL> && npm install
+Verify runtime environments before initiating builds.
+Requires Node.js >= 22.13.0, npm >= 10.8, and MongoDB Replica Set (rs0).
+RUNTIME
+node -v && mongod --replSet rs0
+Execute the five-stage local development orchestration.
+Step 1: npm run build:shared. Step 2: npm run dev:backend. Step 3: npm run dev:frontend.
+PIPELINE
+npm run build:shared && npm run dev
+Define environment configurations across workspaces.
+Populate .env with BACKEND_INTERNAL_URL, MONGO_URI, and JWT secrets.
+ENVIRONMENT
+MONGO_URI=mongodb://localhost:27017/snp_sms?replicaSet=rs0
+Explore interactive components in the Developer Documentation Library.
+Navigate to /document/design-system to review live components, states, and prompt skills.
+DOCUMENTATION
+Tailor component tokens and theme variables.
+Override CSS variables or pass custom variant props without touching global CSS.
+DESIGN TOKENS
+Configure nested navigation hierarchies and subcategories.
+Support multi-tier navigation trees with indented SVG rail paths and filleted bends.
+HIERARCHY
+Production enterprise pillars for the SNPI-SMS platform.
+7-layer modular monolith, constant-time crypto, and WCAG AA/AAA compliance.
+ENTERPRISE
+npm run smoke && npm run test:api && npm run deploy:verify
+smooth
+0 0 24 24
+size-5 shrink-0
+none
+true
+M 22 12 L 2 3 L 7 12 Z
+#2277FF
+#0056FF
+0.5
+round
+M 22 12 L 2 21 L 7 12 Z
+#003ECC
+12
+22
+#FFFFFF
+0.75
+button
+size-3 fill-current
+Flying Tour...
+Autopilot Tour
+rounded-lg border p-4 transition-all duration-200
+m-0 leading-tight
+On this page
+dashboard
+Academics
+modules
+Curriculum
+apis
+Endpoints
+settings
+Preferences
+space-y-3
+size-4
+space-y-1
+size-4 shrink-0
+truncate
+Overview
+Architecture
+Components
+Security Policy
+Open API
+Changelog
+Royal Blue
+Azure Blue
+Deep Navy
+#020617
+size-7 cursor-pointer rounded-full transition-transform select-none
+scale-115 ring-2 ring-[#0056FF] ring-offset-2
+opacity-75 hover:opacity-100
+Switch to solid spring rail
+Switch to dashed spring rail
+Dashed Rail
+Solid Rail
+Navigation Tree
+../navigation-menu
+day
+month
+Day
+week
+Week
+Month
+quarter
+Quarter
+space-y-3 border-t border-[#CAD3F5]/60 pt-4
+pointer-events-none absolute top-0 left-0 size-3 border-t-2 border-l-2 border-[#0056FF]
+pointer-events-none absolute top-0 right-0 size-3 border-t-2 border-r-2 border-[#0056FF]
+pointer-events-none absolute bottom-0 left-0 size-3 border-b-2 border-l-2 border-[#0056FF]
+pointer-events-none absolute right-0 bottom-0 size-3 border-r-2 border-b-2 border-[#0056FF]
+pointer-events-none absolute top-0.5 left-0.5 size-1.5 border-t border-l border-white/70
+pointer-events-none absolute right-0.5 bottom-0.5 size-1.5 border-r border-b border-white/70
+pen
+portfolio
+home
+Home
+blog
+Blog
+Portfolio
+services
+Services
+team
+Team
+clients
+Clients
+shop
+Shop
+contact
+Contact Us
+md
+Rail TOC
+Quick Jump:
+Implementation Guide:
+WORKSPACE
+Spring Physics Active
+Current View:
+Rail Color:
+01. Fluid Capsule Pill (Classic Gooey Nav)
+02. Corner Brand Border Gooey Nav

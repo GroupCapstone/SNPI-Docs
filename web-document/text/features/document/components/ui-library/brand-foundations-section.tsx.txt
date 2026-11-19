@@ -1,0 +1,224 @@
+use client
+react
+@/components/icons
+@/lib/utils
+សាខាសាលារៀន
+Branch / Campus
+Organization
+ORG_BRANCH
+Physical school locations (e.g. Main Branch, Sen Sok, Toul Kork).
+កូដសាខា
+Branch Code
+ORG_BRANCH_CODE
+Unique institutional campus identifier (e.g. MB-01, SS-03, TK-02).
+គ្រប់គ្រងសាខា
+Branch Management
+ORG_BRANCH_MGT
+Administrative view for configuring campus branches and contact records.
+ព័ត៌មានសាលារៀន
+School Information
+ORG_SCHOOL_INFO
+Master institutional profile, contact numbers, and legal address.
+ផ្នែក និងដេប៉ាតឺម៉ង់
+Departments & Units
+ORG_DEPT
+Academic faculties and administrative operations units.
+មុខតំណែង និងតួនាទី
+Positions & Job Roles
+Human Resources
+HR_POSITION
+Staff job classifications and pedagogical responsibilities.
+ឆ្នាំសិក្សា
+Academic Year
+Academics
+ACA_YEAR
+Annual educational cycle (e.g. 2026-2027 Academic Year).
+រចនាសម្ព័ន្ធស្ថាប័ន
+Institutional Structure
+Administration
+ADM_STRUCT
+Hierarchical governance, faculties, and functional divisions.
+តួនាទី និងសិទ្ធិគ្រប់គ្រង
+Roles & Permissions
+Security / RBAC
+SEC_RBAC
+Access control matrices for Super Admin, Director, Registrar, Teacher, and Student.
+ការចុះឈ្មោះសិស្ស
+Student Enrollment
+Admissions
+ADM_ENROLL
+Formal registration of students into academic programs and grade sections.
+កាលវិភាគសិក្សា
+Class Schedule
+Curriculum
+CUR_SCHED
+Weekly timetable for lectures, laboratory sessions, and instructor assignments.
+ការទូទាត់ថ្លៃសិក្សា
+Tuition & Fee Invoicing
+Finance
+FIN_INVOICE
+Tuition collection, KHQR invoice generation, and ledger reconciliations.
+វត្តមាន និងអវត្តមាន
+Attendance Tracking
+Operations
+OPS_ATTEND
+Daily tracking of student and faculty presence, excused leaves, and tardiness.
+លទ្ធផល និងពិន្ទុសិក្សា
+Grades & Academic Scores
+Assessment
+ASM_SCORE
+Semester examinations, GPA calculations, and academic honor transcripts.
+ស្ថានភាពសកម្ម
+Active Status
+System State
+SYS_ACTIVE
+Entity lifecycle indicator signifying an active, operable record.
+Authoritative yet Empathetic
+Communicate administrative decisions with clarity, warmth, and institutional trust.
+Terse, direct confirmations with zero ambiguity.
+Inspiring, future-focused statements celebrating student success.
+Branch record updated successfully.
+Your changes were saved into the database system.
+Action-Oriented & Direct
+Start user instructions with a strong imperative verb, leading directly to the goal.
+Create Branch, Download Report, Filter Records.
+Join the next generation of digital learning in Cambodia.
+Select an academic year to view class rosters.
+You can now proceed to select the academic year from the dropdown above.
+Transparent & Accountable
+Always present the exact cause of an error and the exact next step to resolve it.
+Error banner: Branch code already exists. Enter a unique code.
+100% cloud-verified academic integrity across all campuses.
+Unable to save. Verify that student phone number contains 9-10 digits.
+An unexpected error occurred. Please try again later.
+undefined
+Clipboard copy failed:
+space-y-16
+brand-vision
+scroll-mt-24 space-y-6
+space-y-2
+space-y-3
+mt-4 border-t border-slate-100 pt-3
+design-principles
+scroll-mt-24 space-y-6 border-t border-[#CAD3F5] pt-10
+font-mono
+tone-of-voice
+space-y-4
+terminology
+text
+Search codes
+divide-y divide-slate-100
+button
+brand-assets
+accessible-design
+Brand Foundations
+Core Identity
+Brand drives every single decision made when building new products or features. A good
+            brand is much more than a name and a logo. It defines the values of SNPI-SMS and what
+            distinguishes our institutional platform.
+01 Purpose
+Why We Exist
+To modernize Cambodian educational management through transparent digital workflows,
+                replacing paper clutter with reliable cloud infrastructure.
+Institutional Governance
+02 Values
+What Guides Us
+03 Horizon
+Future of Product
+Empowering administrators and teachers with autonomous AI assistants that streamline
+                attendance, academic transcripts, and compliance reporting.
+Agentic Scalability
+Philosophy
+5 Operational Standards
+Design Principles
+These considerations guide our practice, outlining how we approach design
+            philosophically and resolving everyday product decisions.
+Principle 01
+Clarity Over Decoration
+Function dictates form. Information hierarchy and legible data tables take precedence
+              over unnecessary animations, blur filters, or decorative clutter.
+Principle 02
+Every transition must complete within 300ms. Operations are optimistic and immediate,
+              keeping school staff in a continuous flow state.
+Principle 03
+Inclusive by Default
+Accessible design enables users of all abilities to navigate, understand, and complete
+              school workflows effortlessly across devices.
+Principle 04
+Structural Flat Depth
+Visual depth is established strictly through 1px border keylines and surface luminance
+              ladder (
+box-shadow: none
+).
+Principle 05
+Bilingual Parity
+Khmer and English typography receive equal visual weight, accommodating Khmer font
+              line heights (1.6-1.8) and character height compensations.
+Principle 06
+Deterministic Governance
+Permissions and multi-tenant school scopes are strictly enforced. Safe defaults and
+              explicit destructive confirmation guards prevent data loss.
+Communication
+Editorial Guide
+Tone of Voice
+A clear tone of voice defines how we speak to our audience at every moment of their
+            journey, helping them reach their destination quickly and confidently.
+[Do] Recommended
+Glossary
+Bilingual Dictionary
+Standard Terminology
+Standard terms and phrases kept consistent throughout the product and marketing
+              touchpoints, speeding up design and engineering while unifying our voice.
+Khmer Term
+English Standard
+System Code
+Domain
+Standard Usage
+) : (
+Brand Assets
+Cross-Channel Consistency
+Using a consistent set of brand assets aligns the user experience across the core
+            product interface and external marketing campaigns.
+Product Application (App Router)
+Core School Management UI
+Background:
+Pure White (
+#FFFFFF
+) canvas with 1px border keylines.
+Primary CTAs:
+Solid Royal Blue (
+#0056FF
+) with white text and 4px radius.
+Data Surfaces:
+Light Day First with zero dropped blur shadows.
+Light Day First Standard
+Header Lockup:
+Full institutional seal with clear space
+                    boundary equal to mark height.
+Palette Harmony:
+Contrast pairs utilizing Royal Blue and Azure
+                    Blue with Soft Lavender fills.
+Hero Typography:
+Institutional Cohesion
+Accessibility
+Universal Inclusivity
+Accessible Design: Core Overview
+Accessible design enables users with diverse abilities to navigate, understand, and
+            enjoy a user interface. In SNPI-SMS, accessibility is a foundational architecture, not
+            an afterthought.
+01 Perceivable
+WCAG 2.1 AAA Contrast
+Text contrast exceeds 7:1 (Deep Navy on White achieves 16.5:1). Status states never
+              rely on color alone, always pairing with text badges.
+02 Operable
+03 Understandable
+Predictable Microcopy
+Action verbs guide all CTAs. Error banners follow the 3-part formula: what happened,
+              why it happened, and the exact step to recover.
+04 Robust
+Native HTML5 semantic landmarks (
+main
+nav
+aside
+) and
+              live announcer regions for dynamic toast messages.

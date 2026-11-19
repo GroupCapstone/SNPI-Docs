@@ -1,0 +1,9 @@
+next
+@/features/document/components/ui-library
+Layout Scaffold Architecture
+Authoritative Material 3 Layout Scaffold: Bars, Rails, Panes, Safety Regions, Jetpack Compose Rulers, and Spacing Tokens.
+space-y-1.5 border-b border-slate-100 pb-4
+SNPI-SMS DOCS
+LAYOUT SCAFFOLD
+A fundamental UI design structure that provides a standard platform for assembling key
+          components into Bars, Rails, Panes, and System Safety Regions.

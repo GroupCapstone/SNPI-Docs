@@ -1,0 +1,32 @@
+use client
+react
+next/link
+next/navigation
+motion/react
+@/lib/utils
+repeating-linear-gradient(to top, transparent 0 3px, currentColor 3px 7px)
+nav
+onChange
+string
+spring
+pointer-events-none absolute inset-0
+currentColor
+14
+0 0 14 9
+none
+absolute left-0.5
+M1.25 0a6 6 0 0 0 6 6h6.75
+2.5
+round
+3 3
+#0056FF
+hook-sidebar
+hook-sidebar-label
+object
+data-slot
+hook-sidebar-item
+data-active
+page
+button
+true
+) : (

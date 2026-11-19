@@ -1,0 +1,31 @@
+use client
+react
+@/components/icons
+@/lib/utils
+json
+xml
+javascript
+typescript
+bash
+success
+error
+warning
+info
+tokens.push(
+|| token ===
+if (token.startsWith(
+) || token ===
+/\b(const|let|var|new|async|await|return|function|import|from|export|class|if|else)\b|'[^']*'|
+]*
+undefined
+textarea
+fixed
+readonly
+copy
+Copy failed:
+2px
+Copy Code
+size-3.5
+Copied
+) : (
+Copy

@@ -1,0 +1,161 @@
+use client
+react
+@/components/icons
+@/lib/utils
+all
+bars
+rails
+panes
+safety
+compact
+medium
+expanded
+large
+extra-large
+ingredients
+Ingredients
+Tokens & Atoms
+Color, Typography, Spacing, Elevation, Motion
+recipes
+Recipes
+UI Primitives
+Buttons, Inputs, Badges, Chips, Switches
+entrees
+Entrees
+Components
+App Bars, Nav Rails, Cards, Modals, Dialogs
+templates
+Templates
+Layout Scaffold
+Top Bar + Rails + Fluid Panes + Safety Insets
+pages
+Pages
+Complete Views
+Dashboard, Student Roster, Gradebook, Settings
+cookbook
+Cookbook
+Design System
+System Guidelines, Token Governance & Rules
+relative size-9
+small
+center
+undefined
+space-y-6
+space-y-0.5
+#layout-scaffold-architecture
+Mobile
+<600dp
+Tablet
+600–839dp
+Desktop
+840–1199dp
+Wide Screen
+≥1200dp
+button
+size-3.5
+All Regions
+Top & Bottom Bars
+Navigation Rail
+Content Panes
+Safety Insets
+size-3
+Callouts: Visible
+Callouts: Hidden
+Rulers: On
+Rulers: Off
+Insets: On
+Insets: Off
+pointer-events-none absolute inset-0 z-30
+absolute top-0 bottom-0 left-6 border-l border-dashed border-red-400 opacity-60
+absolute top-18 right-0 left-0 border-t border-dashed border-blue-400 opacity-60
+absolute top-0 bottom-0 left-[38%] border-l border-dashed border-emerald-400 opacity-60
+Navigation Menu
+size-5
+Search Catalog
+size-4
+Nav Drawer
+Rail (80dp)
+home
+Home
+students
+Students
+courses
+Courses
+settings
+Settings
+size-4 shrink-0
+SINGLE PANE
+CO-PLANAR 1
+CS401 Distributed Systems
+SEC-A
+42/45
+MATH302 Linear Algebra
+SEC-B
+38/40
+ENG201 Technical Writing
+SEC-C
+29/30
+PHY101 Applied Physics
+SEC-D
+50/50
+Schedule
+Profile
+spacing.1
+4dp
+Micro spacing, icon gap
+spacing.2
+8dp
+Component internal padding
+spacing.4
+16dp
+Standard card & mobile margin
+spacing.5
+24dp
+Section gap & tablet margin
+spacing.6
+32dp
+Desktop canvas margin
+spacing.8
+48dp
+Touch target minimum
+// Jetpack Compose: Defining Alignment Rulers across Panes
+Design System Architectural Hierarchy · From Ingredients to Cookbook
+M3 Progressive Modular Progression · Level 4 defines the Layout Scaffold Architecture
+ACTIVE LEVEL: 4 · TEMPLATES (SCAFFOLD)
+CURRENT SCOPE
+Adaptive Device Viewport:
+Highlight:
+Margin Ruler (24dp)
+Title Baseline Ruler (56dp)
+Split Anchor Ruler (40% / 60%)
+9:41 AM
+CAMERA CUTOUT
+[06] SAFETY REGION: env(safe-area-inset-top)
+100% [5G]
+Academic Scaffold Hub
+[01] TOP APP BAR · 56dp
+[02]
+[03] FLUID WORKSPACE
+Content Stream
+SUPPORTING PANE
+[04] 360dp
+Contextual Tools
+Room Assignment
+Lab 402
+Faculty Lead
+Dr. S. Chen
+Live Telemetry
+Active
+[05] BOTTOM NAV BAR · 80dp (Thumb Zone)
+56–152dp
+2. Rails (Navigation)
+80–360dp
+Perimeter space bordering panes. Accommodates 80dp vertical navigation rails on tablet,
+            collapsible 240dp drawers on desktop, editing toolbars, and spatial panels.
+3. Panes (Content)
+1 to 3 Panes
+4. Safety Region
+env(safe-area-*)
+Protective bounds safeguarding layout against camera cutouts, dynamic islands, system
+            gesture bars, and foldable physical hinges.
+M3 Standard Spacing Grid (8dp)

@@ -1,0 +1,194 @@
+use client
+react
+./brand-concept-blueprint
+./page-heroes
+./color-ramps-tokens
+./core-components-maintenance-studio
+@/components/icons
+@/lib/utils
+emerald
+blue
+slate
+brand-group
+Brand
+Brand drives every single decision you make when building new products or features.
+brand-blueprint
+Brand Blueprint & Assets
+01
+brand-logo-design
+Asterisk Logo Design (3-Shape)
+01.1
+brand-vision
+Vision
+B1
+brand-principles
+Design Principles
+B2
+brand-tone-of-voice
+Tone of Voice
+B3
+brand-terminology
+Terminology
+B4
+brand-assets
+Brand Assets
+B5
+foundations-group
+Foundations
+Design assets and tokens that store values for the base layer of your design system.
+color-ramps-tokens
+Color Ramps & Semantic Tokens
+02
+0/4
+foundations-typography
+Typography Scale
+F1
+0/5
+foundations-elevation
+Elevation & Z-Index
+F2
+0/3
+foundations-motion
+Motion & Physics
+F3
+foundations-iconography
+Iconography Standards
+F4
+0/7
+core-components-group
+Core Components
+Components are the main building blocks for user interfaces, reducing design and tech debt.
+comp-accordion
+Accordion
+C1
+comp-alert
+Alert
+C2
+0/6
+comp-avatar
+Avatar
+C3
+comp-badge
+Badge
+C4
+comp-button
+Button
+C5
+0/10
+comp-breadcrumbs
+Breadcrumbs
+C6
+comp-calendar
+Calendar
+C7
+comp-card
+Card
+C8
+comp-carousel
+Carousel
+C9
+comp-checkbox
+Checkbox
+C10
+comp-divider
+Divider
+C11
+0/2
+comp-dropdown
+Dropdown
+C12
+comp-icon
+Icon
+C13
+comp-image
+Image
+C14
+comp-link
+Link
+C15
+comp-list
+List
+C16
+comp-loading
+Loading indicator
+C17
+comp-modal
+Modal
+C18
+0/8
+comp-pagination
+Pagination
+C19
+comp-progress-bar
+Progress bar
+C20
+comp-radio
+Input radio
+C21
+comp-select
+Select
+C22
+comp-skeleton
+Skeleton
+C23
+comp-switch
+Switch
+C24
+comp-tabs
+Tabs
+C25
+comp-textarea
+Text area
+C26
+comp-textfield
+Text field
+C27
+0/9
+comp-toast
+Toast
+C28
+comp-tooltip
+Tooltip
+C29
+maintenance-group
+Maintenance
+Design systems strategy, documentation, local libraries, team processes, community support, and contribution.
+maint-documentation
+Documentation
+M1
+maint-local-libraries
+Local libraries
+M2
+maint-team-processes
+Team processes
+M3
+maint-community-support
+Community support
+M4
+maint-contribution
+Contribution
+M5
+input
+textarea
+Escape
+keydown
+smooth
+start
+Design System Navigation
+space-y-4 p-4 lg:p-5
+text
+Search design manual...
+none
+button
+Clear search
+size-3.5 stroke-[2.5]
+Foundations Outline
+space-y-1 pt-1
+space-y-0.5
+completed
+space-y-1 border-b border-slate-100 pb-4
+SNPI System
+) : (
+Reset
+Contrast-checked color ramps and semantic tokens, built to start a project and
+                  hand to your agent.

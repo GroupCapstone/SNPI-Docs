@@ -1,0 +1,1094 @@
+use client
+react
+@/components/icons
+@/lib/utils
+canonical
+breakpoints
+density
+states
+layout
+selection
+inputs
+notifications
+ux-writing
+alt-text
+inclusive
+resizing
+keyboard
+contrast
+hierarchy
+targets
+feed
+list-detail
+supporting
+compact
+medium
+expanded
+cs401
+below
+beside
+list
+detail
+large
+extra-large
+reveal
+divide
+resize
+reposition
+swap
+bottom
+leading
+safety
+title
+content
+margins
+implicit
+explicit
+enabled
+disabled
+hover
+focused
+pressed
+dragged
+button
+fab
+chip
+switch
+card
+input
+list-item
+mobile
+desktop
+spatial
+levitate
+reflow
+item-1
+indicators
+desktop-hover
+courses
+primary
+secondary
+mouse
+trackpad
+stylus
+default
+pointer
+text
+col-resize
+crosshair
+consequences
+pronouns
+punctuation
+casing
+sms-latin
+sms-nonlatin
+photo
+chart
+motion
+decorative
+Disability
+Age
+Scale for youth through senior users with varied motor & visual capabilities.
+Culture
+Evaluate cultural symbolism, color connotations, and language nuances.
+Education
+Education & Literacy
+Ethnicity
+Ensure authentic representation and eliminate cultural stereotypes.
+Gender
+Support diverse identity options and inclusive form data collection.
+Geography
+Physical
+Physical Attributes
+Accommodate one-handed use, varied grip styles, and varied hand sizes.
+Race
+Audit visual assets and automated algorithms for inclusive demographic parity.
+Religion
+Respect calendar sensitivities, dietary standards, and religious observance days.
+Orientation
+Sexual Orientation
+Guarantee privacy safeguards and non-assumptive relationship structures.
+Socioeconomic
+Socioeconomic Status
+TechProficiency
+Technology Proficiency
+Provide unambiguous mental models, instant undo, and zero tech jargon.
+Bold
+Italic
+Underline
+Code
+BulletList
+Format bold
+Format italic
+Format underline
+Format inline code
+Format bullet list
+ArrowRight
+ArrowDown
+ArrowLeft
+ArrowUp
+Home
+End
+undefined
+Layout & Structure
+Layout Scaffold
+Canonical Layouts
+Breakpoints & Vectors
+Grids & Density
+Resizing & Reflow
+accessibility
+Accessibility & Nav
+Landmarks, keyboard traversal, touch targets, and contrast ratios
+Hierarchy & Landmarks
+Keyboard & Focus
+Target Sizes & Spacing
+Contrast & Clusters
+interactions
+Interactions & Inputs
+Micro-interaction states, multi-modal entry, and selection modes
+Interaction States
+Multi-Modal Inputs
+Selection Modes
+Content & Clarity
+UX syntax, concise messaging, alt text formulas, and plain writing
+UX Writing & Syntax
+Alt Text & Global Writing
+Notifications & SMS
+Co-Design & Dimensions
+space-y-6
+S & MILLER
+size-4 stroke-[2] transition-colors
+mt-0.5
+space-y-0.5
+56 Chars
+88 Chars
+68 Chars
+0 Chars (Null)
+A Scandinavian-style copper-handled cream watering can.
+Weekly step count was 55% higher vs last week, peaking at 4,106 additional steps.
+A tooltip labeled "star" appears when cursor hovers over star icon.
+alt=""
+Focuses on the core item without extraneous window sill details.
+Captures the key metric takeaway rather than copying raw data points.
+Summarizes the essential state change rather than cursor mechanics.
+Null alt attribute hides purely decorative art from screen readers.
+152 Chars (Exceeds 140)
+Raw Data Dump
+Over-detailed
+Raw Filename
+Image of child hands pouring from copper handled cream colored watering can on window sill into a phoenix plant in grey pot beside a blue book on shelf.
+Step count: Mon=2000, Tue=4500, Wed=8000, Thu=3000, Fri=7000, Sat=9000, Sun=4000.
+A hand-shaped cursor lands on a star-shaped icon and then a tooltip labeled "star" appears below.
+alt="jpg-0223939-330.png"
+Violates 140 character limit and prefixes with redundant "Image of".
+Screen reader users must listen to dozens of raw numbers without context.
+Describes cursor mechanics rather than the resulting functional state.
+Exposes internal filename garbage to assistive tech users.
+Consequences & Undo
+Pronouns & Voice
+Punctuation & Syntax
+Sentence Case
+Neutral + 30-Day Recovery
+Second Person ("You / Your")
+Oxford Comma · En Dash · No Period
+Pure Sentence Case
+space-y-2
+pt-1
+Omits periods on single-line strings, enforces Oxford comma, uses En dash without spaces for ranges.
+Sentence case maximizes human skimming speed and guarantees clean screen reader prosody.
+Intimidation & Zero Recovery
+Mixed "My" & Corporate "We"
+Terminal Periods & Hyphenated Verbs
+Title Case & All-Caps Blocks
+Uses intimidation, emotional manipulation, shouting exclamation marks, and omits recovery instructions.
+Clutters scanning with redundant periods, omits Oxford comma, and incorrectly hyphenates verb phrases.
+Title Case and All-Caps blocks degrade readability and cause screen readers to spell out letters.
+Push Collapsed
+Push Expanded
+SMS Latin
+SMS Non-Latin
+Title: 24/29c · Body: 32/40c
+Title: 22/29c · Body: 63/80c
+Body: 104/160c (1 SMS)
+Body: 78/134c (1 SMS)
+size-3
+push
+space-y-1.5
+Tuition Fee Due Tuesday
+Grade Report Published
+Invoice #8920 requires payment.
+Semester 1 grade report published for review on Tuesday, Nov 4.
+Pay Now
+Review
+Details
+Download
+SNP Alert: Term exam schedule published for Monday, Nov 10. Login to portal to verify room assignment.
+ការជូនដំណឹងពី SNP៖ កាលវិភាគប្រឡងថ្ងៃចន្ទ ទី១០ វិច្ឆិកា។ សូមពិនិត្យក្នុងប្រព័ន្ធ។
+Front-loaded title, zero app name repetition, day-specific Tuesday, 1-word CTAs.
+Expanded body reveals context without jokes, emojis, or relative today/tomorrow words.
+Within 160 char limit to guarantee 1 single segment, zero raw links, urgent only.
+Within 134 char non-Latin UCS-2 limit, prevents multi-part carrier cost spikes.
+Title: 58/29c (Truncated)
+Delight/Emoji/Relative
+187/160c (2 SMS Billing)
+152/134c (2 SMS Billing)
+SNP Portal: Good afternoon, your student invoice #8920...
+Good job student! Grades are ready!
+Please remember to pay your bill today or tonight to avoid penalties.
+Hey! Check it out today please! Good luck! Click here to see what you got.
+Repeats app name in title, uses dynamic greeting, relative "today", verbose 4-word button.
+Excessive delight, polite filler ("please"), ambiguous pronoun ("it"), relative "today".
+Exceeds 160 characters with long raw URL, triggers double SMS billing, uses relative "tomorrow".
+Exceeds 134 character UCS-2 barrier, splitting message into 2 chargeable segments.
+Notifications: ACTIVE
+Notifications: MUTED
+translate-x-5
+translate-x-0
+Mouse
+Trackpad
+Keyboard
+Stylus
+space-y-3
+Attached (Connected)
+Disconnected (Touch Only)
+SUPPRESSED (Hidden)
+ACTIVE (Visible for Touch)
+RTL (Right-to-Left)
+LTR (Left-to-Right)
+Compact
+<600dp
+Medium
+600–839dp
+Expanded
+840–1199dp
+Large
+1200–1599dp
+Extra-Large
+≥1600dp
+Mobile
+Full-Screen & Split
+Desktop
+Free-Form Multi-Window
+Spatial XR
+3D Space & Orbiters
+Pane
+Panes
+Show/Hide
+Levitate
+Reflow
+ON
+OFF
+right-8
+left-8
+pointer-events-none absolute inset-0 z-40
+rtl
+ltr
+font-bold
+border-l
+border-r
+dash
+Dashboard
+Courses
+12
+students
+Students
+148
+grade
+Gradebook
+reports
+Reports
+justify-center
+RAIL EXPANDED
+RAIL
+100%
+32%
+CS-401
+Distributed Systems
+CS-302
+Software Architecture
+ENG-101
+Technical Communication
+MATH-204
+Applied Cryptography
+Drag handle: Click to toggle 35/65 vs 50/50 split
+42%
+border-l border-slate-200
+border-r border-slate-200
+Drag handle: Resizes utility inspector pane
+26%
+mb-2 border-b border-slate-100 pb-2
+Settings
+space-y-2 pt-2
+p-2.5
+Enabled
+Default
+Disabled
+38% Opacity
+Hover
+8% Overlay
+Focused
+Focus Ring
+Pressed
+Ripple
+Dragged
+Elevation
+Button
+FAB
+Filter Chip
+Switch
+Card
+Text Field
+List Item
+ACTIVE
+INACTIVE
+Hover Exclusivity: Exactly 1 hover state active across layout
+Focus Exclusivity: Exactly 1 keyboard focus indicator active
+Pressed Exclusivity: Tactile ripple order initiated by user
+Dragged Exclusivity: Elevation increase + coordinates tracking
+Disabled Exemption: No hover/focus/press state layers inherited
+Enabled Baseline: Default surface styling & 100% interactive
+Disabled: Reduced opacity, 0dp elevation, pointer-events: none
+Pressed: 12% ripple overlay + tactile elevation feedback
+Dragged: 16% overlay + 8dp elevation drop shadow
+Enabled: Standard interactive baseline state
+mt-1
+ring-4 ring-[#0056FF] ring-offset-2
+Selected
+Unselected
+ring-2 ring-[#CAD3F5]
+scale-95
+border-[#2277FF]
+border-2 border-[#0056FF] ring-4 ring-[#0056FF]/20
+SNPI-STU-2026-089
+(DEFAULT)
+(DENSE)
+Scale 0 (Default)
+48dp
+12dp
+Scale -1 (Compact)
+44dp
+8dp
+Scale -2 (Dense)
+40dp
+4dp
+Scale -3 (Ultra-Dense)
+36dp
+2dp
+Safety
+Title
+Content
+Margin Wiggle
+VISIBLE
+HIDDEN
+relative border-b-2 border-dashed border-cyan-500 pb-1
+48px
+44px
+40px
+36px
+divide-y divide-slate-100
+Dr. Sophal Kesararam
+Faculty Lead
+Computer Science
+A+
+Chanthy Vuthy
+Research Fellow
+Serey Roth
+Teaching Assistant
+A-
+Bopha Pisey
+Graduate Scholar
+B+
+12px
+8px
+4px
+2px
+32px
+28px
+24px
+Mandatory 48x48dp accessible touch target boundary
+6px
+1px
+Phone (Portrait)
+Tablet / Foldable
+Tablet Landscape
+Desktop / Laptop
+Ultrawide Desktop
+1. What should be revealed?
+Expose secondary panes & navigation labels
+2. How should a screen be divided?
+1 pane vs 2 panes vs 3 panes
+3. What should be resized?
+40–60 characters per line reading rule
+4. What should be repositioned?
+Bottom mobile action to leading rail
+5. What should be swapped?
+Functionally equivalent component exchange
+block
+ENFORCED
+REVEALED
+COLLAPSED
+EXPANDED DRAWER
+Ledger
+ml-2
++ New Roster
+40%
+44%
+60%
+52 CPL (Optimal Reading)
+110 CPL (Visual Fatigue)
+48ch
+List-Detail
+Parent-Child Hierarchy
+Supporting Pane
+Primary 2/3 + Contextual 1/3
+Feed Layout
+Grid Card Discovery
+Compact (<600dp)
+Mobile Phone Portrait
+Medium (600–839dp)
+Tablet Portrait / Foldable
+Expanded (≥840dp)
+Desktop / Landscape
+LIST-DETAIL: Parent-Child Data Pairing (2 Panes)
+SUPPORTING PANE: 2/3 Focus Work Area + 1/3 Contextual Tools
+FEED LAYOUT: Grid Card Composition & Discovery Reflow
+Student Dossier & Grades
+Cohort Enrollment & Dossiers
+Back Button Invariant: Visible in Detail View ONLY
+SNPI-FAC-001
+Active
+cs302
+SNPI-RES-014
+Graded
+math204
+SNPI-TA-088
+Pending
+eng101
+SNPI-STU-102
+Technical Writing
+Beside (Fixed 360dp on Desktop)
+Below (Stacked on Compact/Medium)
+gap-4 p-4
+66%
+34%
+1-Column Stack (100% Width)
+2-Column Responsive Grid
+3-Column Expanded Rich Grid
+New Cybersecurity Lab Launched
+Faculty News
+10m ago
+Semester Exam Roster Finalized
+Academic Office
+1h ago
+Applied Cryptography Workshop
+Student Club
+3h ago
+Library Extended Hours Announced
+Campus Life
+5h ago
+Quarterly Scholarship Awards
+Administration
+1d ago
+Distributed Systems Capstone Demo
+Engineering
+2d ago
+Indicators & Pills
+Touch & CAB Mode
+Desktop Checkbox Reveal
+exams
+grades
+finance
+hover:opacity-80
+size-4
+item-2
+item-3
+Mathematics Exam Room 402
+Monday, 08:30
+Physics Lab Session B
+Monday, 10:15
+Computer Science Lecture
+Monday, 13:00
+size-3.5
+checkbox
+accent-[#0056FF]
+Software Engineering II
+Database Systems
+Network Security
+transition-colors
+cursor-pointer accent-[#0056FF]
+inline-block size-3.5
+space-y-1
+8px 24px
+Layout reflows to vertical stack automatically
+Standard horizontal layout
+SNP International School scheduled exams for Grade 12 students covering Advanced Mathematics, Computer Science, and Physics starting Monday 08:00 AM.
+SNP International School scheduled exams for Grade 12 students covering...
+[Show Less]
+[Read Full Message]
+Fully Expanded
+Truncated with Ellipsis
+relative
+Focus Restored to Trigger
+Initial Trigger Ready
+dialog
+true
+live-dialog-title
+toolbar
+Text formatting tools
+Toggle single-key shortcuts
+focus-visible:ring-3 focus-visible:ring-[#0056FF] focus-visible:ring-offset-2 focus-visible:outline-none
+size-5
+[PASS] Compliant Alt Text
+[FAIL] Anti-Pattern
+1.5x Translation Buffer
+1. Global Examples
+Use universal terms over country-specific references or regional holidays.
+2. Short Sentences
+3. Zero Abbreviations
+Spell out acronyms and shorten words to avoid translator confusion.
+4. Noun Repetition
+6. Zero Polite Filler
+7. Plain Language
+Eliminate technical jargon. Use literal descriptions for critical actions.
+8. Disambiguate Words
+[PASS] Compliant Pattern
+Archive course section?
+Enrolled students will lose access to course materials. You can restore this
+                        course section within 30 days from Settings.
+Archive course
+Cancel
+Your timetable is updated
+Check your exam room assignment before Monday.
+View your timetable
+Form label (no period):
+Student identification number
+Range (En dash):
+Office hours: 9 AM–Noon
+Verb (unhyphenated):
+Please check in before entering
+Oxford serial comma:
+Math, science, and history
+Navigation:
+Course registration
+Button:
+Download grade report
+Table header:
+Enrollment verification status
+WARNING: DANGER! ARE YOU SURE?!
+If you delete this course section now, you will LOSE EVERYTHING and students
+                        will be furious! Think carefully!
+YES, DELETE IT ALL
+We are happy to serve you!
+We have updated our portal so you can view my personal student timetable
+                        now.
+My schedule
+Form label (unnecessary period):
+Student identification number.
+Range (spaced hyphen):
+Office hours: 9 AM - Noon
+Verb (incorrectly hyphenated):
+Please check-in before entering
+Missing serial comma:
+Math, science and history
+Navigation (Title Case):
+Course Registration
+Button (All-Caps Block):
+DOWNLOAD GRADE REPORT
+Table header (Title Case):
+Enrollment Verification Status
+1. Consequence Clarity
+3. Sentence Case
+4. Skip Periods
+Omit terminal periods on labels, tooltips, dialogs, and single-line strings.
+5. Contractions
+6. Oxford Serial Comma
+Always use the serial comma before conjunctions in lists of 3+ items.
+8. Spelled-Out Words
+9. Number Formatting
+10. Punctuation Economy
+[PASS] Compliant Payload
+Tuesday, 09:30
+) : (
+Today, 14:02
+Click Here To Proceed
+Contextual In-Situ Opt-Out Control
+Transparent trade-off: Muting halts timetable alerts on this device while
+                    preserving critical security dispatches.
+1. Front-Load Info
+2. Character Limits
+3. SMS Ceilings
+4. Day-Specific Timing
+5. Zero Dynamic Titles
+6. 1–2 Word Action CTAs
+7. Zero Product Duplication
+Zero emoji clutter, zero jokes, zero unsolicited ads, never interrupt active
+                  onboarding.
+[PASS] Multi-Modal Interaction
+Right-Click / Secondary Click this Box
+Activates contextual actions without requiring touch long-press
+Copy text
+Inspect details
+Close menu
+Test Cursor Semantics (Hover Cards Below):
+default (Arrow)
+pointer (Hand)
+text (I-Beam)
+Vertical List Scroll:
+2-finger vertical drag
+Horizontal Carousel:
+2-finger horizontal drag
+Pinch to Zoom:
+Smooth page/element scaling
+Context Menu:
+2-finger tap
+Virtual On-Screen Keyboard:
+Enter:
+Submit / Send
+Space:
+Pause / Toggle
+Tab:
+Logical Ring Focus
+Escape:
+Dismiss / Reset
+Stylus Tool Circle Indicator
+Separates mouse clicks from touch events, maintains dedicated text selection
+                  without touch handles, and respects standard OS gestures.
+[FAIL] Input Anti-Pattern
+Broken Conventions
+Touch Assumption:
+Touch handles displayed for mouse cursor
+Virtual Keyboard:
+Covers 50% screen with physical keyboard attached
+Secondary Click:
+Drag Gesture:
+Dragging mouse scrolls instead of highlighting text
+Escape Key:
+Wipes all typed text instead of closing dialog
+Treating physical inputs as crude touch events frustrates desktop, laptop, and
+                  tablet users with unexpected behaviors.
+8 Multi-Modal Input Invariants
+1. Universal Support
+Treat mouse, trackpad, keyboard, stylus, and touch as equal first-class inputs.
+2. Visible Cursor
+Always render a visible mouse cursor whenever an external pointer is connected.
+3. Secondary Click
+Right-click or 2-finger trackpad tap must activate contextual actions immediately.
+4. Text Selection Hierarchy
+5. Drag Disambiguation
+6. Keyboard Suppression
+7. Standard Key Hooks
+8. Escape Key Cleanliness
+Breakpoints (Window Size Classes)
+Experience Environments
+Panes:
+Strategy:
+XR Floating Orbiter
+Campus
+Spatial Labs
+09:41
+SNPI International School
+Search courses, cohorts, assignments...
+Export
+Create Course
+Academic Cohorts (12)
+Primary
+= 2 && (
+CS-401: Advanced Distributed Systems
+Active Cohort
+SYLLABUS SUMMARY
+Average Grade
+88.4%
+Assignments
+14 / 16
+Teacher: Dr. S. Kesararam
+Fast Grade Submission
+This pane elevates over background content when horizontal space is
+                            constrained or temporary modal focus is required.
+Dismiss
+Submit
+Expand/Fold
+Supplemental panes (detail and inspector) automatically expand side-by-side as
+                  screen width scales, and collapse into stack drill-down navigation on compact
+                  viewports.
+2. Levitate
+Modal Focus
+Elevates auxiliary workflows into floating dialogs or docked bottom sheets when
+                  co-planar screen width is restricted, preventing horizontal crowding.
+3. Reflow
+Dynamic Grid
+Restructures multi-column content from 3 columns down to 2 columns and
+                  single-column vertical stacks without altering data relationships or causing
+                  overflow.
+Scaffold Element
+Architectural Role
+Breakpoint Scaling Rules
+Interaction Invariant
+Windows
+Bars
+Top App Bar provides context + 1–2 essential actions
+Rails
+Holds navigation, toolbars, and Floating Action Buttons
+Primary content destinations (1–3)
+Drag Handles
+Pane resizing divider
+Rulers
+Global alignment guidelines
+Enforces unified margins and element placement
+Bidirectionality
+Full layout mirroring for Arabic, Hebrew, Farsi
+Rails and navigation components mirror to right edge
+Safety Regions
+System reserved UI zones
+Status bar (24dp), gesture nav bar (20dp), hinges
+Never place interactive controls in safety zones
+Select Interaction State
+Select Target Component
+Compound Modifiers:
+Confirm Enrollment
+FAB Disabled Rule (M3 Invariant)
+never display as disabled
+. If the action represented by the
+                        FAB is unavailable, the FAB must
+hide completely
+from the
+                        layout.
+Auto-Grading Roster
+COHORT CARD
+CS-401: Distributed Consensus
+Card container demonstrates elevation changes across hover, press, and drag
+                      states.
+Student Identifier
+1. Hover Exclusivity
+Single Cursor
+Only one component across the entire screen layout can possess a hover state at
+                  any given moment, strictly governed by pointer position.
+2. Focus Indicator
+Tab Ring
+Keyboard traversal highlights exactly one target with an accessible ring indicator
+                  (2px solid #0056FF, 2px offset) without mouse hover ambiguity.
+3. Pressed Ripple
+Pressed states provide instant tactile feedback via surface depression and ripple
+                  overlays, executing in strict user-initiated activation order.
+4. Dragged Lift
+4–8dp Lift
+Component Group
+Examples
+Inherited States
+Action Components
+Buttons, Icon buttons, FABs
+Enabled, Hover, Focused, Pressed
+FAB must hide completely if action unavailable (never disabled)
+Selection Controls
+Checkboxes, Radio buttons, Switches, Chips
+Enabled, Disabled, Hover, Focused, Pressed, Dragged (Chips)
+Disabled controls cannot be focused, pressed, or dragged
+Input Components
+Text fields, Sliders, Pickers
+Enabled, Disabled, Hover, Focused, Pressed, Dragged (Sliders)
+Disabled fields suppress text entry and cursor I-beam
+Cards, List items
+Enabled, Disabled, Hover, Focused, Pressed, Dragged
+Inherit elevation increase during pressed and dragged states
+Navigation Shells
+App Bars, Navigation Rails, Drawers, Tabs
+Container inherits NO states
+Only internal child items (buttons, tab links) inherit states
+Communication
+Badges, Dialogs, Tooltips, Sheets
+Static containers cannot be hovered, pressed, or dragged
+16dp GLOBAL ALIGNMENT LINE
+COHORT ENROLLMENT ROSTER
+Edit
+1. Rhythm
+Cadence
+Consistent horizontal and vertical intervals across cards and list items guide eye
+                  tracking and eliminate visual cognitive friction.
+2. Similarity
+Parity
+Identical avatar dimensions, thumbnail bounds, and padding values signal to the
+                  user that elements belong to the same logical taxonomy.
+3. Proximity
+Causality
+Placing actionable buttons directly adjacent to modified content items establishes
+                  an immediate, intuitive causal relationship.
+4. Continuity
+Unified Row
+Aligning related controls into cohesive horizontal rows or toolbars signals a
+                  unified capability set with minimal DOM fragmentation.
+Domain
+Architectural Standard
+Measurement Rule
+Inviolable Constraint
+Placement Order
+3-Step Composition
+Never position inner content before defining edge bars
+Global Rulers
+Bar, Safety, Title, Content Rulers
+Safety rulers ensure status bars never obscure interactive elements
+Density Scale
+Scale 0 to Scale -3
+-4dp padding / height decrement per scale step
+Font size and line height must NEVER shrink in dense mode
+Target Bounds
+Accessible Hit Target
+Density Opt-In
+User Preference Control
+Default = Scale 0 (Comfortable)
+Prohibited Areas
+Menus, Dialogs, Snackbars, Confirmation alerts
+Strictly prohibited from applying component density scaling
+Select Target Breakpoint
+The 5 Foundational Transformation Questions
+Swapped: Full-Screen Dialog
+Swapped: Standard Centered Dialog
+Cohort Master List
+Pane 1 (Master)
+Active Detail
+Course Specification
+Students implement the Raft consensus algorithm, multi-tenant state
+                            machines, and cryptographically verified replication chains across
+                            distributed nodes.
+Real-Time Audit Log
+1. Reveal
+Expose navigation drawer labels and secondary detail panes simultaneously on wider
+                  viewports without navigation churn.
+2. Divide
+Partition the screen into 1 pane on compact/medium, 2 panes on expanded/large, and
+                  3 panes on extra-large displays.
+3. Resize
+Scale cards, lists, and images while strictly preserving optimal reading
+                  typography between 40–60 characters per line.
+4. Reposition
+Shift primary action controls from mobile bottom thumb reach to leading edge
+                  navigation rails on mouse/cursor desktop screens.
+5. Swap
+Material 3 Component Swapping Matrix Across Breakpoints
+Component Role
+Primary Navigation
+Bottom Navigation Bar
+Collapsed Navigation Rail
+Standard Expanded Nav Rail / Drawer
+240px Drawer + Utility Rail
+Modal Communication
+Full-Screen Dialog
+Basic Centered Dialog
+Centered Dialog / Command Palette
+Contextual Actions
+Modal Bottom Sheet
+Dropdown Menu
+Dropdown Menu / Context Menu
+Cascading Context Menu
+Auxiliary Panes
+Stack Drill-down (1 Pane)
+Floating Modal Sheet
+Side Sheet (Co-planar)
+Standard Side Sheet (3rd Pane)
+Material 3 Canonical Layout Archetypes
+Select Canonical Archetype
+Simulated Viewport Size
+List Pane (Parent Hierarchy)
+4 Students
+Detail Pane (Child Context)
+Persistent State Saved
+CREDENTIAL VERIFICATION
+Verified Faculty Lead
+PhD in Distributed Systems, MIT Cambridge.
+TERM PERFORMANCE
+4.0 Cumulative GPA
+100% on-time grade submissions.
+Primary Focus Area (~2/3 Space)
+Main Workspace
+This primary focus pane holds the core document and active editing workflow.
+                        In supporting pane layouts, secondary content is only meaningful in direct
+                        relation to this primary document.
+Supporting Pane (~1/3 Space)
+Contextual Tool
+Peer Review:
+Verify
+                          election timeout randomization (150–300ms).
+AI Co-Pilot:
+Campus activities, announcements, and curricular milestones arranged in
+                          adaptive cards.
+1. Feed Layout
+Discovery
+2. List-Detail Layout
+Parent-Child
+Explores collections alongside details. Enforces back button in single-pane mobile
+                  drill-down, and persistent co-planar layout on expanded screens.
+3. Supporting Pane
+2/3 + 1/3 Focus
+Organizes content where secondary tools depend directly on primary work. Stacks
+                  below on compact viewports and docks beside at 360dp on expanded screens.
+Material 3 Canonical Layouts Invariants Matrix
+Archetype
+Primary Relationship
+Strict Behavioral Invariant
+Feed
+Independent cards / items
+1-column vertical stack (100% width)
+Reading order strictly follows DOM position across reflow
+Parent-child collection pairing
+1-pane drill-down with Top Bar Back button
+Focus document + Contextual tool
+Supporting pane placed below primary pane
+Supporting pane placed beside (360dp fixed)
+Secondary panel must be meaningful only in relation to primary
+Advanced Layering
+Temporary focused modal task
+Modal bottom sheet
+Levitated floating sheet / centered dialog
+Elevates above canvas to preserve context while focusing task
+Surface Tint + Checkmark Glyph + Single-Select Active Pills:
+Active Pill Indicator (Navigation Rail / Tabs — Strictly Single Select):
+Selected Card
+Surface tint (#EFF5FF) + 2px #0056FF border
+Unselected Card
+Neutral white surface + subtle border
+Select All
+Done
+Desktop Checkbox Reveal Logic:
+Primary Activity (Always Visible)
+Secondary (Hover Reveal)
+0 ? (
+Course Name
+Credits
+[FAIL] Selection Anti-Pattern
+Indicator Clashing:
+Gesture Conflict:
+Batch drag collides with draggable kanban cards
+Navigation Multi-Select:
+Selecting 2 tabs simultaneously in top bar
+Missing CAB Toolbar:
+Weak selection cues fail accessibility guidelines, while overloaded gestures
+                  prevent users from moving cards reliably.
+8 Selection Architecture Invariants
+1. Three Modalities
+Combine surface tint (#EFF5FF), checkmark icons, and checkbox components.
+2. Single-Select Pills
+Navigation rails, drawers, and tabs strictly enforce single active item selection.
+3. Touch Shortcuts
+Enter selection mode via 500ms long-press, 2-finger tap, or avatar shortcut.
+4. Contextual Action Bar
+Display selected item count and contextual bulk actions (Archive, Delete, Done).
+5. Gesture Conflict Guard
+Prohibit batch drag if long-press-and-drag is already bound to card reordering.
+6. Primary Table Checkboxes
+Keep checkboxes permanently visible when batch selection is the primary task.
+7. Secondary Hover Reveal
+8. Clean Mode Dismissal
+Deselecting all items or tapping Done immediately restores standard app bar.
+13 Dimensions of Lived Experience
+Select a dimension to inspect design considerations and participatory co-design
+                  checkpoints
+Participatory Co-Design Loop
+Continuous Process
+01. Partner
+02. Co-Create
+Involve users directly in ideation and architecture
+03. Validate
+Test assumptions across diverse demographic cohorts
+04. Iterate
+Evolve features, tone, and messaging iteratively
+Fairness Guards
+Prevent model bias by auditing training inputs across all 13 dimensions.
+Detect and mitigate risks of algorithmic discrimination and accessibility
+                      barriers.
+Continuous Community Feedback
+SNP International School Portal
+Scales seamlessly up to 200% without layout disruption.
+Secondary Action
+Expandable Reveal
+Academic Schedule Notification
+Fixed Navigation Bar / Rail Chrome
+Enlarged 2x Tooltip Label
+Open Confirmation Dialog
+Discard Current Operation?
+Are you sure you want to discard your draft? Focus is trapped inside this modal
+                    boundary.
+Keep Editing
+Discard Now
+2. Roving Tabindex Pattern (1 Tab Stop Group + Arrow Key Traversal)
+Tab Stops: 1
+Use Tab to focus the group, then Arrow Left/Right to navigate between tools without
+              cluttering tab stops.
+Single-Key Remap
+SHORTCUT
+TARGET ACTION
+SCOPE
+SINGLE-KEY STATUS
+Cmd/Ctrl + K
+Global Command Palette
+Application Root
+Multi-key Safe
+Shift + ?
+Shortcuts Help Center
+Global Window
+Esc
+Dismiss Dialog / Flyout
+Active Modal
+Native Reserved
+Tab / Shift+Tab
+Sequential Focus Traversal
+Document Focus
+Platform Standard
+ArrowLeft / Right
+Roving Tabindex Sub-Elements
+Component Level
+J / K (Single Key)
+Quick List Item Advance
+Data Tables
+Active (Opt-in)
+Disabled (Safe)
+21:1
+Peak Max
+Pure Black / White
+16.5:1
+SNPI Primary
+Navy on Canvas (AAA)
+WCAG AAA
+WCAG AA
+Regular Text Baseline
+UI Containers
+N/A
+Exempt from Ratio
+Confirm (4.7:1)
+Edit (3.2:1)
+Cancel (16.5:1)
+[PASS]
+Standalone Elements (Prominence Exception)
+Prominence Rule
+Isolated FABs are distinguishable by spatial prominence
+[EXEMPT]
+Linear Reading Order (Screen Reader Map)
+Top Left
+DOM Index: 0
+Top Right
+DOM Index: 1
+Bottom Left
+DOM Index: 2
+Bottom Right
+DOM Index: 3
+Heading Ladder (No Skipped Levels)
+Strict Sequential
+1 per page
+Major group
+8 W3C ARIA Landmark Roles
+Unique aria-label for repeating roles
+main
+Single core area
+navigation
+Differentiated labels
+banner
+contentinfo
+complementary
+search
+Search inputs
+region
+Named section blocks
+form
+Data capture bounds
+48dp Hitbox
+24dp visual icon with 12dp padding = 48dp hit area (7-10mm)
+44px iOS/Mouse
+Minimum bounding box for mouse and stylus precision
+8dp minimum separation prevents accidental touch collisions

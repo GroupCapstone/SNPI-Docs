@@ -1,0 +1,61 @@
+use client
+react
+motion/react
+./core-components-manual
+./maintenance-manual
+@/components/icons
+@/lib/utils
+@/lib/motion
+components
+maintenance
+panoramic
+undefined
+maint-
+maintenance-manual-section
+comp-
+core-components-section
+hashchange
+true
+pointer-events-none absolute inset-0 opacity-40
+linear-gradient(to right, #CAD3F5 1px, transparent 1px), linear-gradient(to bottom, #CAD3F5 1px, transparent 1px)
+28px 28px
+relative z-10 space-y-4
+button
+Core Components
+29 Primitives
+Maintenance Strategy
+5 Pillars
+Panoramic Studio
+activeStudioPill
+spring
+size-3.5
+29 Primitives · 166 Invariants
+5 Pillars · 28 Rules
+194 System Invariants
+space-y-12
+components-deck
+space-y-6
+maintenance-deck
+scroll-mt-24
+panoramic-deck
+space-y-4
+scroll-mt-24 space-y-4 pt-6
+ENTERPRISE DESIGN ENGINE
+Dual-engine architectural system uniting 29 production UI primitives with 5
+                operational governance pillars to ensure zero design debt, full accessibility, and
+                continuous enterprise stability.
+Panoramic View
+Atomic Primitives
+6 Clusters
+Accordion through Tooltip
+Component Invariants
+100% Verified Checkpoints
+Maintenance Pillars
+Governance
+Operational Rules
+CI / CD Gate
+Monorepo Isolation Rules
+SUBSECTION 03.1
+Core Components (29 Primitives)
+SUBSECTION 03.2
+Maintenance Strategy (5 Governance Pillars)

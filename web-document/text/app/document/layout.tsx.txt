@@ -1,0 +1,18 @@
+next
+@/features/document/components/ui-library
+SNPI-SMS API Docs & Design System
+%s · SNPI-SMS Docs
+Enterprise API documentation, developer guidelines, and UI component standards with Royal Blue & Sora typography.
+preconnect
+anonymous
+stylesheet
+.docs-root,
+/* Rule: no hover animation. Icons never animate on hover. */
+.docs-root *:hover svg,
+/* Base Font Scale - Increased for Higher Legibility */
+.docs-root button,
+/* Zero Gray Scrollbars Across Entire Docs Subdomain */
+/* Mandatory Standard Button & Input Geometry: border: 0 and border-radius: 4px */
+.docs-root button:not([data-dock-pill]):not([data-nav-pill]):not(.rounded-full),
+.docs-root input:not([type="checkbox"]):not([type="radio"]),
+.docs-root select,

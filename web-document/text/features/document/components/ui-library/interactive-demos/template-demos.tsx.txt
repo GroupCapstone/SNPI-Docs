@@ -1,0 +1,93 @@
+use client
+react
+@/lib/utils
+../multi-step-wizard
+../command-palette
+@/components/icons
+../navigation-menu
+pointer-events-none absolute inset-0 opacity-40
+button
+pointer-events-none absolute inset-0 opacity-40 transition-all duration-500
+[transform:rotateX(60deg)_translateY(-20%)]
+linear-gradient(to right, #CAD3F5 1px, transparent 1px), linear-gradient(to bottom, #CAD3F5 1px, transparent 1px)
+36px 36px
+3D Active
+2D Flat
+Pulse Fast
+Calm State
+pointer-events-none absolute inset-0
+normal
+fast
+animate-in fade-in-0 blur-in-sm transition-all duration-700 ease-out
+pointer-events-none absolute -inset-px transition-opacity duration-300
+relative z-10 space-y-3
+../logo-marquee
+Dara Sok
+dara.sok@student.snpi.edu.kh
+STU-2026-0891
+space-y-4
+space-y-1.5
+std-full-name
+size-3 stroke-[2.5]
+size-5 stroke-[2.5]
+text
+Full name
+std-email
+email
+Email address
+std-student-id
+Student ID
+Clear
+Fill Sample
+submit
+Record Registered
+Register Candidate
+size-3.5 stroke-[2.5]
+space-y-0.5
+font-bold
+font-mono font-bold
+National_Birth_Certificate.pdf
+4532 •••• •••• 8891
+size-5
+space-y-2
+Card Number
+Precision Linear Grid
+Pure geometric linear lattice (Zero-Dot Design Standard) with customizable pitch.
+Retro Cyber Grid
+CSS 3D perspective plane with gradient horizon falloff.
+Aurora Ambient Waves
+Particle Constellation
+Zero-overhead CSS keyframe floating nodes for technical dashboards.
+SNPI Autonomous Campus
+Gradient-clipped typography shimmer with dynamic linear keyframes.
+Zero-Lag Fluid Interface
+Cinematic Gaussian blur to sharp focus entrance for hero statements.
+Replay Blur Entrance
+Spotlight Ray
+Dynamic Cursor Illumination
+Mouse-following radial gradient layer illuminating mathematical borders and surfaces.
+Candidate Registration Dossier
+Verified Form
+Candidate Full Legal Name
+= 3 && (
+Valid Name
+Official legal name matching civil registration identity records.
+Institutional Campus Email Address
+Verified Domain
+Official campus single sign-on address (@student.snpi.edu.kh).
+National Student ID (STU-XXXX-XXXX)
+= 6 && (
+ID Standard
+Standard format: STU-YYYY-XXXX institutional identifier.
+Strict Zod Schema Validation
+Registration Complete
+Candidate record for
+) was verified and
+              registered into the campus directory.
+Drag & Drop Student Dossier
+PDF, PNG, DOCX up to 15MB
+Browse Files
+READY
+SNPI TUITION CARD
+DARA SOK
+EXP: 09/28

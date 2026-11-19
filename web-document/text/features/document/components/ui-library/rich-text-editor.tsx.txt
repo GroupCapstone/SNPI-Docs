@@ -1,0 +1,193 @@
+use client
+dompurify
+react
+@/lib/utils
+@/components/icons
+STRONG
+EM
+STRIKE
+H1
+H2
+H3
+H4
+BR
+UL
+OL
+LI
+BLOCKQUOTE
+CODE
+PRE
+HR
+s tag/attribute
+* allowlist. DOMPurify also enforces the URL-scheme guard (javascript:,
+* data:, vbscript: and other dangerous schemes are stripped from href).
+*/
+if (linkHookInstalled || typeof window ===
+// Match the previous sanitizer: external links always open safely.
+DOMPurify.addHook(
+if (node.tagName ===
+&& node.hasAttribute(
+node.setAttribute(
+if (typeof window ===
+if (!rawHtml || !rawHtml.trim()) return
+ALLOWED_ATTR: [
+],
+ALLOW_DATA_ATTR: false,
+// ============================================================================
+// RICH TEXT EDITOR COMPONENT
+initialContent,
+value,
+onChange,
+placeholder =
+minHeight = 220,
+// 06 HTML Source View state
+// Live telemetry metrics
+// 03 Live State Sync for active formatting buttons
+bold: false,
+italic: false,
+underline: false,
+strikeThrough: false,
+insertUnorderedList: false,
+insertOrderedList: false,
+h1: false,
+h2: false,
+h3: false,
+blockquote: false,
+// Calculate live telemetry
+// Sync content when value or initialContent changes externally
+// 03 Live State Sync: queries active document command state under current caret
+if (isHtmlView || typeof document ===
+) ||
+bold: document.queryCommandState(
+),
+italic: document.queryCommandState(
+underline: document.queryCommandState(
+strikeThrough: document.queryCommandState(
+insertUnorderedList: document.queryCommandState(
+insertOrderedList: document.queryCommandState(
+h1: block ===
+h2: block ===
+h3: block ===
+blockquote: block ===
+// Ignored if queryCommandState is unavailable
+// 02 Command Toolbar execution seam
+// URL Scheme Guard when adding hyperlinks
+// URL Scheme Guard: reject javascript:, data:, vbscript:
+if (
+lower.startsWith(
+setSanitizedNotice(
+) || lower.startsWith(
+? trimmed
+document.execCommand(
+// Apply rel="noopener nofollow" and target="_blank"
+a.setAttribute(
+// 04 Allowlist Sanitizer: Intercept onPaste
+// Keyboard Shortcuts: Ctrl/Cmd + B, I, U, K, Z
+if (key ===
+exec(
+// 06 HTML Source View Toggle
+// Switching from HTML source view back to visual WYSIWYG
+// Switching from WYSIWYG to raw HTML textarea
+// Content change handler
+<div
+role="toolbar"
+aria-label="Formatting controls"
+<button
+type="button"
+title="Undo (Ctrl+Z / ⌘Z)"
+aria-label="Undo"
+title="Redo (Ctrl+Y / ⌘⇧Z)"
+aria-label="Redo"
+title="Bold (⌘B)"
+aria-label="Bold (Ctrl+B)"
+activeStates.bold
+title="Italic (⌘I)"
+aria-label="Italic (Ctrl+I)"
+activeStates.italic
+title="Underline (⌘U)"
+aria-label="Underline (Ctrl+U)"
+activeStates.underline
+title="Strikethrough"
+aria-label="Strikethrough"
+activeStates.strikeThrough
+, activeStates.h1 ?
+title="Heading 1"
+aria-label="Heading 1"
+activeStates.h1
+, activeStates.h2 ?
+title="Heading 2"
+aria-label="Heading 2"
+activeStates.h2
+, activeStates.h3 ?
+title="Heading 3"
+aria-label="Heading 3"
+activeStates.h3
+title="Bullet list"
+aria-label="Bullet list"
+activeStates.insertUnorderedList
+title="Numbered list"
+aria-label="Numbered list"
+activeStates.insertOrderedList
+, activeStates.blockquote ?
+title="Quote block"
+aria-label="Quote block"
+activeStates.blockquote
+title="Code block"
+aria-label="Code block"
+title="Horizontal Divider Line"
+aria-label="Insert Divider Line"
+title="Insert Safe Hyperlink (⌘K)"
+aria-label="Insert Link (Ctrl+K)"
+title="Clear Formatting"
+aria-label="Clear formatting"
+!isHtmlView
+isHtmlView
+<textarea
+words,
+chars: text.length,
+readTime: Math.max(1, Math.ceil(words / 200)),
+aria-label="Raw HTML Source"
+) : (
+contentEditable
+role="textbox"
+aria-multiline="true"
+// INTERACTIVE DOCUMENTATION DEMO: RichTextEditorDemo
+<ul>
+<script>alert(
+<a href="javascript:alert(
+setTestFeedback(
+setEditorContent(
+// Demo guard: links inside sample content never navigate away.
+if ((e.target as HTMLElement).closest(
+button
+Clear canvas
+size-3
+Write report
+exec('formatBlock', activeStates.h1 ? '
+' : '
+exec('formatBlock', activeStates.h2 ? '
+exec('formatBlock', activeStates.h3 ? '
+exec('formatBlock', activeStates.blockquote ? '
+exec('formatBlock', '
+Visual
+Words:
+Characters:
+SNPI-SMS Autonomous Academic Charter
+The
+State Network Polytechnic Institute (SNPI)
+enforces strict data sovereignty, academic credential integrity, and multi-tenant isolation across all distributed campus nodes.
+Institutional Cloud Data Governance
+Under the
+SNPI Technical Security Standard
+, all student transcript requests require dual-officer biometric or MFA authentication.
+Multi-Campus Replication across Phnom Penh, Siem Reap, and Battambang
+Automated 24-hour snapshot recovery gates
+Immutable audit trails recording all grade modifications
+Suspicious Exploit Vector Test
+Legitimate content preserved without dangerous markup.
+Dangerous Injected Link
+Legitimate Educational Link
+Templates:
+Academic Charter
+Data Policy
+Test Sanitizer Paste

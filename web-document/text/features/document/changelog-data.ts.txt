@@ -1,0 +1,76 @@
+0.2.42
+06.11.2026
+史力爱卫
+0.2.41
+0.2.40
+0.2.39
+0.2.38
+0.2.37
+0.2.36
+0.2.35
+0.2.34
+0.2.33
+0.2.32
+0.2.31
+0.2.30
+0.2.29
+0.2.28
+0.2.27
+0.2.26
+0.2.25
+Remove card lines from component demo cards in documentation feed, enforce strict corner 2px radius (rounded-[2px]) on all icon containers behind icons across Component, API, and Blueprint pages with Keyline Two-Tone icons, category semantic color parity, and motionless stability
+0.2.24
+0.2.23
+0.2.22
+Standardize Keyline Two-Tone icons with 40% fill accent, stroke-width 2, size-6 default, zero animations/hover movement, and add single-click original logo vector export
+0.2.18
+05.11.2026
+0.2.17
+04.11.2026
+d87b1a7
+5a3d08b
+Redesign snappy mascot companion with interactive play actions, antenna twang, and brand colors
+05bfb65
+Record SWR Stale-While-Revalidate client caching and backend ETag integration architecture
+dc7de38
+Scaffold standalone Nextra official developer documentation portal
+3a40132
+Redesign simple easy navigation sidebar with zero icon circles and zero count numbers
+9251491
+Forbid pulsing beacons and remove live presence dots across all UI components
+856f683
+Record Full-Stack Security Masterclass covering OWASP API Top 10, RFC 8725, ASVS 4.0, NIST SP 800-63B, and MongoDB Hardening
+9926aac
+Redesign creative sidebar with liquid glass cards, tree guides, and status capsule
+55754f9
+Remove hero clutter text, add interactive ask kid mascot, and remove ai kit category
+711c3f9
+Restore visual style archetypes for status-page component
+f257d7c
+e04db67
+Unify parent group icons to royal blue with larger dimensions
+f8285ad
+Record API Stylebook manifesto deep-dive sync commit d7c691e
+d7c691e
+Enrich API Stylebook manifesto with 3 cardinal pillars, AP Stylebook lineage, and square-wheel defenses
+2f52e8d
+Record Google API design guide deep-dive sync commit 5025c17
+5025c17
+Enrich Google API Design Guide deep-dive with ROD methodology, 16 status codes, and AIP standards
+6d13f2d
+Record API Stylebook insights synchronization commit 8c04e4d
+8c04e4d
+Record API Stylebook blog insights, Deliveroo in-depth critique, and AP Stylebook lineage
+499d7b4
+Standardize public fonts and images naming, connectivity, and catalog
+eed781f
+Record API Stylebook 16-guideline directory sync commit 35af91d
+35af91d
+Record complete 16 enterprise API design guidelines directory and archetypes
+7664c38
+Record API Stylebook deep enrichment sync commit 99d07bf
+99d07bf
+Enrich all 100 API Stylebook topic files with deep architectural rules, concrete HTTP syntax, and guideline quotes
+a6de417
+aa4edd4
+Record API Stylebook 17-category library synchronization commit 6c30d96

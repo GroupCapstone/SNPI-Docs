@@ -1,0 +1,46 @@
+use client
+react
+motion/react
+@/lib/utils
+@/components/icons
+@/lib/motion
+button
+SNPI@SecPass2026
+None
+Weak
+Fair
+Good
+Strong
+relative
+text
+password
+Password
+wait
+eye-off
+hidden
+visible
+exit
+size-5
+eye-on
+space-y-1.5
+8+ characters
+Uppercase letter
+Number (0-9)
+Symbol (#$!@)
+size-3.5
+opacity-30
+Verify semester roster checksums
+Export tuition ledger to Central Bank
+Publish academic timetable revision
+Synchronize RFID campus gate logs
+success
+idle
+line-through
+Add task
+submit
+Selected Duration:
+Custom Adjustment:
+) : (
+Strength:
+Interactive Task List
+Add

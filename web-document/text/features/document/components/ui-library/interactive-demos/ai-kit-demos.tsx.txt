@@ -1,0 +1,33 @@
+use client
+react
+@/lib/utils
+@/components/icons
+button
+scale-125 opacity-90
+animate-pulse
+Autonomous Roster Check
+Agent 01
+12ms
+Ledger Hash Proofing
+Agent 02
+28ms
+Multi-Branch Sync Gate
+Agent 03
+19ms
+Dispute Verification
+Agent 04
+34ms
+animate-spin-slow absolute inset-0 rounded-full border border-dashed border-blue-500/40
+animate-reverse-spin absolute inset-2 rounded-full border border-dotted border-cyan-400/50
+Active
+Standby
+Thinking & analyzing query intent...
+Querying 52 MongoDB collections...
+Synthesizing verified institutional audit...
+Audit verification complete (Exit Code 0)
+size-2 rounded-full
+Fluid AI Orb
+Real-time Pulse
+Subsystem: Neural Cluster A
+Streaming Agent Status Pill
+Next Agent State

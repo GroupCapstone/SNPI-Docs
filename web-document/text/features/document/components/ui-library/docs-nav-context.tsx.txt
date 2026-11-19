@@ -1,0 +1,48 @@
+use client
+react
+next/navigation
+openapi
+library
+release
+sora
+inter
+google-sans
+mona-sans
+nunito
+tt-firs-neue
+nexa-light
+faculty-glyphic
+roboto-mono
+Google Sans
+'GoogleSans'
+Inter
+'Inter'
+Sora
+'Sora'
+Mona Sans
+'MonaSans'
+Nunito
+'Nunito'
+TT Firs Neue
+'TTFirsNeue'
+Nexa Light
+'NexaLight'
+Faculty Glyphic
+'FacultyGlyphic'
+Roboto Mono
+'RobotoMono'
+/document/design-system
+/design-system
+/ui-library
+/document/changelog
+/changelog
+/document/design
+/design
+undefined
+snpi-docs-font
+--docs-font
+data-docs-font
+.docs-root
+data-font
+docs.snpi.edu.kh
+/document

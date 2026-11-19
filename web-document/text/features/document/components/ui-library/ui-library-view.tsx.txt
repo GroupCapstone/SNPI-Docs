@@ -1,0 +1,137 @@
+use client
+react
+next/link
+@/features/document/components/ui-library
+@/components/icons
+./docs-nav-context
+./page-heroes
+@/lib/utils
+undefined
+textarea
+fixed
+2em
+none
+transparent
+16px
+readonly
+copy
+All clipboard copy methods failed:
+INPUT
+TEXTAREA
+Escape
+keydown
+preview
+prompt
+interactive-feed
+Export Student Roster (CSV / PDF)
+Pending Review
+Medical Leave of Absence
+Move Tool (V)
+top
+bottom
+All
+Software Engineering
+sora
+phnom-penh
+folder
+metrics
+30D
+90D
+1Y
+all
+ready
+coming
+comp-
+[data-active="true"]
+smooth
+brand-identity
+brand-blueprint
+design-principles
+start
+scroll
+text
+Search components...
+button
+Clear search
+size-4 stroke-[2.5]
+border-b border-slate-200 pb-2.5
+space-y-0.5
+true
+rotate-90
+160ms
+200ms
+new
+scroll-mt-36 space-y-4
+space-y-8
+4px
+Copy install command
+size-3.5 stroke-[2]
+motion-laws-twenty
+scroll-mt-24 border-t border-slate-200/80 pt-8
+space-y-1
+release
+size-3.5
+chip
+All Disciplines
+Cybersecurity
+Computer Science
+Information Systems
+Data Science
+Artificial Intelligence
+switch
+space-y-3 font-sans
+sync
+Auto Sync Telemetry
+biometric
+Biometric Terminal Active
+dropdown
+Phnom Penh Innovation Hub
+PP-01
+siem-reap
+Siem Reap Main Campus
+SR-01
+battambang
+Battambang Regional Center
+BB-01
+kampong-cham
+Kampong Cham Learning Center
+KC-01
+kandal
+Kandal Technology Campus
+KD-01
+Campus Location Branch
+hook-sidebar
+gooey-nav
+cyber-armor-nav
+duration-picker
+password-input
+toast
+toast-stack
+skeleton-loading-screen
+notification-bell
+status-404
+step-player
+animated-counter
+voice-note
+data-table
+multi-step-wizard
+floating-label-form
+file-dropzone
+marquee-section
+logo-marquee
+marquee
+('[data-active="true"]') ||
+        container.querySelector
+) : (
+Web
+SNPI System
+No matching components found
+New
+Coming
+Authoritative Design Hub
+The 5 Brand Color Tokens, institutional seal, flat design policies, and touch
+                    target standards have moved to the dedicated Design System page.
+Explore Design System
+Campus Branch Selector
+Selected:
+[ACTIVE]
