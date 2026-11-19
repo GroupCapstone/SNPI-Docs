@@ -17,3 +17,10 @@ text folder holds the readable text of each document page and component file, on
 
 ## assets
 logo.png, the SNPI logo from SNPI-Web public/logo.png.
+
+## web-assets
+All asset files from SNPI-Web public, no code: 96 files.
+fonts: 89 files in fonts/docs, fonts/icons, fonts/khmer-body, fonts/khmer-display, fonts/khmer-official, fonts/latin, fonts/monospace.
+images: 7 files, logo.png plus 6 SVG images.
+SNPI-API has no asset files.
+Note: SNPI-Web public/logo.png is the same file as images/logo.png, and the document sora.woff2 is the same as fonts/docs/sora.woff2, so each is stored once.
