@@ -14,4 +14,6 @@ Every category, every item, full text.
 - [8pt/4pt Spacing System](8pt-4pt-spacing-system.md) : 9 items
 - [Elevation in Dark Mode (lighter means higher)](elevation-dark-mode.md) : 6 items
 
+- [Feed, all 142 posts, text only](feed/README.md)
+
 Total: 440 items in 10 categories
