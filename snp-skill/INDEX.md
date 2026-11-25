@@ -1,7 +1,7 @@
 # Design Tips Collection
 
-Full spoken text recorded from 84 design videos, 2026-11-25.
-790 items total. One file per video, in the order recorded.
+Full spoken text recorded from 85 design videos, 2026-11-25.
+850 items total. One file per video, in the order recorded.
 Format in every file: the item title on its own line, then the original spoken description below it.
 
 | # | Video | Items | File |
@@ -90,5 +90,6 @@ Format in every file: the item title on its own line, then the original spoken d
 | 82 | 20 Things Before Launching Your App | 20 | before-launching-app-full-text.md |
 | 83 | Offer Engineering, Irresistible Offers | 3 | offer-engineering-full-text.md |
 | 84 | Two Marketing Websites, Brevo and PlasGate | 2 | brevo-plasgate-full-text.md |
+| 85 | AGI Image Edit Prompts and Style Words | 60 | agi-image-edit-prompts-full-text.md |
 
-Total: 84 videos, 790 items.
+Total: 85 videos, 850 items.
