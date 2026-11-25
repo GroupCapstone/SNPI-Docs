@@ -91,5 +91,6 @@ Format in every file: the item title on its own line, then the original spoken d
 | 83 | Offer Engineering, Irresistible Offers | 3 | offer-engineering-full-text.md |
 | 84 | Two Marketing Websites, Brevo and PlasGate | 2 | brevo-plasgate-full-text.md |
 | 85 | AGI Image Edit Prompts and Style Words | 60 | agi-image-edit-prompts-full-text.md |
+| 86 | The 4M Music Check | 9 | 4m-music-check-full-text.md |
 
-Total: 85 videos, 850 items.
+Total: 86 entries, 859 items.
