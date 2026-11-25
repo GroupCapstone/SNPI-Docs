@@ -1,7 +1,7 @@
 # Design Tips Collection
 
-Full spoken text recorded from 52 design videos, 2026-11-25.
-403 items total. One file per video, in the order recorded.
+Full spoken text recorded from 84 design videos, 2026-11-25.
+790 items total. One file per video, in the order recorded.
 Format in every file: the item title on its own line, then the original spoken description below it.
 
 | # | Video | Items | File |
@@ -58,5 +58,37 @@ Format in every file: the item title on its own line, then the original spoken d
 | 50 | Side Navigation, 8 Ways to Open a Menu | 8 | side-navigation-8-ways-full-text.md |
 | 51 | System Design, 6 Problems | 6 | system-design-6-problems-full-text.md |
 | 52 | Scroll Patterns Overview | 9 | scroll-patterns-full-text.md |
+| 53 | 20 Niche GitHub Repos | 19 | niche-github-repos-full-text.md |
+| 54 | 10 Ways Your Vibecoded App Is Getting Sued | 10 | vibecoded-app-sued-full-text.md |
+| 55 | 20 Ways to Get Banned from the App Store | 20 | app-store-banned-full-text.md |
+| 56 | App Security, Vibecoder vs Senior Dev | 8 | app-security-vibecoder-vs-senior-full-text.md |
+| 57 | 20 Problems Only Senior Devs Can Solve | 20 | senior-dev-problems-full-text.md |
+| 58 | 20 Ways Someone Hacks Your Vibecoded App | 20 | hack-vibecoded-app-full-text.md |
+| 59 | Why Skool Sucks / Enclave | 2 | skool-vs-enclave-full-text.md |
+| 60 | Shadows | 5 | shadows-full-text.md |
+| 61 | Tabular vs Proportional | 1 | tabular-vs-proportional-full-text.md |
+| 62 | Figure-Ground Segregation | 1 | figure-ground-segregation-full-text.md |
+| 63 | Oldstyle vs Lining Numerals | 1 | oldstyle-vs-lining-full-text.md |
+| 64 | Caps Letter-Spacing | 1 | caps-letter-spacing-full-text.md |
+| 65 | There Is No A4 Envelope | 1 | no-a4-envelope-full-text.md |
+| 66 | 5 mm Fails at 5 m, Character Height | 1 | character-height-full-text.md |
+| 67 | Arcminutes | 1 | arcminutes-full-text.md |
+| 68 | 20 Video Styles in Claude | 18 | claude-video-styles-full-text.md |
+| 69 | 50+ Claude Effects | 19 | claude-effects-full-text.md |
+| 70 | 20 Claude Effects in 20 Secs | 20 | claude-effects-20-full-text.md |
+| 71 | 16 Video Effects Claude Can Create | 16 | claude-video-effects-16-full-text.md |
+| 72 | 18 Effects in 20 Seconds | 18 | claude-effects-18-full-text.md |
+| 73 | 20 Effects in 20 Seconds | 20 | claude-effects-20b-full-text.md |
+| 74 | Three Styles, AI Video Editor | 3 | three-styles-ai-editor-full-text.md |
+| 75 | 20 Things to Add to Your Website Before Launching | 20 | website-before-launching-full-text.md |
+| 76 | 20 Things AI Can Audit on Your Website | 20 | website-audit-20-full-text.md |
+| 77 | Website Cited in AI Answers Checklist | 20 | ai-answers-checklist-full-text.md |
+| 78 | Trading Roadmap 30 Days | 30 | trading-roadmap-30-days-full-text.md |
+| 79 | Don't Get Sued Checklist | 17 | dont-get-sued-checklist-full-text.md |
+| 80 | 20 Insane Claude Animation Styles | 20 | claude-animation-styles-full-text.md |
+| 81 | 10 Ways Your AI Agent Makes Money While You Sleep | 10 | ai-agent-money-full-text.md |
+| 82 | 20 Things Before Launching Your App | 20 | before-launching-app-full-text.md |
+| 83 | Offer Engineering, Irresistible Offers | 3 | offer-engineering-full-text.md |
+| 84 | Two Marketing Websites, Brevo and PlasGate | 2 | brevo-plasgate-full-text.md |
 
-Total: 52 videos, 403 items.
+Total: 84 videos, 790 items.
