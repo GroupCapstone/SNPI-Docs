@@ -92,5 +92,15 @@ Format in every file: the item title on its own line, then the original spoken d
 | 84 | Two Marketing Websites, Brevo and PlasGate | 2 | brevo-plasgate-full-text.md |
 | 85 | AGI Image Edit Prompts and Style Words | 60 | agi-image-edit-prompts-full-text.md |
 | 86 | The 4M Music Check | 9 | 4m-music-check-full-text.md |
+| 87 | Websites for Architecture Students | 4 | websites-for-architecture-students-full-text.md |
+| 88 | ChatGPT Keywords for Architects | 6 | chatgpt-keywords-for-architects-full-text.md |
+| 89 | Design Skills Part 3 | 13 | design-skills-part-3-full-text.md |
+| 90 | 7 Grid Principles Every Designer Should Know | 6 | grid-principles-full-text.md |
+| 91 | White Colors | 9 | white-colors-full-text.md |
+| 92 | Make Any UI Feel Cleaner | 5 | make-any-ui-feel-cleaner-full-text.md |
+| 93 | Faceless Channel Strategy | 9 | faceless-channel-strategy-full-text.md |
+| 94 | Practice and Inspiration Websites | 3 | practice-and-inspiration-websites-full-text.md |
+| 95 | UX/UI Playbook | 1 | ux-ui-playbook-full-text.md |
+| 96 | Architecture Portfolio | 29 | architecture-portfolio-full-text.md |
 
-Total: 86 entries, 859 items.
+Total: 96 entries, 944 items.
